@@ -94,6 +94,7 @@ global $_PEAR;
 $_PEAR = new PEAR;
 $_PEAR->setErrorHandling(PEAR_ERROR_CALLBACK, 'PEAR_ErrorToPEAR_Exception');
 
+require INSTALLDIR . DIRECTORY_SEPARATOR . 'db' . DIRECTORY_SEPARATOR . 'capsule_orm.php';
 require_once 'DB.php';
 require_once 'DB/DataObject.php';
 require_once 'DB/DataObject/Cast.php'; # for dates
