@@ -1743,13 +1743,20 @@ function common_random_rawstr($bytes)
  */
 function common_random_hexstr($bytes)
 {
-    $str = common_random_rawstr($bytes);
+    if(function_exists('random_bytes')) {
 
-    $hexstr = '';
-    for ($i = 0; $i < $bytes; $i++) {
-        $hexstr .= sprintf("%02x", ord($str[$i]));
+        $bytes = random_bytes($bytes);
+        return bin2hex($bytes);
+
+    } else {
+        $str = common_random_rawstr($bytes);
+
+        $hexstr = '';
+        for ($i = 0; $i < $bytes; ++$i) {
+            $hexstr .= sprintf("%02x", ord($str[$i]));
+        }
+        return $hexstr;
     }
-    return $hexstr;
 }
 
 function common_urandom($bytes)
@@ -2223,22 +2230,9 @@ function common_user_uri(&$user)
                             false);
 }
 
-// 36 alphanums - lookalikes (0, O, 1, I) = 32 chars = 5 bits
-
 function common_confirmation_code($bits)
 {
-    // 36 alphanums - lookalikes (0, O, 1, I) = 32 chars = 5 bits
-    static $codechars = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
-    $chars = ceil($bits/5);
-    $code = '';
-    for ($i = 0; $i < $chars; $i++) {
-        // XXX: convert to string and back
-        $num = hexdec(common_random_hexstr(1));
-        // XXX: randomness is too precious to throw away almost
-        // 40% of the bits we get!
-        $code .= $codechars[$num%32];
-    }
-    return $code;
+    return hex2bin(common_random_hexstr($bits));
 }
 
 // convert markup to HTML
