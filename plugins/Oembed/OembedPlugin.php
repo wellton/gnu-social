@@ -37,7 +37,7 @@ defined('GNUSOCIAL') || die();
  */
 class OembedPlugin extends Plugin
 {
-    const PLUGIN_VERSION = '2.0.1';
+    const PLUGIN_VERSION = '3.0.1';
 
     // settings which can be set in config.php with addPlugin('Oembed', array('param'=>'value', ...));
     // WARNING, these are _regexps_ (slashes added later). Always escape your dots and end your strings
@@ -47,6 +47,7 @@ class OembedPlugin extends Plugin
                                     );
     public $append_whitelist = array();  // fill this array as domain_whitelist to add more trusted sources
     public $check_whitelist  = false;    // security/abuse precaution
+    public $keep_original = false;
 
     protected $imgData = array();
 
@@ -535,6 +536,66 @@ class OembedPlugin extends Plugin
     }
 
     /**
+     * Creates a dummy image with dimensions of original image in order to cheat
+     * core GNU social file handler. Used by remove_original.
+     *
+     * @author Diogo Cordeiro <diogo@fc.up.pt>
+     * @param int $width Image's width
+     * @param int $height Image's height
+     * @return string dummy file's filename
+     */
+    private function create_dummy($width, $height)
+    {
+        $filename = "oembed-dummy-{$width}-{$height}.png";
+        $filepath = File_thumbnail::path($filename);
+        if (file_exists($filepath)) {
+            return $filename;
+        }
+
+        $im = @imagecreate($width, $height)
+           || exit('Cannot Initialize new GD image stream');
+        imagecolorallocate($im, 0, 0, 0);
+        imagepng($im, File_thumbnail::path ($filename));
+        imagedestroy($im);
+
+        return $filename;
+    }
+
+    /**
+     * Removes the original thumbnail and updates the entry on database to the
+     * dummy object. Depends on create_dummy.
+     *
+     * @author Diogo Cordeiro <diogo@fc.up.pt>
+     * @param File_thumbnail $thumbnail object containing the file thumbnail
+     * @return bool true if had to remove, false if it was already all okay
+     */
+    private function remove_original($thumbnail)
+    {
+        // Do not remove when original is needed
+        if ($this->keep_original ||
+            (isset($config['thumbnail']) &&
+             ($config['thumbnail']['width']  <= $thumbnail->width) &&
+             ($config['thumbnail']['height'] <= $thumbnail->height))
+           ) {
+            return false;
+        }
+
+        $dummy_filename = $this->create_dummy($thumbnail->width, $thumbnail->height);
+        if ($thumbnail->filename == $dummy_filename) {
+            return false;
+        }
+        $original_filepath = File_thumbnail::path($thumbnail->filename);
+        unlink($original_filepath);
+
+        $orig = clone ($thumbnail);
+        $thumbnail->filename = $dummy_filename;
+        // Throws exception on failure.
+        $thumbnail->updateWithKeys($orig);
+
+        return true;
+    }
+
+    /**
      * Function to create and store a thumbnail representation of a remote image
      *
      * @param $thumbnail File_thumbnail object containing the file thumbnail
@@ -544,6 +605,7 @@ class OembedPlugin extends Plugin
     protected function storeRemoteFileThumbnail(File_thumbnail $thumbnail)
     {
         if (!empty($thumbnail->filename) && file_exists($thumbnail->getPath())) {
+            $this->remove_original($thumbnail);
             throw new AlreadyFulfilledException(sprintf('A thumbnail seems to already exist for remote file with id==%u', $thumbnail->file_id));
         }
 

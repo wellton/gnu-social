@@ -13,6 +13,7 @@ height: Maximum height of the thumbnail in pixels.
 show_html: Whether to show HTML oEmbed data.
 domain_whitelist: Array of regular expressions. Always escape your dots and end your strings.
 check_whitelist: Whether to check the domain_whitelist.
+keep_original: Whether to keep original image or not.
 
 Example
 =======
