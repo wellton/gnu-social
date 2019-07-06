@@ -95,7 +95,7 @@ class EmbedPlugin extends Plugin
      */
     public function onRouterInitialized(URLMapper $m)
     {
-        $m->connect('main/embed', array('action' => 'embed'));
+        $m->connect('main/oembed', array('action' => 'oembed'));
     }
 
     /**
