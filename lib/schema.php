@@ -992,7 +992,7 @@ class Schema
      * Filter the given table definition array to match features available
      * in this database.
      *
-     * This lets us strip out unsupported things like comments, foreign keys,
+     * This lets us strip out unsupported things like comments,
      * or type variants that we wouldn't get back from getTableDef().
      *
      * @param array $tableDef

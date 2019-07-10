@@ -32,10 +32,12 @@ class DBQueueManager extends QueueManager
 {
     /**
      * Saves an object reference into the queue item table.
-     * @return boolean true on success
+     * @param $object
+     * @param $queue
+     * @return bool true on success
      * @throws ServerException on failure
      */
-    public function enqueue($object, $queue)
+    public function enqueue($object, $queue): bool
     {
         $qi = new Queue_item();
 
@@ -60,16 +62,17 @@ class DBQueueManager extends QueueManager
      *
      * @return int seconds
      */
-    public function pollInterval()
+    public function pollInterval(): int
     {
         return 10;
     }
 
     /**
      * Run a polling cycle during idle processing in the input loop.
-     * @return boolean true if we should poll again for more data immediately
+     * @return bool true if we should poll again for more data immediately
+     * @throws Exception
      */
-    public function poll()
+    public function poll(): bool
     {
         //$this->_log(LOG_DEBUG, 'Checking for notices...');
         $qi = Queue_item::top($this->activeQueues(), $this->getIgnoredTransports());
@@ -81,14 +84,14 @@ class DBQueueManager extends QueueManager
         try {
             $item = $this->decode($qi->frame);
         } catch (Exception $e) {
-            $this->_log(LOG_INFO, "[{$qi->transport}] Discarding: "._ve($e->getMessage()));
+            $this->_log(LOG_INFO, "[{$qi->transport}] Discarding: " . _ve($e->getMessage()));
             $this->_done($qi);
             return true;
         }
 
         $rep = $this->logrep($item);
-        $this->_log(LOG_DEBUG, 'Got '._ve($rep).' for transport '._ve($qi->transport));
-        
+        $this->_log(LOG_DEBUG, 'Got ' . _ve($rep) . ' for transport ' . _ve($qi->transport));
+
         try {
             $handler = $this->getHandler($qi->transport);
             $result = $handler->handle($item);
@@ -96,13 +99,13 @@ class DBQueueManager extends QueueManager
             $this->noHandlerFound($qi, $rep);
             return true;
         } catch (NoResultException $e) {
-            $this->_log(LOG_ERR, "[{$qi->transport}:$rep] ".get_class($e).' thrown ('._ve($e->getMessage()).'), ignoring queue_item '._ve($qi->getID()));
+            $this->_log(LOG_ERR, "[{$qi->transport}:$rep] " . get_class($e) . ' thrown (' . _ve($e->getMessage()) . '), ignoring queue_item ' . _ve($qi->getID()));
             $result = true;
         } catch (AlreadyFulfilledException $e) {
-            $this->_log(LOG_ERR, "[{$qi->transport}:$rep] ".get_class($e).' thrown ('._ve($e->getMessage()).'), ignoring queue_item '._ve($qi->getID()));
+            $this->_log(LOG_ERR, "[{$qi->transport}:$rep] " . get_class($e) . ' thrown (' . _ve($e->getMessage()) . '), ignoring queue_item ' . _ve($qi->getID()));
             $result = true;
         } catch (Exception $e) {
-            $this->_log(LOG_ERR, "[{$qi->transport}:$rep] Exception (".get_class($e).') thrown: '._ve($e->getMessage()));
+            $this->_log(LOG_ERR, "[{$qi->transport}:$rep] Exception (" . get_class($e) . ') thrown: ' . _ve($e->getMessage()));
             $result = false;
         }
 
@@ -118,7 +121,8 @@ class DBQueueManager extends QueueManager
 
     // What to do if no handler was found. For example, the OpportunisticQM
     // should avoid deleting items just because it can't reach XMPP queues etc.
-    protected function noHandlerFound(Queue_item $qi, $rep=null) {
+    protected function noHandlerFound(Queue_item $qi, $rep = null)
+    {
         $this->_log(LOG_INFO, "[{$qi->transport}:{$rep}] No handler for queue {$qi->transport}; discarding.");
         $this->_done($qi);
     }
@@ -126,7 +130,7 @@ class DBQueueManager extends QueueManager
     /**
      * Delete our claimed item from the queue after successful processing.
      *
-     * @param QueueItem $qi
+     * @param Queue_item $qi
      */
     protected function _done(Queue_item $qi)
     {
@@ -142,9 +146,10 @@ class DBQueueManager extends QueueManager
      * Free our claimed queue item for later reprocessing in case of
      * temporary failure.
      *
-     * @param QueueItem $qi
+     * @param Queue_item $qi
+     * @param bool $releaseOnly
      */
-    protected function _fail(Queue_item $qi, $releaseOnly=false)
+    protected function _fail(Queue_item $qi, $releaseOnly = false)//: void XXX PHP: Upgrade to PHP 7.1
     {
         if (empty($qi->claimed)) {
             $this->_log(LOG_WARNING, "[{$qi->transport}:item {$qi->id}] Ignoring failure for unclaimed queue item");

@@ -98,7 +98,7 @@ class DomainStatusNetworkInstaller extends Installer
 
         $this->host     = $config['DBHOSTNAME'];
         $this->database = $datanick.$config['DBBASE'];
-        $this->dbtype   = 'mysql'; // XXX: support others... someday
+        $this->dbtype   = $config['type'];
         $this->username = $datanick.$config['USERBASE'];
 
         // Max size for MySQL
@@ -109,7 +109,7 @@ class DomainStatusNetworkInstaller extends Installer
 
         $pwgen = $config['PWDGEN'];
 
-        $password = `$pwgen`;
+        $password = shell_exec($pwgen);
 
         $this->password = trim($password);
 
@@ -164,7 +164,8 @@ class DomainStatusNetworkInstaller extends Installer
 
     function saveStatusNetwork()
     {
-        Status_network::setupDB($this->sitehost,
+        Status_network::setupDB($this->dbscheme,
+                                $this->sitehost,
                                 $this->rootname,
                                 $this->rootpass,
                                 $this->sitedb, array());

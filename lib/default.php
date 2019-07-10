@@ -73,14 +73,12 @@ $default =
               'class_prefix' => '',
               'mirror' => null,
               'utf8' => true,
-              'db_driver' => 'DB', # XXX: JanRain libs only work with DB
               'quote_identifiers' => false,
-              'type' => 'mysql',
+              'type' => 'pdo_mysql',
               'schemacheck' => 'runtime', // 'runtime' or 'script'
               'annotate_queries' => false, // true to add caller comments to queries, eg /* POST Notice::saveNew */
               'log_queries' => false, // true to log all DB queries
-              'log_slow_queries' => 0, // if set, log queries taking over N seconds
-              'mysql_foreign_keys' => false), // if set, enables experimental foreign key support on MySQL
+              'log_slow_queries' => 0), // if set, log queries taking over N seconds
         'fix' =>
         array('fancyurls' => true,   // makes sure aliases in WebFinger etc. are not f'd by index.php/ URLs
               'legacy_http' => false,   // set this to true if you have upgraded your site from http=>https

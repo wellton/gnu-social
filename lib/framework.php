@@ -91,11 +91,7 @@ require_once INSTALLDIR . '/extlib/PEAR.php';
 require_once INSTALLDIR . '/extlib/PEAR/Exception.php';
 global $_PEAR;
 $_PEAR = new PEAR;
-$_PEAR->setErrorHandling(PEAR_ERROR_CALLBACK, 'PEAR_ErrorToPEAR_Exception');
 
-require_once 'DB.php';
-require_once 'DB/DataObject.php';
-require_once 'DB/DataObject/Cast.php'; # for dates
 global $_DB;
 $_DB = new DB;
 
@@ -107,7 +103,7 @@ require_once(INSTALLDIR.'/lib/language.php');
 require_once(INSTALLDIR.'/lib/event.php');
 require_once(INSTALLDIR.'/lib/plugin.php');
 
-function addPlugin($name, array $attrs=array())
+function addPlugin($name, array $attrs = [])
 {
     return GNUsocial::addPlugin($name, $attrs);
 }
@@ -126,8 +122,6 @@ function GNUsocial_class_autoload($cls)
     } else if (mb_substr($cls, -6) == 'Action' &&
                file_exists(INSTALLDIR.'/actions/' . strtolower(mb_substr($cls, 0, -6)) . '.php')) {
         require_once(INSTALLDIR.'/actions/' . strtolower(mb_substr($cls, 0, -6)) . '.php');
-    } else if ($cls === 'OAuthRequest' || $cls === 'OAuthException') {
-        require_once('OAuth.php');
     } else {
         Event::handle('Autoload', array(&$cls));
     }
@@ -162,35 +156,3 @@ spl_autoload_register(function($class){
 require_once INSTALLDIR.'/lib/util.php';
 require_once INSTALLDIR.'/lib/action.php';
 require_once INSTALLDIR.'/lib/mail.php';
-
-//set PEAR error handling to use regular PHP exceptions
-function PEAR_ErrorToPEAR_Exception(PEAR_Error $err)
-{
-    //DB_DataObject throws error when an empty set would be returned
-    //That behavior is weird, and not how the rest of StatusNet works.
-    //So just ignore those errors.
-    if ($err->getCode() == DB_DATAOBJECT_ERROR_NODATA) {
-        return;
-    }
-
-    $msg      = $err->getMessage();
-    $userInfo = $err->getUserInfo();
-
-    // Log this; push the message up as an exception
-
-    common_log(LOG_ERR, "PEAR Error: $msg ($userInfo)");
-
-    // HACK: queue handlers get kicked by the long-query killer, and
-    // keep the same broken connection. We die here to get a new
-    // process started.
-
-    if (php_sapi_name() == 'cli' && preg_match('/nativecode=2006/', $userInfo)) {
-        common_log(LOG_ERR, "Lost DB connection; dying.");
-        exit(100);
-    }
-
-    if ($err->getCode()) {
-        throw new PEAR_Exception($err->getMessage(), $err->getCode());
-    }
-    throw new PEAR_Exception($err->getMessage());
-}

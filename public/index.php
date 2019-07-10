@@ -216,7 +216,7 @@ function setupRW()
         // on the master DB
 
         $config['db']['database_rw'] = $rwdb;
-        $config['db']['ini_rw'] = INSTALLDIR.'/classes/statusnet.ini';
+        $config['db']['ini_rw'] = INSTALLDIR.'/classes/status_network.ini';
 
         foreach ($alwaysRW as $table) {
             $config['db']['table_'.$table] = 'rw';

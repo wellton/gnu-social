@@ -62,18 +62,18 @@ abstract class Installer
     /** Should we skip writing the configuration file? */
     public $skipConfig = false;
 
-    public static $dbModules = [
-        'mysql' => [
-            'name' => 'MariaDB (or MySQL 5.5+)',
+    public static $dbModules = array(
+        'mysql' => array(
+            'name' => 'MariaDB',
             'check_module' => 'mysqli',
-            'scheme' => 'mysqli', // DSN prefix for PEAR::DB
-        ],
-        /*'pgsql' => [
+            'scheme' => 'pdo_mysql', // DSN prefix for Doctrine
+        ),
+        'pgsql' => array(
             'name' => 'PostgreSQL',
             'check_module' => 'pgsql',
-            'scheme' => 'pgsql', // DSN prefix for PEAR::DB
-        ]*/
-    ];
+            'scheme' => 'pdo_pgsql', // DSN prefix for Doctrine
+        ),
+    );
 
     /**
      * Attempt to include a PHP file and report if it worked, while
@@ -200,6 +200,11 @@ abstract class Installer
 
         if (empty($this->host)) {
             $this->updateStatus("No hostname specified.", true);
+            $fail = true;
+        }
+
+        if (empty($this->dbtype)) {
+            $this->updateStatus("No type specified.", true);
             $fail = true;
         }
 

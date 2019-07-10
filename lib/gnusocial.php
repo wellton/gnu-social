@@ -334,9 +334,7 @@ class GNUsocial
         $config = $default;
 
         // default configuration, overwritten in config.php
-        // Keep DB_DataObject's db config synced to ours...
-
-        $config['db'] = &$_PEAR->getStaticProperty('DB_DataObject','options');
+        // Keep DB_DataObject's db config synched to ours...
 
         $config['db'] = $default['db'];
     }

@@ -42,9 +42,9 @@ class Status_network extends Safe_DataObject
     public $modified;                        // timestamp()   not_null default_CURRENT_TIMESTAMP
 
     /* Static get */
-    static function getKV($k,$v=NULL) {
+    static function getKV($k, $v=NULL) {
         // TODO: This must probably be turned into a non-static call
-        $i = DB_DataObject::staticGet('Status_network',$k,$v);
+        $i = GS_DataObject::staticGet('Status_network',$k,$v);
 
         // Don't use local process cache; if we're fetching multiple
         // times it's because we're reloading it in a long-running
@@ -64,17 +64,24 @@ class Status_network extends Safe_DataObject
     static $wildcard = null;
 
     /**
+     * @param string $dbscheme
      * @param string $dbhost
      * @param string $dbuser
      * @param string $dbpass
      * @param string $dbname
      * @param array $servers memcached servers to use for caching config info
      */
-    static function setupDB($dbhost, $dbuser, $dbpass, $dbname, array $servers)
+    static function setupDB(string $dbscheme, string $dbhost, string $dbuser, string $dbpass, string $dbname, array $servers)
     {
         global $config;
 
-        $config['db']['database_'.$dbname] = "mysqli://$dbuser:$dbpass@$dbhost/$dbname";
+        if (empty($dbpass)) {
+            $auth = '';
+        } else {
+            $auth = ":$dbpass";
+        }
+
+        $config['db']['database_'.$dbname] = "{$dbscheme}://{$dbuser}{$auth}@{$dbhost}/{$dbname}";
         $config['db']['ini_'.$dbname] = INSTALLDIR.'/classes/status_network.ini';
 
         foreach (array('status_network', 'status_network_tag', 'unavailable_status_network') as $table) {
