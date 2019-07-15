@@ -1,43 +1,35 @@
 <?php
 
-/*
- * GNU social
- * Copyright (C) 2010, Free Software Foundation, Inc
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+// FIXME: REPLACE          \/ here
+define('MY_GNUSOCIAL', 'https://www.example.org/gnusocial/index.php');
+
+/**
+ * This is a general solution for when you can't have your GNU social instance in the domain root and for when you want to
+ * socialfy from another domain.
  */
 
-
-// basename should make sure we can't escape this directory
-$u = basename($_GET['resource']);
-
-if (!strpos($u, '@')) {
-    throw new Exception('Bad resource');
-    exit(1);
+if (!function_exists('getallheaders')) {
+    function getallheaders()
+    {
+        $headers = [];
+        foreach ($_SERVER as $name => $value) {
+            if (substr($name, 0, 5) == 'HTTP_') {
+                $headers[str_replace(' ', '-', ucwords(strtolower(str_replace('_', ' ', substr($name, 5)))))] = $value;
+            }
+        }
+        return $headers;
+    }
 }
-
-if (mb_strpos($u, 'acct:')===0) {
-    $u = substr($u, 5);
-}
-
-// Just to be a little bit safer, you know, with all the unicode stuff going on
-$u = filter_var($u, FILTER_SANITIZE_EMAIL);
-
-$f = $u . ".xml";
-
-if (file_exists($f)) {
-  header('Content-Disposition: attachment; filename="'.urlencode($f).'"');
-  header('Content-type: application/xrd+xml');
-  echo file_get_contents($f);
-}
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_HTTPHEADER, getallheaders());
+curl_setopt($ch, CURLOPT_URL, MY_GNUSOCIAL . str_replace('webfinger/', 'webfinger', $_SERVER['REQUEST_URI']));
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_VERBOSE, true);
+curl_setopt($ch, CURLOPT_HEADER, true);
+$response = curl_exec($ch);
+$header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+$header = substr($response, 0, $header_size);
+$body = substr($response, $header_size);
+header($header);
+echo $body;
+curl_close($ch);
