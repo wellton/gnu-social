@@ -87,8 +87,8 @@ set_include_path(get_include_path() . PATH_SEPARATOR . INSTALLDIR . '/extlib/');
 
 // global configuration object
 
-require_once 'PEAR.php';
-require_once 'PEAR/Exception.php';
+require_once INSTALLDIR . '/extlib/PEAR.php';
+require_once INSTALLDIR . '/extlib/PEAR/Exception.php';
 global $_PEAR;
 $_PEAR = new PEAR;
 $_PEAR->setErrorHandling(PEAR_ERROR_CALLBACK, 'PEAR_ErrorToPEAR_Exception');
