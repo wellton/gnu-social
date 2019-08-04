@@ -20,6 +20,6 @@ msgstr ""
 #. TRANS: Module description for a sample plugin.
 #: AwesomenessModule.php:55
 msgid ""
-"The Awesomeness plugin adds additional awesomeness to a StatusNet "
+"The Awesomeness plugin adds additional awesomeness to a GNU social "
 "installation."
-msgstr "Das Awesomeness-Module fügt zusätzliche Großartigkeit zu einer StatusNet-Installation hinzu."
+msgstr "Das Awesomeness-Module fügt zusätzliche Großartigkeit zu einer GNU social-Installation hinzu."
