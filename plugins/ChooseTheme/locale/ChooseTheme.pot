@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 14:50+0100\n"
+"POT-Creation-Date: 2019-08-14 14:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,39 +18,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. TRANS: Module description.
-#: ChooseThemeModule.php:40
+#: ChooseThemeModule.php:44
 msgid "Allowing user to select the preferred theme."
 msgstr ""
 
 #. TRANS: Poll plugin menu item on user settings page.
-#: ChooseThemeModule.php:56
+#: ChooseThemeModule.php:63
 msgctxt "MENU"
 msgid "Theme"
 msgstr ""
 
 #. TRANS: Poll plugin tooltip for user settings menu item.
-#: ChooseThemeModule.php:58
+#: ChooseThemeModule.php:65
 msgid "Choose Theme"
 msgstr ""
 
 #. TRANS: Page title.
-#: actions/choosethemesettings.php:38
+#: actions/choosethemesettings.php:37
 msgid "Choose theme settings"
 msgstr ""
 
 #. TRANS: Page instructions.
-#: actions/choosethemesettings.php:47
+#: actions/choosethemesettings.php:48
 msgid "Choose theme"
 msgstr ""
 
-#: actions/choosethemesettings.php:83
-msgid "Settings saved."
-msgstr ""
-
-#: actions/choosethemesettings.php:134
+#: actions/choosethemesettings.php:138
 msgid "Themes"
 msgstr ""
 
-#: actions/choosethemesettings.php:134
+#: actions/choosethemesettings.php:138
 msgid "Select a theme"
 msgstr ""
