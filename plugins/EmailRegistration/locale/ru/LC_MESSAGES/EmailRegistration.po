@@ -182,7 +182,7 @@ msgstr "Кто-то (возможно вы) создал аккаунт на с�
 #. TRANS: Error text when trying to register with an already registered e-mail
 #. address.
 #. TRANS: %s is the URL to recover password at.
-#: EmailRegistrationPlugin.php:92
+#: EmailRegistrationModule.php:92
 #, php-format
 msgid ""
 "A user with that email address already exists. You can use the <a "
@@ -190,18 +190,18 @@ msgid ""
 msgstr "Пользователь с таким адресом электронной почты уже существует. Вы можете воспользоваться  <a href=\"%s\">средством восстановления пароля</a>, чтобы получить доступ к вашему аккаунту."
 
 #. TRANS: Error text when trying to register with an invalid e-mail address.
-#: EmailRegistrationPlugin.php:106
+#: EmailRegistrationModule.php:106
 msgid "Not a valid email address."
 msgstr "Неверный электронный адрес."
 
 #. TRANS: Subject for confirmation e-mail.
 #. TRANS: %s is the StatusNet sitename.
-#: EmailRegistrationPlugin.php:150
+#: EmailRegistrationModule.php:150
 #, php-format
 msgid "Welcome to %s"
 msgstr "Добро пожаловать в %s"
 
-#. TRANS: Plugin description.
-#: EmailRegistrationPlugin.php:183
+#. TRANS: Module description.
+#: EmailRegistrationModule.php:183
 msgid "Use email only for registration."
 msgstr "Использовать адрес электронной почты только для регистрации."

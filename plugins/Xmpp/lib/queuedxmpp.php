@@ -38,14 +38,14 @@ use XMPPHP\XMPP;
 class QueuedXMPP extends XMPP
 {
     /**
-     * Reference to the XmppPlugin object we're hooked up to.
+     * Reference to the XmppModule object we're hooked up to.
      */
     public $plugin;
 
     /**
      * Constructor
      *
-     * @param XmppPlugin $plugin
+     * @param XmppModule $plugin
      * @param string $host
      * @param integer $port
      * @param string $user

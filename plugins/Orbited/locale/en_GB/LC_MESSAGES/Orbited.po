@@ -20,11 +20,11 @@ msgstr ""
 
 #. TRANS: Server exception thrown when no connection can be made to a queue
 #. server.
-#: OrbitedPlugin.php:110
+#: OrbitedModule.php:110
 msgid "Failed to connect to queue server."
 msgstr "Failed to connect to queue server."
 
-#. TRANS: Plugin description.
-#: OrbitedPlugin.php:170
-msgid "Plugin to make updates using Orbited and STOMP."
-msgstr "Plugin to make updates using Orbited and STOMP."
+#. TRANS: Module description.
+#: OrbitedModule.php:170
+msgid "Module to make updates using Orbited and STOMP."
+msgstr "Module to make updates using Orbited and STOMP."

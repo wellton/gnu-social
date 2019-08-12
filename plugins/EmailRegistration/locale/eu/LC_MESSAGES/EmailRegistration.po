@@ -181,7 +181,7 @@ msgstr "Norbaitek (ziurrenik zuk)  email kontu hau erabiliz %1$s gunean izen ema
 #. TRANS: Error text when trying to register with an already registered e-mail
 #. address.
 #. TRANS: %s is the URL to recover password at.
-#: EmailRegistrationPlugin.php:92
+#: EmailRegistrationModule.php:92
 #, php-format
 msgid ""
 "A user with that email address already exists. You can use the <a "
@@ -189,18 +189,18 @@ msgid ""
 msgstr "Dagoeneko badago email kontu horrekin erabiltzaile bat. <a href=\"%s\">Pasahitz berreskuratze</a> tresna erabil dezakezu pasahitz berri bat lortzeko."
 
 #. TRANS: Error text when trying to register with an invalid e-mail address.
-#: EmailRegistrationPlugin.php:106
+#: EmailRegistrationModule.php:106
 msgid "Not a valid email address."
 msgstr "Email helbide horrek ez du balio."
 
 #. TRANS: Subject for confirmation e-mail.
 #. TRANS: %s is the StatusNet sitename.
-#: EmailRegistrationPlugin.php:150
+#: EmailRegistrationModule.php:150
 #, php-format
 msgid "Welcome to %s"
 msgstr "Ongi etorri %s-ra"
 
-#. TRANS: Plugin description.
-#: EmailRegistrationPlugin.php:183
+#. TRANS: Module description.
+#: EmailRegistrationModule.php:183
 msgid "Use email only for registration."
 msgstr "Erabili eposta izen ematekosoilik."

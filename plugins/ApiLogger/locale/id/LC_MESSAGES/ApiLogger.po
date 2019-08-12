@@ -18,7 +18,7 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. TRANS: Plugin description.
-#: ApiLoggerPlugin.php:86
+#. TRANS: Module description.
+#: ApiLoggerModule.php:86
 msgid "Allows random sampling of API requests."
 msgstr "Izinkan pengambilan sampel acak permintaan API."

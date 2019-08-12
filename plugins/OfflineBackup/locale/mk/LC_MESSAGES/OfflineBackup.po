@@ -17,8 +17,8 @@ msgstr ""
 "Language: mk\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
-#. TRANS: Plugin description.
-#: OfflineBackupPlugin.php:82
+#. TRANS: Module description.
+#: OfflineBackupModule.php:82
 msgid "Backup user data in offline queue and email when ready."
 msgstr "Ги става корисничките податоци во резерва (вонмрежна редица), а кога ќе заврши, испраќа е-пошта."
 

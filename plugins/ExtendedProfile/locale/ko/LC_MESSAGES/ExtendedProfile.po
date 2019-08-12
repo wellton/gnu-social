@@ -100,13 +100,13 @@ msgstr "프로필을 저장 할 수 없습니다."
 msgid "Could not save tags."
 msgstr "태그를 저장할 수 없습니다."
 
-#. TRANS: Plugin description.
-#: ExtendedProfilePlugin.php:40
+#. TRANS: Module description.
+#: ExtendedProfileModule.php:40
 msgid "UI extensions for additional profile fields."
 msgstr ""
 
 #. TRANS: Link text on user profile page leading to extended profile page.
-#: ExtendedProfilePlugin.php:87
+#: ExtendedProfileModule.php:87
 msgid "More details..."
 msgstr ""
 

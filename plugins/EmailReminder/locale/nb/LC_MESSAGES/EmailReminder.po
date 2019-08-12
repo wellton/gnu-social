@@ -52,7 +52,7 @@ msgstr "Andre påminnelse - vennligst bekreft din registrering!"
 msgid "Final reminder - please confirm your registration!"
 msgstr "Siste påminnelse - vennligst bekreft din regisrering."
 
-#. TRANS: Plugin description.
-#: EmailReminderPlugin.php:190
+#. TRANS: Module description.
+#: EmailReminderModule.php:190
 msgid "Send email reminders for various things."
 msgstr "Send e-post varslinger for diverse hendelser."

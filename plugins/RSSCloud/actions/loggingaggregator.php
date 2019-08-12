@@ -5,7 +5,7 @@
  *
  * PHP version 5
  *
- * @category Plugin
+ * @category Module
  * @package  StatusNet
  * @author   Zach Copley <zach@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3
@@ -39,7 +39,7 @@ if (!defined('STATUSNET')) {
  * and easily test things end-to-end. I'm leaving it in here as it
  * may be useful for developing the plugin further.
  *
- * @category Plugin
+ * @category Module
  * @package  StatusNet
  * @author   Zach Copley <zach@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl-3.0.html GNU Affero General Public License version 3.0

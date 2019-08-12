@@ -59,17 +59,17 @@ msgid "Save sitemap settings."
 msgstr "Sagipin ang mga katakdaan ng mapa ng sityo."
 
 #. TRANS: Menu item title/tooltip
-#: SitemapPlugin.php:160
+#: SitemapModule.php:160
 msgid "Sitemap configuration"
 msgstr "Pagkakaayos ng mapa ng sityo"
 
 #. TRANS: Menu item for site administration
-#: SitemapPlugin.php:162
+#: SitemapModule.php:162
 msgctxt "MENU"
 msgid "Sitemap"
 msgstr "Mapa ng sityo"
 
-#. TRANS: Plugin description.
-#: SitemapPlugin.php:187
+#. TRANS: Module description.
+#: SitemapModule.php:187
 msgid "This plugin allows creation of sitemaps for Bing and Yahoo!."
 msgstr "Nagpapahintulot ang pampasak na ito ng paglikha ng mga mapa ng sityo para sa Bing and Yahoo!."

@@ -17,8 +17,8 @@ msgstr ""
 "Language: ksh\n"
 "Plural-Forms: nplurals=3; plural=(n==0) ? 0 : (n==1) ? 1 : 2;\n"
 
-#. TRANS: Plugin description.
-#: EmailAuthenticationPlugin.php:60
+#. TRANS: Module description.
+#: EmailAuthenticationModule.php:60
 msgid ""
 "The Email Authentication plugin allows users to login using their email "
 "address."

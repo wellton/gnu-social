@@ -18,21 +18,21 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. TRANS: Menu item in the group navigation page.
-#: GroupFavoritedPlugin.php:51
+#: GroupFavoritedModule.php:51
 msgctxt "MENU"
 msgid "Popular"
 msgstr ""
 
 #. TRANS: Tooltip for menu item in the group navigation page.
 #. TRANS: %s is the nickname of the group.
-#: GroupFavoritedPlugin.php:54
+#: GroupFavoritedModule.php:54
 #, php-format
 msgctxt "TOOLTIP"
 msgid "Popular notices in %s group"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: GroupFavoritedPlugin.php:78
+#. TRANS: Module description.
+#: GroupFavoritedModule.php:78
 msgid "This plugin adds a menu item for popular notices in groups."
 msgstr ""
 

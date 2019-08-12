@@ -32,28 +32,28 @@ msgid ""
 msgstr "ImapManager должен быть создан с помощью конструктора, а не получен статическим методом get()."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
-#: ImapPlugin.php:55
+#: ImapModule.php:55
 msgid "A mailbox must be specified."
 msgstr "Должен быть указан почтовый ящик."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
-#: ImapPlugin.php:59
+#: ImapModule.php:59
 msgid "A user must be specified."
 msgstr "Должен быть указан пользователь."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
-#: ImapPlugin.php:63
+#: ImapModule.php:63
 msgid "A password must be specified."
 msgstr "Должен быть указан пароль."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
 #. TRANS: poll_frequency is a setting that should not be translated.
-#: ImapPlugin.php:68
+#: ImapModule.php:68
 msgid "A poll_frequency must be specified."
 msgstr "Периодичность проверки должна быть задана в poll_frequency."
 
-#. TRANS: Plugin description.
-#: ImapPlugin.php:87
+#. TRANS: Module description.
+#: ImapModule.php:87
 msgid ""
 "The IMAP plugin allows for StatusNet to check a POP or IMAP mailbox for "
 "incoming mail containing user posts."

@@ -17,7 +17,7 @@ msgstr ""
 "Language: mk\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
-#. TRANS: Plugin description.
-#: OembedPlugin.php:190
-msgid "Plugin for using and representing Oembed data."
+#. TRANS: Module description.
+#: OembedModule.php:190
+msgid "Module for using and representing Oembed data."
 msgstr ""

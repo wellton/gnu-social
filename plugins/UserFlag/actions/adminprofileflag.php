@@ -84,7 +84,7 @@ class AdminprofileflagAction extends Action
 
         // User must have the right to review flags
 
-        if (!$user->hasRight(UserFlagPlugin::REVIEWFLAGS)) {
+        if (!$user->hasRight(UserFlagModule::REVIEWFLAGS)) {
             // TRANS: Error message displayed when trying to review profile flags while not authorised.
             $this->clientError(_m('You cannot review profile flags.'));
         }
@@ -315,7 +315,7 @@ class FlaggedProfileListItem extends ProfileListItem
      */
     function showClearButton()
     {
-        if ($this->user->hasRight(UserFlagPlugin::CLEARFLAGS)) {
+        if ($this->user->hasRight(UserFlagModule::CLEARFLAGS)) {
             $this->out->elementStart('li', 'entity_clear');
             $cf = new ClearFlagForm($this->out, $this->profile, $this->r2args);
             $cf->show();

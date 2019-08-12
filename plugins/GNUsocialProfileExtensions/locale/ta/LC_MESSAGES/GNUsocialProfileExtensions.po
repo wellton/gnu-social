@@ -22,11 +22,11 @@ msgstr ""
 msgid "%s's Bio."
 msgstr ""
 
-#: GNUsocialProfileExtensionsPlugin.php:124
+#: GNUsocialProfileExtensionsModule.php:124
 msgid "Profile Fields"
 msgstr ""
 
-#: GNUsocialProfileExtensionsPlugin.php:125
+#: GNUsocialProfileExtensionsModule.php:125
 msgid "Custom profile fields"
 msgstr ""
 

@@ -19,22 +19,22 @@ msgstr ""
 
 #. TRANS: Client exception thrown when trying to post notices before
 #. validating an e-mail address.
-#: RequireValidatedEmailPlugin.php:104
+#: RequireValidatedEmailModule.php:104
 msgid "You must validate your email address before posting."
 msgstr "Tu debe validar tu adresse de e-mail ante de publicar."
 
 #. TRANS: Client exception thrown when trying to register without providing an
 #. e-mail address.
-#: RequireValidatedEmailPlugin.php:125
+#: RequireValidatedEmailModule.php:125
 msgid "You must provide an email address to register."
 msgstr "Tu debe fornir un adresse de e-mail pro poter crear un conto."
 
-#. TRANS: Plugin description.
-#: RequireValidatedEmailPlugin.php:224
+#. TRANS: Module description.
+#: RequireValidatedEmailModule.php:224
 msgid "Disables posting without a validated email address."
 msgstr "Disactiva le publication de messages sin adresse de e-mail validate."
 
-#: RequireValidatedEmailPlugin.php:243
+#: RequireValidatedEmailModule.php:243
 msgid "You must validate an email address before posting!"
 msgstr ""
 

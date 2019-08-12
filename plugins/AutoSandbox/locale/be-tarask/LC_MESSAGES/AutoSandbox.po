@@ -17,13 +17,13 @@ msgstr ""
 "Language: be@tarask\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#. TRANS: Plugin description.
-#: AutoSandboxPlugin.php:67
+#. TRANS: Module description.
+#: AutoSandboxModule.php:67
 msgid "Automatically sandboxes newly registered members."
 msgstr "Аўтаматычна перасылае ў пясочніцу ўсіх новых карыстальнікаў."
 
 #. TRANS: User instructions after registration.
-#: AutoSandboxPlugin.php:74
+#: AutoSandboxModule.php:74
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "
 "the public timeline."
@@ -31,7 +31,7 @@ msgstr "Памятайце, што спачатку Вы будзеце знах
 
 #. TRANS: User instructions after registration.
 #. TRANS: %s is a clickable OStatus profile URL.
-#: AutoSandboxPlugin.php:84
+#: AutoSandboxModule.php:84
 #, php-format
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "

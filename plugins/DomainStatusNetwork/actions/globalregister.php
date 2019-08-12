@@ -79,8 +79,8 @@ class GlobalregisterAction extends GlobalApiAction
     function handle()
     {
         try {
-            $confirm = DomainStatusNetworkPlugin::registerEmail($this->email);
-            EmailRegistrationPlugin::sendConfirmEmail($confirm);
+            $confirm = DomainStatusNetworkModule::registerEmail($this->email);
+            EmailRegistrationModule::sendConfirmEmail($confirm);
             $this->showSuccess();
         } catch (ClientException $e) {
             $this->showError($e->getMessage(), $e->getCode());

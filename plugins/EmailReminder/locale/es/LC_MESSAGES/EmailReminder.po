@@ -52,7 +52,7 @@ msgstr "Segundo recordatorio - ¡Por favor, confirma tu registro!"
 msgid "Final reminder - please confirm your registration!"
 msgstr "Último recordatorio - ¡Por favor, confirma tu registro!"
 
-#. TRANS: Plugin description.
-#: EmailReminderPlugin.php:190
+#. TRANS: Module description.
+#: EmailReminderModule.php:190
 msgid "Send email reminders for various things."
 msgstr "Enviar recordatorios por correo electrónico para diversas cuestiones."

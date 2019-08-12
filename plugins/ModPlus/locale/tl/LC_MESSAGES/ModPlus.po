@@ -42,12 +42,12 @@ msgid ""
 "messages to any users on this site."
 msgstr "Pinatahimik ng mga tagapamagitan ng sityo ang balangkas na ito, na humahadlang sa paghahatid ng bagong mga mensahe sa sinumang mga tagagamit na nasa sityong ito."
 
-#. TRANS: Plugin description.
-#: ModPlusPlugin.php:40
+#. TRANS: Module description.
+#: ModPlusModule.php:40
 msgid "UI extension for profile moderation actions."
 msgstr "Dugtong ng UI para sa mga galaw ng pagpapatimpi ng balangkas."
 
 #. TRANS: Label for access to remote profile options.
-#: ModPlusPlugin.php:115
+#: ModPlusModule.php:115
 msgid "Remote profile options..."
 msgstr "Malayong mga mapagpipilian ng balangkas..."

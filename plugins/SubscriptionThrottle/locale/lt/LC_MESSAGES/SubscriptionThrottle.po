@@ -18,16 +18,16 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. TRANS: Exception thrown when subscribing too quickly.
-#: SubscriptionThrottlePlugin.php:73
+#: SubscriptionThrottleModule.php:73
 msgid "Too many subscriptions. Take a break and try again later."
 msgstr ""
 
 #. TRANS: Exception thrown when joing groups too quickly.
-#: SubscriptionThrottlePlugin.php:99
+#: SubscriptionThrottleModule.php:99
 msgid "Too many memberships. Take a break and try again later."
 msgstr ""
 
-#. TRANS: Plugin description.
-#: SubscriptionThrottlePlugin.php:168
+#. TRANS: Module description.
+#: SubscriptionThrottleModule.php:168
 msgid "Configurable limits for subscriptions and group memberships."
 msgstr ""

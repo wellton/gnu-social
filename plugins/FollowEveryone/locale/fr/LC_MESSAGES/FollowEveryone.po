@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. TRANS: Checkbox label in form for profile settings.
-#: FollowEveryonePlugin.php:134
+#: FollowEveryoneModule.php:134
 msgid "Follow everyone"
 msgstr "Suivre tout le monde"
 
-#. TRANS: Plugin description.
-#: FollowEveryonePlugin.php:176
+#. TRANS: Module description.
+#: FollowEveryoneModule.php:176
 msgid "New users follow everyone at registration and are followed in return."
 msgstr "Les nouveaux utilisateurs suivent tout le monde lors de l’inscription et sont suivis en retour."

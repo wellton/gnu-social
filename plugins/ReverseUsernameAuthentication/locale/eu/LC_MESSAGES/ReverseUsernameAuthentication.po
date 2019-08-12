@@ -17,8 +17,8 @@ msgstr ""
 "Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: ReverseUsernameAuthenticationPlugin.php:68
+#. TRANS: Module description.
+#: ReverseUsernameAuthenticationModule.php:68
 msgid ""
 "The Reverse Username Authentication plugin allows for StatusNet to handle "
 "authentication by checking if the provided password is the same as the "

@@ -19,7 +19,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @category  Plugin
+ * @category  Module
  * @package   StatusNet
  * @author    Craig Andrews <candrews@integralblue.com>
  * @author    Mikael Nordfeldth <mmn@hethane.se>
@@ -36,7 +36,7 @@ if (!defined('GNUSOCIAL')) { exit(1); }
  *
  * This is the form for adding a new g
  *
- * @category Plugin
+ * @category Module
  * @package  StatusNet
  * @author   Craig Andrews <candrews@integralblue.com>
  * @author   Mikael Nordfeldth <mmn@hethane.se>

@@ -20,7 +20,7 @@
 if (!defined('GNUSOCIAL')) { exit(1); }
 
 /**
- * @package OStatusPlugin
+ * @package OStatusModule
  * @author James Walker <james@status.net>
  */
 class GroupsalmonAction extends SalmonAction

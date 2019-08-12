@@ -17,7 +17,7 @@ msgstr ""
 "Language: mg\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. TRANS: Plugin description.
-#: FeedPollerPlugin.php:58
+#. TRANS: Module description.
+#: FeedPollerModule.php:58
 msgid "Feed polling plugin to avoid using external push hubs."
 msgstr ""

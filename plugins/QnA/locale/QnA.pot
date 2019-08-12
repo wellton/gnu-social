@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 14:44+0100\n"
+"POT-Creation-Date: 2019-08-14 14:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,56 +235,56 @@ msgstr ""
 msgid "Question: %s"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: QnAPlugin.php:130
+#. TRANS: Module description.
+#: QnAModule.php:130
 msgid "Question and Answers micro-app."
 msgstr ""
 
 #. TRANS: Application title.
-#: QnAPlugin.php:137
+#: QnAModule.php:137
 msgctxt "TITLE"
 msgid "Question"
 msgstr ""
 
 #. TRANS: Exception thrown when there are too many activity objects.
-#: QnAPlugin.php:165
+#: QnAModule.php:165
 msgid "Too many activity objects."
 msgstr ""
 
 #. TRANS: Exception thrown when an incorrect object type is encountered.
-#: QnAPlugin.php:172
+#: QnAModule.php:172
 msgid "Wrong type for object."
 msgstr ""
 
 #. TRANS: Exception thrown when answering a non-existing question.
-#: QnAPlugin.php:191
+#: QnAModule.php:191
 msgid "Answer to unknown question."
 msgstr ""
 
 #. TRANS: Exception thrown when an object type is encountered that cannot be handled.
-#: QnAPlugin.php:197 QnAPlugin.php:227
+#: QnAModule.php:197 QnAModule.php:227
 msgid "Unknown object type."
 msgstr ""
 
 #. TRANS: Exception thrown when requesting a non-existing question notice.
-#: QnAPlugin.php:234
+#: QnAModule.php:234
 msgid "Unknown question notice."
 msgstr ""
 
 #. TRANS: Placeholder value for a possible answer to a question
 #. TRANS: by the logged in user.
-#: QnAPlugin.php:361
+#: QnAModule.php:361
 msgid "Your answer..."
 msgstr ""
 
 #. TRANS: Link description for link to full notice text if it is longer than
 #. TRANS: what will be dispplayed.
-#: QnAPlugin.php:386
+#: QnAModule.php:386
 msgid "…"
 msgstr ""
 
 #. TRANS: Title for link that is an ellipsis in English.
-#: QnAPlugin.php:391
+#: QnAModule.php:391
 msgid "more..."
 msgstr ""
 

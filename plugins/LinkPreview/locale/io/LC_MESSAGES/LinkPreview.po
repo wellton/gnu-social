@@ -36,7 +36,7 @@ msgstr "Nevalida formato; sola JSON favorizita."
 msgid "Invalid URL."
 msgstr "Nevalida URL."
 
-#. TRANS: Plugin description.
-#: LinkPreviewPlugin.php:40
+#. TRANS: Module description.
+#: LinkPreviewModule.php:40
 msgid "UI extension for previewing thumbnails from links."
 msgstr "UI-extensilo por previdar imajeti de ligili."

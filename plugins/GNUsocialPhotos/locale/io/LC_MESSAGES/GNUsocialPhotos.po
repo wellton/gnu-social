@@ -60,6 +60,6 @@ msgstr "Eroro dum la kreo dil nova albumo."
 msgid "Problem Saving Photo."
 msgstr "Problemo dum la konservo dil fotografuro."
 
-#: GNUsocialPhotosPlugin.php:65
+#: GNUsocialPhotosModule.php:65
 msgid "Problem saving photo."
 msgstr "Problem dum la konservo dil fotografuro."

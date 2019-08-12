@@ -50,45 +50,45 @@ msgstr "Sledovat"
 msgid "Subscribe to this search."
 msgstr "Sledovat toto hledání."
 
-#. TRANS: Plugin description.
-#: SearchSubPlugin.php:99
-msgid "Plugin to allow following all messages with a given search."
+#. TRANS: Module description.
+#: SearchSubModule.php:99
+msgid "Module to allow following all messages with a given search."
 msgstr "Zásuvný modul, který umožňuje sledovat všechny zprávy odpovídající danému hledání."
 
 #. TRANS: SearchSub plugin menu item on user settings page.
 #. TRANS: Sub menu for searches.
-#: SearchSubPlugin.php:202 SearchSubPlugin.php:265
+#: SearchSubModule.php:202 SearchSubModule.php:265
 msgctxt "MENU"
 msgid "Searches"
 msgstr "Hledání"
 
 #. TRANS: SearchSub plugin tooltip for user settings menu item.
-#: SearchSubPlugin.php:204
+#: SearchSubModule.php:204
 msgid "Configure search subscriptions"
 msgstr "Nastavit sledování hledání"
 
 #. TRANS: Help message for IM/SMS command "track <word>"
-#: SearchSubPlugin.php:242
+#: SearchSubModule.php:242
 msgctxt "COMMANDHELP"
 msgid "Start following notices matching the given search query."
 msgstr "Začne sledovat sdělení odpovídající danému dotazu."
 
 #. TRANS: Help message for IM/SMS command "untrack <word>"
-#: SearchSubPlugin.php:244
+#: SearchSubModule.php:244
 msgctxt "COMMANDHELP"
 msgid "Stop following notices matching the given search query."
 msgstr "Přestane sledovat sdělení odpovídající danému dotazu."
 
 #. TRANS: Help message for IM/SMS command "track off"
 #. TRANS: Help message for IM/SMS command "untrack all"
-#: SearchSubPlugin.php:246 SearchSubPlugin.php:248
+#: SearchSubModule.php:246 SearchSubModule.php:248
 msgctxt "COMMANDHELP"
 msgid "Disable all tracked search subscriptions."
 msgstr "Vypne všechna sledovaná hledání."
 
 #. TRANS: Help message for IM/SMS command "tracks"
 #. TRANS: Help message for IM/SMS command "tracking"
-#: SearchSubPlugin.php:250 SearchSubPlugin.php:252
+#: SearchSubModule.php:250 SearchSubModule.php:252
 msgctxt "COMMANDHELP"
 msgid "List all your search subscriptions."
 msgstr "Vypíše všechna vámi sledovaná hledání."

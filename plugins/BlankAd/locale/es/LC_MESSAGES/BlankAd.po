@@ -18,7 +18,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: BlankAdPlugin.php:128
-msgid "Plugin for testing ad layout."
+#. TRANS: Module description.
+#: BlankAdModule.php:128
+msgid "Module for testing ad layout."
 msgstr "Complemento para probar la maquetación de publicidad."

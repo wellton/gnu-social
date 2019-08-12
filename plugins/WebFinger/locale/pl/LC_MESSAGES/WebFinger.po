@@ -23,7 +23,7 @@ msgstr ""
 msgid "Resource not found in local database."
 msgstr "Zasób nie odnaleziony w lokalnej bazie danych."
 
-#. TRANS: Plugin description.
-#: WebFingerPlugin.php:147
+#. TRANS: Module description.
+#: WebFingerModule.php:147
 msgid "Adds WebFinger lookup to GNU Social"
 msgstr ""

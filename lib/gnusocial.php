@@ -27,7 +27,7 @@ class GNUsocial
     protected static $have_config;
     protected static $is_api;
     protected static $is_ajax;
-    protected static $plugins = [];
+    protected static $modules = [];
 
     /**
      * Configure and instantiate a plugin (or a core module) into the current configuration.
@@ -40,18 +40,18 @@ class GNUsocial
      * @return bool
      * @throws ServerException if module can't be found
      */
-    public static function addPlugin(string $name, array $attrs = [])
+    public static function addModule(string $name, array $attrs = [])
     {
         $name = ucfirst($name);
 
-        if (isset(self::$plugins[$name])) {
+        if (isset(self::$modules[$name])) {
             // We have already loaded this module. Don't try to
             // do it again with (possibly) different values.
             // Försten till kvarn får mala.
             return true;
         }
 
-        $moduleclass = "{$name}Plugin";
+        $moduleclass = "{$name}Module";
 
         if (!class_exists($moduleclass)) {
 
@@ -72,7 +72,7 @@ class GNUsocial
                 }
             }
             if (!class_exists($moduleclass)) {
-                throw new ServerException("Plugin $name not found.", 500);
+                throw new ServerException("Module $name not found.", 500);
             }
         }
 
@@ -84,17 +84,17 @@ class GNUsocial
         }
 
         // Record activated modules for later display/config dump
-        self::$plugins[$name] = $attrs;
+        self::$modules[$name] = $attrs;
 
         return true;
     }
 
-    public static function delPlugin($name)
+    public static function delModule($name)
     {
         // Remove our module if it was previously loaded
         $name = ucfirst($name);
-        if (isset(self::$plugins[$name])) {
-            unset(self::$plugins[$name]);
+        if (isset(self::$modules[$name])) {
+            unset(self::$modules[$name]);
         }
 
         // make sure initPlugins will avoid this
@@ -107,9 +107,9 @@ class GNUsocial
      * Get a list of activated modules in this process.
      * @return array of (string $name, array $args) pairs
      */
-    public static function getActivePlugins()
+    public static function getActiveModules()
     {
-        return self::$plugins;
+        return self::$modules;
     }
 
     /**
@@ -145,7 +145,7 @@ class GNUsocial
         self::fillConfigVoids();
         self::verifyLoadedConfig();
 
-        self::initPlugins();
+        self::initModules();
     }
 
     /**
@@ -206,9 +206,9 @@ class GNUsocial
     }
 
     /**
-     * Fire initialization events for all instantiated plugins.
+     * Fire initialization events for all instantiated modules.
      */
-    protected static function initPlugins()
+    protected static function initModules()
     {
         // User config may have already added some of these modules, with
         // maybe configured parameters. The self::addModule function will
@@ -216,7 +216,7 @@ class GNUsocial
 
         // Load core modules
         foreach (common_config('plugins', 'core') as $name => $params) {
-            call_user_func('self::addPlugin', $name, $params);
+            call_user_func('self::addModule', $name, $params);
         }
 
         // Load default plugins
@@ -227,14 +227,14 @@ class GNUsocial
             }
 
             if (count($params) == 0) {
-                self::addPlugin($name);
+                self::addModule($name);
             } else {
                 $keys = array_keys($params);
                 if (is_string($keys[0])) {
-                    self::addPlugin($name, $params);
+                    self::addModule($name, $params);
                 } else {
                     foreach ($params as $paramset) {
-                        self::addPlugin($name, $paramset);
+                        self::addModule($name, $paramset);
                     }
                 }
             }
@@ -246,7 +246,7 @@ class GNUsocial
         }
 
         // Give modules a chance to initialize in a fully-prepared environment
-        Event::handle('InitializePlugin');
+        Event::handle('InitializeModule');
     }
 
     /**
@@ -310,7 +310,7 @@ class GNUsocial
         global $_server, $_path, $config, $_PEAR;
 
         Event::clearHandlers();
-        self::$plugins = [];
+        self::$modules = [];
 
         // try to figure out where we are. $server and $path
         // can be set by including module, else we guess based

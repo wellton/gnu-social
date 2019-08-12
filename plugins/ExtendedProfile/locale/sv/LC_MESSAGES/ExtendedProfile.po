@@ -100,13 +100,13 @@ msgstr "Kunde inte spara profil."
 msgid "Could not save tags."
 msgstr "Kunde inte spara taggar."
 
-#. TRANS: Plugin description.
-#: ExtendedProfilePlugin.php:40
+#. TRANS: Module description.
+#: ExtendedProfileModule.php:40
 msgid "UI extensions for additional profile fields."
 msgstr ""
 
 #. TRANS: Link text on user profile page leading to extended profile page.
-#: ExtendedProfilePlugin.php:87
+#: ExtendedProfileModule.php:87
 msgid "More details..."
 msgstr "Mer detaljer..."
 

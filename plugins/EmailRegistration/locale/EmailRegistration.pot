@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 14:44+0100\n"
+"POT-Creation-Date: 2019-08-14 14:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #. TRANS: Error text when trying to register with an already registered e-mail address.
 #. TRANS: %s is the URL to recover password at.
-#: EmailRegistrationPlugin.php:94
+#: EmailRegistrationModule.php:94
 #, php-format
 msgid ""
 "A user with that email address already exists. You can use the <a href=\"%s"
@@ -27,19 +27,19 @@ msgid ""
 msgstr ""
 
 #. TRANS: Error text when trying to register with an invalid e-mail address.
-#: EmailRegistrationPlugin.php:108
+#: EmailRegistrationModule.php:108
 msgid "Not a valid email address."
 msgstr ""
 
 #. TRANS: Subject for confirmation e-mail.
 #. TRANS: %s is the StatusNet sitename.
-#: EmailRegistrationPlugin.php:152
+#: EmailRegistrationModule.php:152
 #, php-format
 msgid "Welcome to %s"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: EmailRegistrationPlugin.php:185
+#. TRANS: Module description.
+#: EmailRegistrationModule.php:185
 msgid "Use email only for registration."
 msgstr ""
 

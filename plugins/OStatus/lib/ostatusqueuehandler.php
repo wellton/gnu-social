@@ -22,7 +22,7 @@ defined('GNUSOCIAL') || die();
 /**
  * Prepare WebSub and Salmon distributions for an outgoing message.
  *
- * @package OStatusPlugin
+ * @package OStatusModule
  * @author Brion Vibber <brion@status.net>
  */
 class OStatusQueueHandler extends QueueHandler

@@ -18,7 +18,7 @@
  */
 
 /**
- * @package OStatusPlugin
+ * @package OStatusModule
  * @maintainer James Walker <james@status.net>
  */
 

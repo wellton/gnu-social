@@ -20,23 +20,23 @@ msgstr ""
 
 #. TRANS: Server exception thrown when no IP address can be found for a
 #. registation attempt.
-#: RegisterThrottlePlugin.php:100
+#: RegisterThrottleModule.php:100
 msgid "Cannot find IP address."
 msgstr "Kan inte hitta IP-adress."
 
 #. TRANS: Exception thrown when too many user have registered from one IP
 #. address within a given time frame.
-#: RegisterThrottlePlugin.php:116
+#: RegisterThrottleModule.php:116
 msgid "Too many registrations. Take a break and try again later."
 msgstr "För många registreringar. Ta en paus och försök igen senare."
 
 #. TRANS: Exception thrown when attempting to register from an IP address from
 #. which silenced users have registered.
-#: RegisterThrottlePlugin.php:129
+#: RegisterThrottleModule.php:129
 msgid "A banned user has registered from this address."
 msgstr "En bannlyst användare har registrerat från den här adressen."
 
-#. TRANS: Plugin description.
-#: RegisterThrottlePlugin.php:186
+#. TRANS: Module description.
+#: RegisterThrottleModule.php:186
 msgid "Throttles excessive registration from a single IP address."
 msgstr "Stryper överdriven registrering från en enstaka IP-adress."

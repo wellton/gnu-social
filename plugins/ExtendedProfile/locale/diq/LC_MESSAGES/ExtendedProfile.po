@@ -82,7 +82,7 @@ msgstr ""
 msgid "Edit"
 msgstr "Bıvurne"
 
-#. TRANS: Plugin description.
+#. TRANS: Module description.
 msgid "UI extensions for additional profile fields."
 msgstr ""
 

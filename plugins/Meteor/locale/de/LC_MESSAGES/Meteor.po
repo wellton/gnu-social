@@ -18,18 +18,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. TRANS: Exception. %1$s is the control server, %2$s is the control port.
-#: MeteorPlugin.php:127
+#: MeteorModule.php:127
 #, php-format
 msgid "Could not connect to %1$s on %2$s."
 msgstr "Konnte keine Verbindung mit %1$s auf %2$s herstellen."
 
 #. TRANS: Exception. %s is the Meteor message that could not be added.
-#: MeteorPlugin.php:140
+#: MeteorModule.php:140
 #, php-format
 msgid "Error adding meteor message \"%s\"."
 msgstr "Fehler beim Hinzufügen der Meteor-Nachricht „%s“."
 
-#. TRANS: Plugin description.
-#: MeteorPlugin.php:171
-msgid "Plugin to do \"real time\" updates using Meteor."
-msgstr "Plugin für Echtzeit-Aktualisierungen mit Meteor."
+#. TRANS: Module description.
+#: MeteorModule.php:171
+msgid "Module to do \"real time\" updates using Meteor."
+msgstr "Module für Echtzeit-Aktualisierungen mit Meteor."

@@ -84,7 +84,7 @@ class UserConfirmRegReminderHandler extends UserReminderHandler {
             if (Email_reminder::needsReminder(self::REGISTER_REMINDER, $confirm)) {
                 common_log(LOG_INFO, "Sending one-time registration confirmation reminder to {$confirm->address}", __FILE__);
                 $subject = _m("Reminder - please confirm your registration!");
-                return EmailReminderPlugin::sendReminder(
+                return EmailReminderModule::sendReminder(
                     self::REGISTER_REMINDER,
                     $confirm,
                     $subject,
@@ -101,7 +101,7 @@ class UserConfirmRegReminderHandler extends UserReminderHandler {
                 common_log(LOG_INFO, "Sending one day registration confirmation reminder to {$confirm->address}", __FILE__);
                 // TRANS: Subject for reminder e-mail.
                 $subject = _m('Reminder - please confirm your registration!');
-                return EmailReminderPlugin::sendReminder(
+                return EmailReminderModule::sendReminder(
                     self::REGISTER_REMINDER,
                     $confirm,
                     $subject,
@@ -116,7 +116,7 @@ class UserConfirmRegReminderHandler extends UserReminderHandler {
                 common_log(LOG_INFO, "Sending three day registration confirmation reminder to {$confirm->address}", __FILE__);
                 // TRANS: Subject for reminder e-mail.
                 $subject = _m('Second reminder - please confirm your registration!');
-                    return EmailReminderPlugin::sendReminder(
+                    return EmailReminderModule::sendReminder(
                         self::REGISTER_REMINDER,
                         $confirm,
                         $subject,
@@ -131,7 +131,7 @@ class UserConfirmRegReminderHandler extends UserReminderHandler {
                 common_log(LOG_INFO, "Sending one week registration confirmation reminder to {$confirm->address}", __FILE__);
                 // TRANS: Subject for reminder e-mail.
                 $subject = _m('Final reminder - please confirm your registration!');
-                return EmailReminderPlugin::sendReminder(
+                return EmailReminderModule::sendReminder(
                     self::REGISTER_REMINDER,
                     $confirm,
                     $subject,

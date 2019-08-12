@@ -17,7 +17,7 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin dscription.
-#: InProcessCachePlugin.php:183
+#. TRANS: Module dscription.
+#: InProcessCacheModule.php:183
 msgid "Additional in-process cache for plugins."
 msgstr ""

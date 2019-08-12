@@ -34,7 +34,7 @@ msgstr "Неважечки формат. Поддржан е само JSON."
 msgid "Invalid URL."
 msgstr "Неважечка URL-адреса."
 
-#. TRANS: Plugin description.
-#: LinkPreviewPlugin.php:40
+#. TRANS: Module description.
+#: LinkPreviewModule.php:40
 msgid "UI extension for previewing thumbnails from links."
 msgstr "Додатоци за корисничкиот посредник што даваат преглед на минијатури од врски."

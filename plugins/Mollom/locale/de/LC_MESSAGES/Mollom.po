@@ -19,6 +19,6 @@ msgstr ""
 
 #. TRANS: Client exception thrown when notice content triggers the spam
 #. filter.
-#: MollomPlugin.php:87
+#: MollomModule.php:87
 msgid "Spam Detected."
 msgstr "Spam erkannt."

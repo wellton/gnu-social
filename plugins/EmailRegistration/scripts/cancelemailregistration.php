@@ -42,7 +42,7 @@ if (count($args) == 0) {
 $email = $args[0];
 
 try {
-    $confirm = Confirm_address::getByAddress($email, EmailRegistrationPlugin::CONFIRMTYPE);
+    $confirm = Confirm_address::getByAddress($email, EmailRegistrationModule::CONFIRMTYPE);
 
     if (have_option('d', 'dryrun')) {
         print "[Dry run mode] Deleted confirmation code {$confirm->code} for {$confirm->address}.\n";

@@ -17,8 +17,8 @@ msgstr ""
 "Language: fur\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: TabFocusPlugin.php:55
+#. TRANS: Module description.
+#: TabFocusModule.php:55
 msgid ""
 "TabFocus changes the notice form behavior so that, while in the text area, "
 "pressing the tab key focuses the \"Send\" button, matching the behavior of "

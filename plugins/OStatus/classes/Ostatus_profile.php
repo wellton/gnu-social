@@ -20,7 +20,7 @@
 if (!defined('GNUSOCIAL')) { exit(1); }
 
 /**
- * @package OStatusPlugin
+ * @package OStatusModule
  * @author Brion Vibber <brion@status.net>
  * @maintainer Mikael Nordfeldth <mmn@hethane.se>
  */
@@ -574,7 +574,7 @@ class Ostatus_profile extends Managed_DataObject
 
             // Is the recipient a local group?
             // TODO: $group = User_group::getKV('uri', $recipient);
-            $id = OStatusPlugin::localGroupFromUrl($recipient);
+            $id = OStatusModule::localGroupFromUrl($recipient);
             if ($id) {
                 $group = User_group::getKV('id', $id);
                 if ($group instanceof User_group) {
@@ -1014,7 +1014,7 @@ class Ostatus_profile extends Managed_DataObject
             }
         }
 
-        return Plugin::staticPath('OStatus', 'images/96px-Feed-icon.svg.png');
+        return Module::staticPath('OStatus', 'images/96px-Feed-icon.svg.png');
     }
 
     /**
@@ -1138,7 +1138,7 @@ class Ostatus_profile extends Managed_DataObject
             throw new Exception(_m('Local user cannot be referenced as remote.'));
         }
 
-        if (OStatusPlugin::localGroupFromUrl($homeuri)) {
+        if (OStatusModule::localGroupFromUrl($homeuri)) {
             // TRANS: Exception.
             throw new Exception(_m('Local group cannot be referenced as remote.'));
         }

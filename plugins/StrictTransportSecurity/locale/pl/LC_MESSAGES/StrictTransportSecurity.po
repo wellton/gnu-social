@@ -17,8 +17,8 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. TRANS: Plugin description.
-#: StrictTransportSecurityPlugin.php:60
+#. TRANS: Module description.
+#: StrictTransportSecurityModule.php:60
 msgid ""
 "The Strict Transport Security plugin implements the Strict Transport "
 "Security header, improving the security of HTTPS only sites."

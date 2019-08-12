@@ -17,7 +17,7 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: DomainStatusNetworkPlugin.php:201
+#. TRANS: Module description.
+#: DomainStatusNetworkModule.php:201
 msgid "A plugin that maps a single status_network to an email domain."
 msgstr "Een plugin die een status_netwerk koppelt aan en e-maildomein."

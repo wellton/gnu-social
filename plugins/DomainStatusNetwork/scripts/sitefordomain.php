@@ -30,9 +30,9 @@ END_OF_SITEFORDOMAIN_HELP;
 
 require_once INSTALLDIR.'/scripts/commandline.inc';
 
-$domain = DomainStatusNetworkPlugin::toDomain($args[0]);
+$domain = DomainStatusNetworkModule::toDomain($args[0]);
 
-$sn = DomainStatusNetworkPlugin::siteForDomain($domain);
+$sn = DomainStatusNetworkModule::siteForDomain($domain);
 
 if (empty($sn)) {
     exit(1);

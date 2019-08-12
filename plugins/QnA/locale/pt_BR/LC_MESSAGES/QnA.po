@@ -101,57 +101,57 @@ msgctxt "BUTTON"
 msgid "Answer"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: QnAPlugin.php:136
+#. TRANS: Module description.
+#: QnAModule.php:136
 msgid "Question and Answers micro-app."
 msgstr ""
 
 #. TRANS: Application title.
-#: QnAPlugin.php:143
+#: QnAModule.php:143
 msgctxt "TITLE"
 msgid "Question"
 msgstr ""
 
 #. TRANS: Exception thrown when there are too many activity objects.
-#: QnAPlugin.php:171
+#: QnAModule.php:171
 msgid "Too many activity objects."
 msgstr "Objetos de atividade demais."
 
 #. TRANS: Exception thrown when an incorrect object type is encountered.
-#: QnAPlugin.php:178
+#: QnAModule.php:178
 msgid "Wrong type for object."
 msgstr "Tipo errado para o objeto."
 
 #. TRANS: Exception thrown when answering a non-existing question.
-#: QnAPlugin.php:197
+#: QnAModule.php:197
 msgid "Answer to unknown question."
 msgstr ""
 
 #. TRANS: Exception thrown when an object type is encountered that cannot be
 #. handled.
-#: QnAPlugin.php:203 QnAPlugin.php:233
+#: QnAModule.php:203 QnAModule.php:233
 msgid "Unknown object type."
 msgstr ""
 
 #. TRANS: Exception thrown when requesting a non-existing question notice.
-#: QnAPlugin.php:240
+#: QnAModule.php:240
 msgid "Unknown question notice."
 msgstr ""
 
 #. TRANS: Placeholder value for a possible answer to a question
 #. TRANS: by the logged in user.
-#: QnAPlugin.php:368
+#: QnAModule.php:368
 msgid "Your answer..."
 msgstr ""
 
 #. TRANS: Link description for link to full notice text if it is longer than
 #. TRANS: what will be dispplayed.
-#: QnAPlugin.php:393
+#: QnAModule.php:393
 msgid "…"
 msgstr ""
 
 #. TRANS: Title for link that is an ellipsis in English.
-#: QnAPlugin.php:398
+#: QnAModule.php:398
 msgid "more..."
 msgstr ""
 

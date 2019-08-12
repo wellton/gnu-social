@@ -20,7 +20,7 @@ msgstr ""
 #. TRANS: Server exception thrown when blogspam.net returns error status.
 #. TRANS: %1$s is the base URL, %2$s is the error (unknown contents; no
 #. period).
-#: BlogspamNetPlugin.php:87
+#: BlogspamNetModule.php:87
 #, php-format
 msgid "Error from %1$s: %2$s"
 msgstr ""
@@ -28,7 +28,7 @@ msgstr ""
 #. TRANS: Server exception thrown when blogspam.net returns spam status.
 #. TRANS: Does not end with period because of unknown contents for %s (spam
 #. match).
-#: BlogspamNetPlugin.php:91
+#: BlogspamNetModule.php:91
 #, php-format
 msgid "Spam checker results: %s"
 msgstr ""
@@ -37,12 +37,12 @@ msgstr ""
 #. status.
 #. TRANS: %1$s is the base URL, %2$s is the response (unknown contents; no
 #. period).
-#: BlogspamNetPlugin.php:97
+#: BlogspamNetModule.php:97
 #, php-format
 msgid "Unexpected response from %1$s: %2$s"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: BlogspamNetPlugin.php:159
-msgid "Plugin to check submitted notices with blogspam.net."
-msgstr "Plugin para verificar mensagens submetidas com o blogspam.net."
+#. TRANS: Module description.
+#: BlogspamNetModule.php:159
+msgid "Module to check submitted notices with blogspam.net."
+msgstr "Module para verificar mensagens submetidas com o blogspam.net."

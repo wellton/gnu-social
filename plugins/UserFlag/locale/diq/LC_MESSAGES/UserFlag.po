@@ -26,7 +26,7 @@ msgstr ""
 msgid "Flagged"
 msgstr "Desmale"
 
-#. TRANS: Plugin description.
+#. TRANS: Module description.
 msgid ""
 "This plugin allows flagging of profiles for review and reviewing flagged "
 "profiles."

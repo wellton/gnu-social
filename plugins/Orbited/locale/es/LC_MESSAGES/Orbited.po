@@ -20,11 +20,11 @@ msgstr ""
 
 #. TRANS: Server exception thrown when no connection can be made to a queue
 #. server.
-#: OrbitedPlugin.php:110
+#: OrbitedModule.php:110
 msgid "Failed to connect to queue server."
 msgstr "Error al conectar con el servidor de cola."
 
-#. TRANS: Plugin description.
-#: OrbitedPlugin.php:170
-msgid "Plugin to make updates using Orbited and STOMP."
+#. TRANS: Module description.
+#: OrbitedModule.php:170
+msgid "Module to make updates using Orbited and STOMP."
 msgstr "Complemento para realizar actualizaciones en «tiempo real» usando Orbited y STOMP."

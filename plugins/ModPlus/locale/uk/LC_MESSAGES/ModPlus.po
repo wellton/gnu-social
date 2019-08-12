@@ -42,12 +42,12 @@ msgid ""
 "messages to any users on this site."
 msgstr "Модератори сайту позбавили права голосу даний профіль, що перешкоджає доставці нових повідомлень для всіх користувачів на цьому сайті."
 
-#. TRANS: Plugin description.
-#: ModPlusPlugin.php:40
+#. TRANS: Module description.
+#: ModPlusModule.php:40
 msgid "UI extension for profile moderation actions."
 msgstr "Розширення користувацького інтерфейсу для модерування профілю."
 
 #. TRANS: Label for access to remote profile options.
-#: ModPlusPlugin.php:115
+#: ModPlusModule.php:115
 msgid "Remote profile options..."
 msgstr "Опції віддаленого профілю..."

@@ -24,11 +24,11 @@ msgstr ""
 msgid "%s's Bio."
 msgstr "Biografía de %s. "
 
-#: GNUsocialProfileExtensionsPlugin.php:124
+#: GNUsocialProfileExtensionsModule.php:124
 msgid "Profile Fields"
 msgstr "Campos de perfil "
 
-#: GNUsocialProfileExtensionsPlugin.php:125
+#: GNUsocialProfileExtensionsModule.php:125
 msgid "Custom profile fields"
 msgstr "Campos de perfil personalizados"
 

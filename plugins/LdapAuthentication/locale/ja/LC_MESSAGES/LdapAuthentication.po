@@ -19,25 +19,25 @@ msgstr ""
 
 #. TRANS: Exception thrown when initialising the LDAP Auth plugin fails
 #. because of an incorrect configuration.
-#: LdapAuthenticationPlugin.php:40
+#: LdapAuthenticationModule.php:40
 msgid "You must specify a nickname attribute."
 msgstr ""
 
 #. TRANS: Exception thrown when initialising the LDAP Auth plugin fails
 #. because of an incorrect configuration.
-#: LdapAuthenticationPlugin.php:44
+#: LdapAuthenticationModule.php:44
 msgid ""
 "If password_changeable is set, the password attribute and password_encoding "
 "must also be specified."
 msgstr ""
 
 #. TRANS: Instructions for LDAP authentication.
-#: LdapAuthenticationPlugin.php:71 LdapAuthenticationPlugin.php:76
+#: LdapAuthenticationModule.php:71 LdapAuthenticationModule.php:76
 msgid "Do you have an LDAP account? Use your standard username and password."
 msgstr ""
 
-#. TRANS: Plugin description.
-#: LdapAuthenticationPlugin.php:153
+#. TRANS: Module description.
+#: LdapAuthenticationModule.php:153
 msgid ""
 "The LDAP Authentication plugin allows for StatusNet to handle authentication"
 " through LDAP."

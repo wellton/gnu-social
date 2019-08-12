@@ -17,13 +17,13 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#. TRANS: Plugin description.
-#: AutoSandboxPlugin.php:67
+#. TRANS: Module description.
+#: AutoSandboxModule.php:67
 msgid "Automatically sandboxes newly registered members."
 msgstr ""
 
 #. TRANS: User instructions after registration.
-#: AutoSandboxPlugin.php:74
+#: AutoSandboxModule.php:74
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "
 "the public timeline."
@@ -31,7 +31,7 @@ msgstr ""
 
 #. TRANS: User instructions after registration.
 #. TRANS: %s is a clickable OStatus profile URL.
-#: AutoSandboxPlugin.php:84
+#: AutoSandboxModule.php:84
 #, php-format
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "

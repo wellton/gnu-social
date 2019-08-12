@@ -222,14 +222,14 @@ class EmailregisterAction extends Action
     function registerUser()
     {
         try {
-            $confirm = EmailRegistrationPlugin::registerEmail($this->email);
+            $confirm = EmailRegistrationModule::registerEmail($this->email);
         } catch (ClientException $ce) {
             $this->error = $ce->getMessage();
             $this->showRegistrationForm();
             return;
         }
 
-        EmailRegistrationPlugin::sendConfirmEmail($confirm);
+        EmailRegistrationModule::sendConfirmEmail($confirm);
 
         // TRANS: Confirmation text after initial registration.
         // TRANS: %s an e-mail address.
@@ -260,7 +260,7 @@ class EmailregisterAction extends Action
 
     function nicknameFromEmail($email)
     {
-        return EmailRegistrationPlugin::nicknameFromEmail($email);
+        return EmailRegistrationModule::nicknameFromEmail($email);
     }
 
     function setPassword()

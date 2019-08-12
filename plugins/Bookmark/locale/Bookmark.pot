@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 14:44+0100\n"
+"POT-Creation-Date: 2019-08-14 14:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,29 +17,29 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. TRANS: Plugin description.
-#: BookmarkPlugin.php:189
-msgid "Plugin for posting bookmarks. "
+#. TRANS: Module description.
+#: BookmarkModule.php:189
+msgid "Module for posting bookmarks. "
 msgstr ""
 
 #. TRANS: Link text in proile leading to import form.
 #. TRANS: Title for page to import del.icio.us bookmark backups on.
-#: BookmarkPlugin.php:232 actions/importdelicious.php:60
+#: BookmarkModule.php:232 actions/importdelicious.php:60
 msgid "Import del.icio.us bookmarks"
 msgstr ""
 
 #. TRANS: Menu item in sample plugin.
-#: BookmarkPlugin.php:260
+#: BookmarkModule.php:260
 msgid "Bookmarks"
 msgstr ""
 
 #. TRANS: Menu item title in sample plugin.
-#: BookmarkPlugin.php:262
+#: BookmarkModule.php:262
 msgid "A list of your bookmarks"
 msgstr ""
 
 #. TRANS: Application title.
-#: BookmarkPlugin.php:346
+#: BookmarkModule.php:346
 msgctxt "TITLE"
 msgid "Bookmark"
 msgstr ""

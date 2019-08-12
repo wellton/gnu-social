@@ -17,7 +17,7 @@ msgstr ""
 "Language: ksh\n"
 "Plural-Forms: nplurals=3; plural=(n==0) ? 0 : (n==1) ? 1 : 2;\n"
 
-#. TRANS: Plugin dscription.
-#: InProcessCachePlugin.php:183
+#. TRANS: Module dscription.
+#: InProcessCacheModule.php:183
 msgid "Additional in-process cache for plugins."
 msgstr ""

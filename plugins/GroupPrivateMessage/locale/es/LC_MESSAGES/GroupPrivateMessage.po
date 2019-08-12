@@ -256,100 +256,100 @@ msgid "Direct message to group %s sent."
 msgstr "Se ha enviado un mensaje directo al grupo «%s»."
 
 #. TRANS: Menu item in group page.
-#: GroupPrivateMessagePlugin.php:112
+#: GroupPrivateMessageModule.php:112
 msgctxt "MENU"
 msgid "Inbox"
 msgstr "Bandeja de entrada"
 
 #. TRANS: Menu title in group page.
-#: GroupPrivateMessagePlugin.php:114
+#: GroupPrivateMessageModule.php:114
 msgid "Private messages for this group."
 msgstr "Mensajes privados para este grupo."
 
 #. TRANS: Dropdown label in group settings page for if group allows private
 #. messages.
-#: GroupPrivateMessagePlugin.php:160
+#: GroupPrivateMessageModule.php:160
 msgid "Private messages"
 msgstr "Mensajes privados"
 
 #. TRANS: Dropdown option in group settings page for allowing private
 #. messages.
-#: GroupPrivateMessagePlugin.php:162
+#: GroupPrivateMessageModule.php:162
 msgid "Sometimes"
 msgstr "A veces"
 
 #. TRANS: Dropdown option in group settings page for allowing private
 #. messages.
-#: GroupPrivateMessagePlugin.php:164
+#: GroupPrivateMessageModule.php:164
 msgid "Always"
 msgstr "Siempre"
 
 #. TRANS: Dropdown option in group settings page for allowing private
 #. messages.
-#: GroupPrivateMessagePlugin.php:166
+#: GroupPrivateMessageModule.php:166
 msgid "Never"
 msgstr "Nunca"
 
 #. TRANS: Dropdown title in group settings page for if group allows private
 #. messages.
-#: GroupPrivateMessagePlugin.php:168
+#: GroupPrivateMessageModule.php:168
 msgid "Whether to allow private messages to this group."
 msgstr "Aceptar o no el envío de mensajes privados a este grupo."
 
 #. TRANS: Dropdown label in group settings page for who can send private
 #. messages to the group.
-#: GroupPrivateMessagePlugin.php:175
+#: GroupPrivateMessageModule.php:175
 msgid "Private senders"
 msgstr "Remitentes privados"
 
 #. TRANS: Dropdown option in group settings page for who can send private
 #. messages.
-#: GroupPrivateMessagePlugin.php:177
+#: GroupPrivateMessageModule.php:177
 msgid "Everyone"
 msgstr "Todo el mundo"
 
 #. TRANS: Dropdown option in group settings page for who can send private
 #. messages.
-#: GroupPrivateMessagePlugin.php:179
+#: GroupPrivateMessageModule.php:179
 msgid "Member"
 msgstr "Miembros"
 
 #. TRANS: Dropdown option in group settings page for who can send private
 #. messages.
-#: GroupPrivateMessagePlugin.php:181
+#: GroupPrivateMessageModule.php:181
 msgid "Admin"
 msgstr "Administradores"
 
 #. TRANS: Dropdown title in group settings page for who can send private
 #. messages to the group.
-#: GroupPrivateMessagePlugin.php:183
+#: GroupPrivateMessageModule.php:183
 msgid "Who can send private messages to the group."
 msgstr "Quién puede enviar mensajes privados al grupo."
 
 #. TRANS: Title for action in group actions list.
-#: GroupPrivateMessagePlugin.php:288
+#: GroupPrivateMessageModule.php:288
 msgid "Send a direct message to this group."
 msgstr "Enviar un mensaje directo a este grupo."
 
 #. TRANS: Link text for action in group actions list to send a private message
 #. to a group.
-#: GroupPrivateMessagePlugin.php:290
+#: GroupPrivateMessageModule.php:290
 msgctxt "LINKTEXT"
 msgid "Message"
 msgstr "Mensaje"
 
 #. TRANS: Client exception thrown when a private group message has to be
 #. forced.
-#: GroupPrivateMessagePlugin.php:368
+#: GroupPrivateMessageModule.php:368
 msgid "Forced notice to private group message."
 msgstr "Forzada la privacidad del mensaje: hay al menos un grupo privado entre los destinatarios."
 
 #. TRANS: Indicator on the group page that the group is (essentially) private.
-#: GroupPrivateMessagePlugin.php:390
+#: GroupPrivateMessageModule.php:390
 msgid "Private"
 msgstr "Privado"
 
-#. TRANS: Plugin description.
-#: GroupPrivateMessagePlugin.php:416
+#. TRANS: Module description.
+#: GroupPrivateMessageModule.php:416
 msgid "Allow posting private messages to groups."
 msgstr "Permitir el envío de mensajes privados a grupos."

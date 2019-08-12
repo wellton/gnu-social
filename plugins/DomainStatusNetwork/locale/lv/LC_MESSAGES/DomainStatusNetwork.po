@@ -17,7 +17,7 @@ msgstr ""
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#. TRANS: Plugin description.
-#: DomainStatusNetworkPlugin.php:201
+#. TRANS: Module description.
+#: DomainStatusNetworkModule.php:201
 msgid "A plugin that maps a single status_network to an email domain."
 msgstr ""

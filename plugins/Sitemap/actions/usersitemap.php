@@ -101,8 +101,8 @@ class UsersitemapAction extends SitemapAction
 
             $user->orderBy('created');
 
-            $offset = ($i-1) * SitemapPlugin::USERS_PER_MAP;
-            $limit  = SitemapPlugin::USERS_PER_MAP;
+            $offset = ($i-1) * SitemapModule::USERS_PER_MAP;
+            $limit  = SitemapModule::USERS_PER_MAP;
 
             $user->limit($offset, $limit);
 

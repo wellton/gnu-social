@@ -17,9 +17,9 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: StrictTransportSecurityPlugin.php:60
+#. TRANS: Module description.
+#: StrictTransportSecurityModule.php:60
 msgid ""
 "The Strict Transport Security plugin implements the Strict Transport "
 "Security header, improving the security of HTTPS only sites."
-msgstr "Das „Strict Transport Security“-Plugin implementiert den „Strict Transport Security“-Header, dies verbessert die Sicherheit von reinen HTTPS-Sites."
+msgstr "Das „Strict Transport Security“-Module implementiert den „Strict Transport Security“-Header, dies verbessert die Sicherheit von reinen HTTPS-Sites."

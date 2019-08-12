@@ -1,4 +1,4 @@
-# "Sensitive" Content Plugin for GNU Social
+# "Sensitive" Content Module for GNU Social
 
 ## About
 

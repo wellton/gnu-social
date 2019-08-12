@@ -17,8 +17,8 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. TRANS: Plugin description.
-#: ModHelperPlugin.php:40
+#. TRANS: Module description.
+#: ModHelperModule.php:40
 msgid ""
 "Lets users who have been manually marked as \"modhelper\"s silence accounts."
 msgstr ""

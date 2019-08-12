@@ -42,12 +42,12 @@ msgid ""
 "messages to any users on this site."
 msgstr "Администраторите го замолчиле овој профил, што оневозможува праќање нови пораки на било кој корисник на мрежното место."
 
-#. TRANS: Plugin description.
-#: ModPlusPlugin.php:40
+#. TRANS: Module description.
+#: ModPlusModule.php:40
 msgid "UI extension for profile moderation actions."
 msgstr "Додатоци за кориснички посредник наменети за постапки за модерација на профили."
 
 #. TRANS: Label for access to remote profile options.
-#: ModPlusPlugin.php:115
+#: ModPlusModule.php:115
 msgid "Remote profile options..."
 msgstr "Нагодувања на далечински профил..."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 14:44+0100\n"
+"POT-Creation-Date: 2019-08-14 14:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,17 +18,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. TRANS: Header for Map widget that displays a map with geodata for notices.
-#: MapstractionPlugin.php:151
+#: MapstractionModule.php:151
 msgid "Map"
 msgstr ""
 
 #. TRANS: Clickable item to allow opening the map in full size.
-#: MapstractionPlugin.php:163
+#: MapstractionModule.php:163
 msgid "Full size"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: MapstractionPlugin.php:176
+#. TRANS: Module description.
+#: MapstractionModule.php:176
 msgid ""
 "Show maps of users' and friends' notices with <a href=\"http://www."
 "mapstraction.com/\">Mapstraction</a>."

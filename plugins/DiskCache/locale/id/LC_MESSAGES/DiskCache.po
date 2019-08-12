@@ -18,7 +18,7 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. TRANS: Plugin description.
-#: DiskCachePlugin.php:172
-msgid "Plugin to implement cache interface with disk files."
+#. TRANS: Module description.
+#: DiskCacheModule.php:172
+msgid "Module to implement cache interface with disk files."
 msgstr "Pengaya untuk mengimplementasikan antarmuka tembolok dengan berkas diska."

@@ -18,7 +18,7 @@
  */
 
 /**
- * @package OStatusPlugin
+ * @package OStatusModule
  * @author James Walker <james@status.net>
  */
 

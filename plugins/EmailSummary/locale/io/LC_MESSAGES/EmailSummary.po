@@ -45,12 +45,12 @@ msgstr "Kuntexte"
 msgid "<a href=\"%1$s\">change your email settings for %2$s</a>"
 msgstr "<a href=\"%1$s\">Chanjez vua ajusti dil e-posto por %2$s</a>"
 
-#. TRANS: Plugin description.
-#: EmailSummaryPlugin.php:77
+#. TRANS: Module description.
+#: EmailSummaryModule.php:77
 msgid "Send an email summary of the inbox to users."
 msgstr "Sendez rezumo per e-posto dil enbuxo al uzanti."
 
 #. TRANS: Checkbox label in e-mail preferences form.
-#: EmailSummaryPlugin.php:108
+#: EmailSummaryModule.php:108
 msgid "Send me a periodic summary of updates from my network"
 msgstr "Sendez a me periodala rezumo dil aktualigi de mea reto"

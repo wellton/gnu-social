@@ -17,7 +17,7 @@ msgstr ""
 "Language: lb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: DirectionDetectorPlugin.php:256
+#. TRANS: Module description.
+#: DirectionDetectorModule.php:256
 msgid "Shows notices with right-to-left content in correct direction."
 msgstr "Weist Matdeelungen mat Inhalt dee vu riets not lenks geschriwwen ass an där richteger Richtung."

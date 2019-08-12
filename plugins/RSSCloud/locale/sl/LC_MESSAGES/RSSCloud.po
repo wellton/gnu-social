@@ -17,8 +17,8 @@ msgstr ""
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
-#. TRANS: Plugin description.
-#: RSSCloudPlugin.php:209
+#. TRANS: Module description.
+#: RSSCloudModule.php:209
 msgid ""
 "The RSSCloud plugin enables your StatusNet instance to publish real-time "
 "updates for profile RSS feeds using the <a "

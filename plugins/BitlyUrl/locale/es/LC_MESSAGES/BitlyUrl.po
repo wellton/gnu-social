@@ -86,25 +86,25 @@ msgstr "Guardar configuración de bit.ly"
 
 #. TRANS: Exception thrown when bit.ly URL shortening plugin was configured
 #. incorrectly.
-#: BitlyUrlPlugin.php:47
+#: BitlyUrlModule.php:47
 msgid "You must specify a serviceUrl for bit.ly URL shortening."
 msgstr "Debes especificar un serviceUrl ('URL de servicio web') para bit.ly."
 
-#. TRANS: Plugin description. %1$s is the URL shortening service base URL (for
+#. TRANS: Module description. %1$s is the URL shortening service base URL (for
 #. example "bit.ly").
-#: BitlyUrlPlugin.php:156
+#: BitlyUrlModule.php:156
 #, php-format
 msgid "Uses <a href=\"http://%1$s/\">%1$s</a> URL-shortener service."
 msgstr "Utiliza el acortador de URL <a href=\"http://%1$s/\">%1$s</a>."
 
 #. TRANS: Menu item in administration menus for bit.ly URL shortening
 #. settings.
-#: BitlyUrlPlugin.php:198
+#: BitlyUrlModule.php:198
 msgid "bit.ly"
 msgstr "bit.ly"
 
 #. TRANS: Title for menu item in administration menus for bit.ly URL
 #. shortening settings.
-#: BitlyUrlPlugin.php:200
+#: BitlyUrlModule.php:200
 msgid "bit.ly URL shortening."
 msgstr "Acortador de URL bit.ly."

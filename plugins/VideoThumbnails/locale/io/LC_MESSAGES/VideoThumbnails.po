@@ -19,7 +19,7 @@ msgstr ""
 "Language: io\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: VideoThumbnailsPlugin.php:86
+#. TRANS: Module description.
+#: VideoThumbnailsModule.php:86
 msgid "Video thumbnail preview support."
 msgstr "Suporto por video-prevideto."

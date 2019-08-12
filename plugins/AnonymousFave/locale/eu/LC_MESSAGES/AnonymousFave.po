@@ -70,16 +70,16 @@ msgid "Could not create favorite tally for notice ID %d."
 msgstr "%d IDa daukan mezuarentzako gogoko kontua ezin izan da sortu."
 
 #. TRANS: Label for tally for number of times a notice was favored.
-#: AnonymousFavePlugin.php:165
+#: AnonymousFaveModule.php:165
 msgid "Favored"
 msgstr "Gogokoa"
 
 #. TRANS: Server exception.
-#: AnonymousFavePlugin.php:198 AnonymousFavePlugin.php:209
+#: AnonymousFaveModule.php:198 AnonymousFaveModule.php:209
 msgid "Could not create anonymous user session."
 msgstr "Ezin izan da erabiltzaile anonimoarekin saioa hasi."
 
-#. TRANS: Plugin description.
-#: AnonymousFavePlugin.php:284
+#. TRANS: Module description.
+#: AnonymousFaveModule.php:284
 msgid "Allow anonymous users to favorite notices."
 msgstr "Utzi erabiltzaile anonimoei oharrak gogoko gisa markatzen."

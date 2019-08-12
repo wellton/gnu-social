@@ -17,9 +17,9 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. TRANS: Plugin description message. Bayeux is a protocol for transporting
+#. TRANS: Module description message. Bayeux is a protocol for transporting
 #. asynchronous messages
 #. TRANS: and Comet is a web application model.
-#: CometPlugin.php:116
-msgid "Plugin to make updates using Comet and Bayeux."
+#: CometModule.php:116
+msgid "Module to make updates using Comet and Bayeux."
 msgstr "Додаток для надсилання дописів за допомогою Comet та Bayeux."

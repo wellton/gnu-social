@@ -18,13 +18,13 @@ msgstr ""
 "Language: io\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: AutoSandboxPlugin.php:67
+#. TRANS: Module description.
+#: AutoSandboxModule.php:67
 msgid "Automatically sandboxes newly registered members."
 msgstr "Lu automatale plasizas la recente registragita membri en sabluyo."
 
 #. TRANS: User instructions after registration.
-#: AutoSandboxPlugin.php:74
+#: AutoSandboxModule.php:74
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "
 "the public timeline."
@@ -32,7 +32,7 @@ msgstr "Notez ke vu komence esos \"sabluyita\", do vua mesaji ne aparos en la te
 
 #. TRANS: User instructions after registration.
 #. TRANS: %s is a clickable OStatus profile URL.
-#: AutoSandboxPlugin.php:84
+#: AutoSandboxModule.php:84
 #, php-format
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "

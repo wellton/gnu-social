@@ -85,7 +85,7 @@ class UserInviteReminderHandler extends UserReminderHandler {
             if (Email_reminder::needsReminder(self::INVITE_REMINDER, $invitation)) {
                 common_log(LOG_INFO, "Sending one-time invitation reminder to {$invitation->address}", __FILE__);
                 $subject = _m("Reminder - you have been invited to join {$siteName}!");
-                return EmailReminderPlugin::sendReminder(
+                return EmailReminderModule::sendReminder(
                     self::INVITE_REMINDER,
                     $invitation,
                     $subject,
@@ -100,7 +100,7 @@ class UserInviteReminderHandler extends UserReminderHandler {
                 common_log(LOG_INFO, "Sending one day invitation reminder to {$invitation->address}", __FILE__);
                 // TRANS: Subject for reminder e-mail. %s is the StatusNet sitename.
                 $subject = sprintf(_m('Reminder - You have been invited to join %s!'),$siteName);
-                return EmailReminderPlugin::sendReminder(
+                return EmailReminderModule::sendReminder(
                     self::INVITE_REMINDER,
                     $invitation,
                     $subject,
@@ -114,7 +114,7 @@ class UserInviteReminderHandler extends UserReminderHandler {
                 common_log(LOG_INFO, "Sending three day invitation reminder to {$invitation->address}", __FILE__);
                 // TRANS: Subject for reminder e-mail. %s is the StatusNet sitename.
                 $subject = sprintf(_m('Final reminder - you have been invited to join %s!'),$siteName);
-                    return EmailReminderPlugin::sendReminder(
+                    return EmailReminderModule::sendReminder(
                         self::INVITE_REMINDER,
                         $invitation,
                         $subject,

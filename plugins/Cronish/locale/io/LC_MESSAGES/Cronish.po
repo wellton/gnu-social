@@ -18,8 +18,8 @@ msgstr ""
 "Language: io\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: CronishPlugin.php:56
+#. TRANS: Module description.
+#: CronishModule.php:56
 msgid ""
 "Cronish plugin that executes events on a near-minutely/hour/day/week basis."
 msgstr "Cronish-extensilo quo exekutas eventi po quaza minutala/horala/diala/semanala frequeso."

@@ -16,7 +16,7 @@
 // along with GNU social.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * OembedPlugin implementation for GNU social
+ * OembedModule implementation for GNU social
  *
  * @package   GNUsocial
  * @author    Mikael Nordfeldth

@@ -51,7 +51,7 @@ msgstr "Ikalawang paalala - pakitiyak ang pagpapatala mo!"
 msgid "Final reminder - please confirm your registration!"
 msgstr "Huling paalala - pakitiyak ang pagpapatala mo!"
 
-#. TRANS: Plugin description.
-#: EmailReminderPlugin.php:190
+#. TRANS: Module description.
+#: EmailReminderModule.php:190
 msgid "Send email reminders for various things."
 msgstr "Magpadala ng mga pampaalalang mga e-liham para sa samu't saring mga bagay."

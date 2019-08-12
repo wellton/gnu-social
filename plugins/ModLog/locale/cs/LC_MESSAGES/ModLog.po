@@ -17,6 +17,6 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: ModLogPlugin.php:193
+#: ModLogModule.php:193
 msgid "Show the moderation history for a profile in the sidebar"
 msgstr ""

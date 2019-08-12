@@ -36,12 +36,12 @@ msgid "Error setting user. You are probably not authorized."
 msgstr "Kamalian sa pagtatakda ng tagagamit.  Maaaring wala kang pahintulot."
 
 #. TRANS: Menu item. CAS is Central Authentication Service.
-#: CasAuthenticationPlugin.php:83
+#: CasAuthenticationModule.php:83
 msgid "CAS"
 msgstr "CAS"
 
 #. TRANS: Tooltip for menu item. CAS is Central Authentication Service.
-#: CasAuthenticationPlugin.php:85
+#: CasAuthenticationModule.php:85
 msgid "Login or register with CAS."
 msgstr "Lumagda o magpatala na may CAS."
 
@@ -49,31 +49,31 @@ msgstr "Lumagda o magpatala na may CAS."
 #. TRANS: "[CAS login]" is a link description. (%%action.caslogin%%) is the
 #. URL.
 #. TRANS: These two elements may not be separated.
-#: CasAuthenticationPlugin.php:101
+#: CasAuthenticationModule.php:101
 #, php-format
 msgid "(Have an account with CAS? Try our [CAS login](%%action.caslogin%%)!)"
 msgstr "(May isang akawnt sa CAS? Subukan ang aming [Paglagdang may CAS] (%%action.caslogin%%)!)"
 
 #. TRANS: Exception thrown when the CAS Authentication plugin has been
 #. configured incorrectly.
-#: CasAuthenticationPlugin.php:129
+#: CasAuthenticationModule.php:129
 msgid "Specifying a server is required."
 msgstr "Kailangan ang pagtukoy ng isang tagapaghain."
 
 #. TRANS: Exception thrown when the CAS Authentication plugin has been
 #. configured incorrectly.
-#: CasAuthenticationPlugin.php:133
+#: CasAuthenticationModule.php:133
 msgid "Specifying a port is required."
 msgstr "Kailangan ang pagtukoy ng isang daungan."
 
 #. TRANS: Exception thrown when the CAS Authentication plugin has been
 #. configured incorrectly.
-#: CasAuthenticationPlugin.php:137
+#: CasAuthenticationModule.php:137
 msgid "Specifying a path is required."
 msgstr "Kailangan ang pagtukoy ng isang landas."
 
-#. TRANS: Plugin description. CAS is Central Authentication Service.
-#: CasAuthenticationPlugin.php:157
+#. TRANS: Module description. CAS is Central Authentication Service.
+#: CasAuthenticationModule.php:157
 msgid ""
 "The CAS Authentication plugin allows for StatusNet to handle authentication "
 "through CAS (Central Authentication Service)."

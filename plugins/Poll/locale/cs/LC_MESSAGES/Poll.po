@@ -152,47 +152,47 @@ msgstr "Anketa: %s"
 msgid "voted for \"%s\""
 msgstr "hlasoval(a) pro \"%s\""
 
-#. TRANS: Plugin description.
-#: PollPlugin.php:131
+#. TRANS: Module description.
+#: PollModule.php:131
 msgid "Simple extension for supporting basic polls."
 msgstr "Jednoduché rozšíření pro podporu jednoduchých anket."
 
 #. TRANS: Exception thrown trying to respond to a poll without a poll
 #. reference.
-#: PollPlugin.php:204
+#: PollModule.php:204
 msgid "Invalid poll response: No poll reference."
 msgstr "Neplatná odpověď na anketu: Chybí odkaz na cílovou anketu."
 
 #. TRANS: Exception thrown trying to respond to a non-existing poll.
-#: PollPlugin.php:209
+#: PollModule.php:209
 msgid "Invalid poll response: Poll is unknown."
 msgstr "Neplatná odpověď na anketu: Cílová anketa neexistuje."
 
 #. TRANS: Exception thrown when performing an unexpected action on a poll.
 #. TRANS: %s is the unexpected object type.
-#: PollPlugin.php:236
+#: PollModule.php:236
 #, php-format
 msgid "Unexpected type for poll plugin: %s."
 msgstr "Zásuvný modul Anketa obdržel nečekaný typ objektu: %s."
 
 #. TRANS: Application title.
-#: PollPlugin.php:392
+#: PollModule.php:392
 msgctxt "APPTITLE"
 msgid "Poll"
 msgstr "Anketa"
 
 #. TRANS: Poll plugin menu item on user settings page.
-#: PollPlugin.php:436
+#: PollModule.php:436
 msgctxt "MENU"
 msgid "Polls"
 msgstr "Ankety"
 
 #. TRANS: Poll plugin tooltip for user settings menu item.
-#: PollPlugin.php:438
+#: PollModule.php:438
 msgid "Configure poll behavior"
 msgstr "Nastaví chování anket"
 
 #. TRANS: Error text displayed if no poll data could be found.
-#: PollPlugin.php:463
+#: PollModule.php:463
 msgid "Poll data is missing"
 msgstr "Nelze najít data ankety"

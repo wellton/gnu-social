@@ -18,7 +18,7 @@ expressions to match their provider URLs.
 
 For example, to trust WikiHow and Wikipedia users:
 
-  addPlugin('RequireValidatedEmailPlugin', array(
+  addPlugin('RequireValidatedEmailModule', array(
      'trustedOpenIDs' => array(
          '!^http://\w+\.wikihow\.com/!',
          '!^http://\w+\.wikipedia\.org/!',

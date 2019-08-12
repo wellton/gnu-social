@@ -17,7 +17,7 @@ msgstr ""
 "Language: is\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 
-#. TRANS: Plugin decription.
-#: SQLStatsPlugin.php:45
+#. TRANS: Module decription.
+#: SQLStatsModule.php:45
 msgid "Debug tool to watch for poorly indexed DB queries."
 msgstr ""

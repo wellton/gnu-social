@@ -44,7 +44,7 @@ msgstr ""
 
 #. TRANS: Body text for AJAX form when a profile has been flagged for review.
 #. TRANS: Message added to a profile if it has been flagged for review.
-#: actions/flagprofile.php:127 UserFlagPlugin.php:134
+#: actions/flagprofile.php:127 UserFlagModule.php:134
 msgid "Flagged"
 msgstr ""
 
@@ -119,8 +119,8 @@ msgstr ""
 msgid "Could not flag profile \"%d\" for review."
 msgstr ""
 
-#. TRANS: Plugin description.
-#: UserFlagPlugin.php:240
+#. TRANS: Module description.
+#: UserFlagModule.php:240
 msgid ""
 "This plugin allows flagging of profiles for review and reviewing flagged "
 "profiles."

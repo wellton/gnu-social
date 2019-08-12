@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 14:44+0100\n"
+"POT-Creation-Date: 2019-08-14 14:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,28 +18,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
-#: ImapPlugin.php:57
+#: ImapModule.php:57
 msgid "A mailbox must be specified."
 msgstr ""
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
-#: ImapPlugin.php:61
+#: ImapModule.php:61
 msgid "A user must be specified."
 msgstr ""
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
-#: ImapPlugin.php:65
+#: ImapModule.php:65
 msgid "A password must be specified."
 msgstr ""
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
 #. TRANS: poll_frequency is a setting that should not be translated.
-#: ImapPlugin.php:70
+#: ImapModule.php:70
 msgid "A poll_frequency must be specified."
 msgstr ""
 
-#. TRANS: Plugin description.
-#: ImapPlugin.php:89
+#. TRANS: Module description.
+#: ImapModule.php:89
 msgid ""
 "The IMAP plugin allows for StatusNet to check a POP or IMAP mailbox for "
 "incoming mail containing user posts."

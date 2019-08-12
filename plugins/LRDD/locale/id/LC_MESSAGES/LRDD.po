@@ -18,7 +18,7 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. TRANS: Plugin description.
-#: LRDDPlugin.php:61
+#. TRANS: Module description.
+#: LRDDModule.php:61
 msgid "Implements LRDD support for GNU Social."
 msgstr "Implementasikan dukungan LRDD untuk GNU Social."

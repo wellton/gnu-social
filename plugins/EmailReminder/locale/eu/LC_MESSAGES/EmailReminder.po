@@ -51,7 +51,7 @@ msgstr "Bigarren ohartarazpena - mesedez baieztatu zure izen ematea!"
 msgid "Final reminder - please confirm your registration!"
 msgstr "Azken ohartarazpena - mesedez baieztatu zure izen ematea!"
 
-#. TRANS: Plugin description.
-#: EmailReminderPlugin.php:190
+#. TRANS: Module description.
+#: EmailReminderModule.php:190
 msgid "Send email reminders for various things."
 msgstr "Bidali email ohartarazpenak gauza anitzetarako."

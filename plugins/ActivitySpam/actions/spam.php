@@ -81,7 +81,7 @@ class SpamAction extends Action
 
         // User must have the right to review spam
 
-        if (!$this->scoped->hasRight(ActivitySpamPlugin::REVIEWSPAM)) {
+        if (!$this->scoped->hasRight(ActivitySpamModule::REVIEWSPAM)) {
             throw new ClientException(_('You cannot review spam on this site.'), 403);
         }
 

@@ -17,7 +17,7 @@ msgstr ""
 "Language: ksh\n"
 "Plural-Forms: nplurals=3; plural=(n==0) ? 0 : (n==1) ? 1 : 2;\n"
 
-#. TRANS: Plugin description.
-#: OpportunisticQMPlugin.php:43
+#. TRANS: Module description.
+#: OpportunisticQMModule.php:43
 msgid "Opportunistic queue manager plugin for background processing."
 msgstr ""

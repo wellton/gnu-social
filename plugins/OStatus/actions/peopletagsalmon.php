@@ -18,7 +18,7 @@
  */
 
 /**
- * @package OStatusPlugin
+ * @package OStatusModule
  */
 
 if (!defined('GNUSOCIAL')) { exit(1); }

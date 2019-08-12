@@ -60,6 +60,6 @@ msgstr ""
 msgid "Problem Saving Photo."
 msgstr ""
 
-#: GNUsocialPhotosPlugin.php:65
+#: GNUsocialPhotosModule.php:65
 msgid "Problem saving photo."
 msgstr ""

@@ -18,15 +18,15 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: NoticeTitlePlugin.php:97
+#. TRANS: Module description.
+#: NoticeTitleModule.php:97
 msgid "Adds optional titles to notices."
 msgstr "Agrega un título opcional a los mensajes."
 
 #. TRANS: Exception thrown when a notice title is too long.
 #. TRANS: %d is the maximum number of characters allowed in a title (used for
 #. plural).
-#: NoticeTitlePlugin.php:140
+#: NoticeTitleModule.php:140
 #, php-format
 msgid "The notice title is too long (maximum %d character)."
 msgid_plural "The notice title is too long (maximum %d characters)."
@@ -34,7 +34,7 @@ msgstr[0] "El título del mensaje es demasiado largo (el máximo permitido es de
 msgstr[1] "El título del mensaje es demasiado largo (no puede superar los %d caracteres)."
 
 #. TRANS: Page title. %1$s is the title, %2$s is the site name.
-#: NoticeTitlePlugin.php:276
+#: NoticeTitleModule.php:276
 #, php-format
 msgid "%1$s - %2$s"
 msgstr "%1$s - %2$s"

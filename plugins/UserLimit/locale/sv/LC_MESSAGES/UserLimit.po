@@ -21,7 +21,7 @@ msgstr ""
 #. TRANS: Error message given if creating a new user is not possible because a
 #. limit has been reached.
 #. TRANS: %d is the user limit (also available for plural).
-#: UserLimitPlugin.php:74
+#: UserLimitModule.php:74
 #, php-format
 msgid ""
 "Cannot register because the maximum number of users (%d) for this site was "
@@ -32,7 +32,7 @@ msgid_plural ""
 msgstr[0] "Kan inte registrera eftersom att gränsen för maximalt antal användare (%d) för den här sidan har nåtts."
 msgstr[1] "Kan inte registrera eftersom att gränsen för maximalt antal användare (%d) för den här sidan har nåtts."
 
-#. TRANS: Plugin description.
-#: UserLimitPlugin.php:92
+#. TRANS: Module description.
+#: UserLimitModule.php:92
 msgid "Limit the number of users who can register."
 msgstr "Begränsa antalet användare som kan registrera."

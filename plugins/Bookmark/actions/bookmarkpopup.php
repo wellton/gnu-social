@@ -103,6 +103,6 @@ class BookmarkpopupAction extends NewbookmarkAction
     function showScripts()
     {
         parent::showScripts();
-        $this->script(Plugin::staticPath('Bookmark', 'bookmarkpopup.js'));
+        $this->script(Module::staticPath('Bookmark', 'bookmarkpopup.js'));
     }
 }

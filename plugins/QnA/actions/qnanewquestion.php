@@ -36,7 +36,7 @@ if (!defined('STATUSNET')) {
 /**
  * Add a new Question
  *
- * @category  Plugin
+ * @category  Module
  * @package   StatusNet
  * @author    Zach Copley <zach@status.net>
  * @copyright 2010 StatusNet, Inc.

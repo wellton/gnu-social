@@ -18,7 +18,7 @@
  */
 
 /**
- * @package FeedSubPlugin
+ * @package FeedSubModule
  * @maintainer Brion Vibber <brion@status.net>
  */
 

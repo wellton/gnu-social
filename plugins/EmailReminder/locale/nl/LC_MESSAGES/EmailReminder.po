@@ -51,7 +51,7 @@ msgstr "Tweede herinnering - bevestig uw registratie!"
 msgid "Final reminder - please confirm your registration!"
 msgstr "Laatste herinnering - bevestig uw registratie!"
 
-#. TRANS: Plugin description.
-#: EmailReminderPlugin.php:190
+#. TRANS: Module description.
+#: EmailReminderModule.php:190
 msgid "Send email reminders for various things."
 msgstr "E-mailherinnering verzenden voor verschillende dingen."

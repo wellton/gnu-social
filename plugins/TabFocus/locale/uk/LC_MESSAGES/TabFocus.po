@@ -17,8 +17,8 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. TRANS: Plugin description.
-#: TabFocusPlugin.php:55
+#. TRANS: Module description.
+#: TabFocusModule.php:55
 msgid ""
 "TabFocus changes the notice form behavior so that, while in the text area, "
 "pressing the tab key focuses the \"Send\" button, matching the behavior of "

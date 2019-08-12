@@ -51,7 +51,7 @@ class AnonDisfavorAction extends RedirectingAction
     {
         parent::handle();
 
-        $profile = AnonymousFavePlugin::getAnonProfile();
+        $profile = AnonymousFaveModule::getAnonProfile();
 
         if (empty($profile) || $_SERVER['REQUEST_METHOD'] != 'POST') {
             $this->clientError(

@@ -17,8 +17,8 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. TRANS: Plugin description.
-#: OfflineBackupPlugin.php:82
+#. TRANS: Module description.
+#: OfflineBackupModule.php:82
 msgid "Backup user data in offline queue and email when ready."
 msgstr "Sauvegarder les données utilisateur dans une file hors connexion et l'envoyer par courrier électronique quand elles sont prêtes."
 

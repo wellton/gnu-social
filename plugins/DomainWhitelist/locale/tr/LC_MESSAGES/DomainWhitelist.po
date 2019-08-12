@@ -51,7 +51,7 @@ msgstr "Davetiyeleri yolla."
 #. TRANS: Client exception thrown when a given e-mailaddress is not in the
 #. domain whitelist.
 #. TRANS: %s is a whitelisted e-mail domain.
-#: DomainWhitelistPlugin.php:90
+#: DomainWhitelistModule.php:90
 #, php-format
 msgid "Email address must be in this domain: %s."
 msgstr ""
@@ -60,34 +60,34 @@ msgstr ""
 #. domain whitelist.
 #. TRANS: %s are whitelisted e-mail domains separated by comma's
 #. (localisable).
-#: DomainWhitelistPlugin.php:95
+#: DomainWhitelistModule.php:95
 #, php-format
 msgid "Email address must be in one of these domains: %s."
 msgstr ""
 
 #. TRANS: Separator for whitelisted domains.
-#: DomainWhitelistPlugin.php:97
+#: DomainWhitelistModule.php:97
 msgctxt "SEPARATOR"
 msgid ", "
 msgstr ""
 
 #. TRANS: Exception thrown when an e-mail address does not match the site's
 #. domain whitelist.
-#: DomainWhitelistPlugin.php:109
+#: DomainWhitelistModule.php:109
 msgid "That email address is not allowed on this site."
 msgstr ""
 
 #. TRANS: Title for invitiation deletion dialog.
-#: DomainWhitelistPlugin.php:238
+#: DomainWhitelistModule.php:238
 msgid "Confirmation Required"
 msgstr ""
 
 #. TRANS: Confirmation text for invitation deletion dialog.
-#: DomainWhitelistPlugin.php:241
+#: DomainWhitelistModule.php:241
 msgid "Really delete this invitation?"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: DomainWhitelistPlugin.php:278
+#. TRANS: Module description.
+#: DomainWhitelistModule.php:278
 msgid "Restrict domains for email users."
 msgstr ""

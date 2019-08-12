@@ -34,7 +34,7 @@ msgstr "Неприпустимий формат; підтримується ли
 msgid "Invalid URL."
 msgstr "Невірний URL."
 
-#. TRANS: Plugin description.
-#: LinkPreviewPlugin.php:40
+#. TRANS: Module description.
+#: LinkPreviewModule.php:40
 msgid "UI extension for previewing thumbnails from links."
 msgstr "Додаток до користувацького інтерфейсу для перегляду мініатюр з посилань."

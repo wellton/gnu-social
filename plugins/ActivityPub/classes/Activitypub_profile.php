@@ -85,7 +85,7 @@ class Activitypub_profile extends Managed_DataObject
      */
     public static function profile_to_array($profile)
     {
-        $uri = ActivityPubPlugin::actor_uri($profile);
+        $uri = ActivityPubModule::actor_uri($profile);
         $id = $profile->getID();
         $rsa = new Activitypub_rsa();
         $public_key = $rsa->ensure_public_key($profile);

@@ -17,7 +17,7 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. TRANS: Plugin description.
-#: DirectionDetectorPlugin.php:256
+#. TRANS: Module description.
+#: DirectionDetectorModule.php:256
 msgid "Shows notices with right-to-left content in correct direction."
 msgstr "正しい方向で右から左へ表示される内容の通知を表示する。"

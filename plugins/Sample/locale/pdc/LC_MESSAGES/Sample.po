@@ -51,7 +51,7 @@ msgstr[1] ""
 msgid "A warm greeting"
 msgstr ""
 
-#. TRANS: Plugin description.
+#. TRANS: Module description.
 msgid "A sample plugin to show basics of development for new hackers."
 msgstr ""
 

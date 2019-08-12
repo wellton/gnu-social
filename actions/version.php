@@ -72,7 +72,7 @@ class VersionAction extends Action
     {
         parent::prepare($args);
 
-        Event::handle('PluginVersion', array(&$this->pluginVersions));
+        Event::handle('ModuleVersion', array(&$this->pluginVersions));
 
         return true;
     }

@@ -18,13 +18,13 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
 #. TRANS: Server exception.
-#: SphinxSearchPlugin.php:87
+#: SphinxSearchModule.php:87
 msgid "Sphinx PHP extension must be installed."
 msgstr ""
 
-#. TRANS: Plugin description.
-#: SphinxSearchPlugin.php:118
-msgid "Plugin for Sphinx search backend."
+#. TRANS: Module description.
+#: SphinxSearchModule.php:118
+msgid "Module for Sphinx search backend."
 msgstr ""
 
 #. TRANS: Server exception thrown when a database name cannot be identified.

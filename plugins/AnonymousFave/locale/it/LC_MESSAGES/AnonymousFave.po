@@ -70,16 +70,16 @@ msgid "Could not create favorite tally for notice ID %d."
 msgstr "Impossibile creare il totale dei preferiti per la notizia ID  %d ."
 
 #. TRANS: Label for tally for number of times a notice was favored.
-#: AnonymousFavePlugin.php:165
+#: AnonymousFaveModule.php:165
 msgid "Favored"
 msgstr "Preferito"
 
 #. TRANS: Server exception.
-#: AnonymousFavePlugin.php:198 AnonymousFavePlugin.php:209
+#: AnonymousFaveModule.php:198 AnonymousFaveModule.php:209
 msgid "Could not create anonymous user session."
 msgstr "Impossibile creare una sessione per utente anonimo."
 
-#. TRANS: Plugin description.
-#: AnonymousFavePlugin.php:284
+#. TRANS: Module description.
+#: AnonymousFaveModule.php:284
 msgid "Allow anonymous users to favorite notices."
 msgstr "Consentire agli utenti anonimi di aggiungere le notizie ai preferiti."

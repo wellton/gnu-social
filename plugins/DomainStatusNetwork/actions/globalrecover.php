@@ -72,7 +72,7 @@ class GlobalrecoverAction extends GlobalApiAction
     {
         try {
             // FIXME: $email isn't defined
-            DomainStatusNetworkPlugin::recoverPassword($email);
+            DomainStatusNetworkModule::recoverPassword($email);
             $this->showSuccess();
         } catch (ClientException $ce) {
             $this->showError($ce->getMessage());

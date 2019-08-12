@@ -255,100 +255,100 @@ msgid "Direct message to group %s sent."
 msgstr "Naipadala na ang tuwirang mensahe papunta sa pangkat na %s."
 
 #. TRANS: Menu item in group page.
-#: GroupPrivateMessagePlugin.php:112
+#: GroupPrivateMessageModule.php:112
 msgctxt "MENU"
 msgid "Inbox"
 msgstr "Kahong-tanggapan"
 
 #. TRANS: Menu title in group page.
-#: GroupPrivateMessagePlugin.php:114
+#: GroupPrivateMessageModule.php:114
 msgid "Private messages for this group."
 msgstr "Pribadong mga mensahe para sa pangkat na ito."
 
 #. TRANS: Dropdown label in group settings page for if group allows private
 #. messages.
-#: GroupPrivateMessagePlugin.php:160
+#: GroupPrivateMessageModule.php:160
 msgid "Private messages"
 msgstr "Pribadong mga mensahe"
 
 #. TRANS: Dropdown option in group settings page for allowing private
 #. messages.
-#: GroupPrivateMessagePlugin.php:162
+#: GroupPrivateMessageModule.php:162
 msgid "Sometimes"
 msgstr "Kung minsan"
 
 #. TRANS: Dropdown option in group settings page for allowing private
 #. messages.
-#: GroupPrivateMessagePlugin.php:164
+#: GroupPrivateMessageModule.php:164
 msgid "Always"
 msgstr "Palagi"
 
 #. TRANS: Dropdown option in group settings page for allowing private
 #. messages.
-#: GroupPrivateMessagePlugin.php:166
+#: GroupPrivateMessageModule.php:166
 msgid "Never"
 msgstr "Hindi magpakailanman"
 
 #. TRANS: Dropdown title in group settings page for if group allows private
 #. messages.
-#: GroupPrivateMessagePlugin.php:168
+#: GroupPrivateMessageModule.php:168
 msgid "Whether to allow private messages to this group."
 msgstr "Kung papayagan ba o hindi ang mga mensaheng pribado papunta sa pangkat na ito."
 
 #. TRANS: Dropdown label in group settings page for who can send private
 #. messages to the group.
-#: GroupPrivateMessagePlugin.php:175
+#: GroupPrivateMessageModule.php:175
 msgid "Private senders"
 msgstr "Pribadong mga nagpapadala"
 
 #. TRANS: Dropdown option in group settings page for who can send private
 #. messages.
-#: GroupPrivateMessagePlugin.php:177
+#: GroupPrivateMessageModule.php:177
 msgid "Everyone"
 msgstr "Lahat"
 
 #. TRANS: Dropdown option in group settings page for who can send private
 #. messages.
-#: GroupPrivateMessagePlugin.php:179
+#: GroupPrivateMessageModule.php:179
 msgid "Member"
 msgstr "Kasapi"
 
 #. TRANS: Dropdown option in group settings page for who can send private
 #. messages.
-#: GroupPrivateMessagePlugin.php:181
+#: GroupPrivateMessageModule.php:181
 msgid "Admin"
 msgstr "Tagapangasiwa"
 
 #. TRANS: Dropdown title in group settings page for who can send private
 #. messages to the group.
-#: GroupPrivateMessagePlugin.php:183
+#: GroupPrivateMessageModule.php:183
 msgid "Who can send private messages to the group."
 msgstr "Sino ang maaaring magpadala ng pribadong mga mensahe sa pangkat."
 
 #. TRANS: Title for action in group actions list.
-#: GroupPrivateMessagePlugin.php:288
+#: GroupPrivateMessageModule.php:288
 msgid "Send a direct message to this group."
 msgstr "Magpadala ng isang tuwirang mensahe sa pangkat na ito."
 
 #. TRANS: Link text for action in group actions list to send a private message
 #. to a group.
-#: GroupPrivateMessagePlugin.php:290
+#: GroupPrivateMessageModule.php:290
 msgctxt "LINKTEXT"
 msgid "Message"
 msgstr "Mensahe"
 
 #. TRANS: Client exception thrown when a private group message has to be
 #. forced.
-#: GroupPrivateMessagePlugin.php:368
+#: GroupPrivateMessageModule.php:368
 msgid "Forced notice to private group message."
 msgstr "Sapilitang pabatid sa mensahe ng pribadong pangkat."
 
 #. TRANS: Indicator on the group page that the group is (essentially) private.
-#: GroupPrivateMessagePlugin.php:390
+#: GroupPrivateMessageModule.php:390
 msgid "Private"
 msgstr "Pribado"
 
-#. TRANS: Plugin description.
-#: GroupPrivateMessagePlugin.php:416
+#. TRANS: Module description.
+#: GroupPrivateMessageModule.php:416
 msgid "Allow posting private messages to groups."
 msgstr "Payagan ang pagpapaskil ng pribadong mga mensahe sa mga pangkat."

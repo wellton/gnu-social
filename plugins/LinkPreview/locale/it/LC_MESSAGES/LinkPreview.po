@@ -34,7 +34,7 @@ msgstr "Formato non valido; soltanto JSON è supportato."
 msgid "Invalid URL."
 msgstr "URL non corretto"
 
-#. TRANS: Plugin description.
-#: LinkPreviewPlugin.php:40
+#. TRANS: Module description.
+#: LinkPreviewModule.php:40
 msgid "UI extension for previewing thumbnails from links."
 msgstr "Estensione dell'interfaccia utente per l'anteprima delle miniature provenienti dai link."

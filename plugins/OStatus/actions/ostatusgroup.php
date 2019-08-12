@@ -18,7 +18,7 @@
  */
 
 /**
- * @package OStatusPlugin
+ * @package OStatusModule
  * @maintainer Brion Vibber <brion@status.net>
  */
 

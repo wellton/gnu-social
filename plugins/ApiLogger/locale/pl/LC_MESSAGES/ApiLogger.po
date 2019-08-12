@@ -17,7 +17,7 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. TRANS: Plugin description.
-#: ApiLoggerPlugin.php:86
+#. TRANS: Module description.
+#: ApiLoggerModule.php:86
 msgid "Allows random sampling of API requests."
 msgstr "Umożliwia losowe próbkowanie żądań interfejsu API."

@@ -101,13 +101,13 @@ msgstr "Lu ne povis konservar la profilo."
 msgid "Could not save tags."
 msgstr "Lu ne povis konservar l'etiketi."
 
-#. TRANS: Plugin description.
-#: ExtendedProfilePlugin.php:40
+#. TRANS: Module description.
+#: ExtendedProfileModule.php:40
 msgid "UI extensions for additional profile fields."
 msgstr "Uzantointerfacio-extensili por plusa profilo-detali."
 
 #. TRANS: Link text on user profile page leading to extended profile page.
-#: ExtendedProfilePlugin.php:87
+#: ExtendedProfileModule.php:87
 msgid "More details..."
 msgstr "Plusa detali…"
 

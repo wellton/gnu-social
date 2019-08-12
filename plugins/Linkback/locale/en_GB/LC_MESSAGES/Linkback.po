@@ -20,13 +20,13 @@ msgstr ""
 
 #. TRANS: Trackback title.
 #. TRANS: %1$s is a profile nickname, %2$s is a timestamp.
-#: LinkbackPlugin.php:206
+#: LinkbackModule.php:206
 #, php-format
 msgid "%1$s's status on %2$s"
 msgstr "%1$s's status on %2$s"
 
-#. TRANS: Plugin description.
-#: LinkbackPlugin.php:243
+#. TRANS: Module description.
+#: LinkbackModule.php:243
 msgid ""
 "Notify blog authors when their posts have been linked in microblog notices "
 "using <a href=\"http://www.hixie.ch/specs/pingback/pingback\">Pingback</a> "

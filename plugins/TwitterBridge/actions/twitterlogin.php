@@ -63,7 +63,7 @@ class TwitterloginAction extends LoginAction
         $this->elementStart('a', array('href' => common_local_url('twitterauthorization',
                                                                   null,
                                                                   array('signin' => true))));
-        $this->element('img', array('src' => Plugin::staticPath('TwitterBridge', 'Sign-in-with-Twitter-lighter.png'),
+        $this->element('img', array('src' => Module::staticPath('TwitterBridge', 'Sign-in-with-Twitter-lighter.png'),
                                     // TRANS: Alternative text for "sign in with Twitter" image.
                                     'alt' => _m('Sign in with Twitter')));
         $this->elementEnd('a');

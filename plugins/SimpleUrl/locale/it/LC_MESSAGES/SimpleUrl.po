@@ -19,12 +19,12 @@ msgstr ""
 
 #. TRANS: Exception thrown when the SimpleUrl plugin has been configured
 #. incorrectly.
-#: SimpleUrlPlugin.php:42
+#: SimpleUrlModule.php:42
 msgid "You must specify a serviceUrl."
 msgstr ""
 
-#. TRANS: Plugin description.
-#: SimpleUrlPlugin.php:58
+#. TRANS: Module description.
+#: SimpleUrlModule.php:58
 #, php-format
 msgid "Uses <a href=\"http://%1$s/\">%1$s</a> URL-shortener service."
 msgstr "Usa il servizio URL-breve <a href=\"http://%1$s/\">%1$s</a>."

@@ -45,12 +45,12 @@ msgstr "en contexto"
 msgid "<a href=\"%1$s\">change your email settings for %2$s</a>"
 msgstr "<a href=\"%1$s\">Cambia tu configuración de correo electrónico para %2$s</a>"
 
-#. TRANS: Plugin description.
-#: EmailSummaryPlugin.php:77
+#. TRANS: Module description.
+#: EmailSummaryModule.php:77
 msgid "Send an email summary of the inbox to users."
 msgstr "Envía un resumen periódico de actividad a los usuarios."
 
 #. TRANS: Checkbox label in e-mail preferences form.
-#: EmailSummaryPlugin.php:108
+#: EmailSummaryModule.php:108
 msgid "Send me a periodic summary of updates from my network"
 msgstr "Enviarme un resumen periódico de actualizaciones de mi red"

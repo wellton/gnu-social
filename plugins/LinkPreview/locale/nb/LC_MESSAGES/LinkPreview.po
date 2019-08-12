@@ -34,7 +34,7 @@ msgstr ""
 msgid "Invalid URL."
 msgstr "Ugyldig URL."
 
-#. TRANS: Plugin description.
-#: LinkPreviewPlugin.php:40
+#. TRANS: Module description.
+#: LinkPreviewModule.php:40
 msgid "UI extension for previewing thumbnails from links."
 msgstr ""

@@ -19,13 +19,13 @@ msgstr ""
 
 #. TRANS: Exception thrown when URL shortening plugin was configured
 #. incorrectly.
-#: PtitUrlPlugin.php:42
+#: PtitUrlModule.php:42
 msgid "You must specify a serviceUrl for ptit URL shortening."
 msgstr "Dapat kang tumukoy ng isang URL ng palingkuran para sa pagpapaikli ng URL na ptit."
 
-#. TRANS: Plugin description. %1$s is the URL shortening service base URL (for
+#. TRANS: Module description. %1$s is the URL shortening service base URL (for
 #. example "bit.ly").
-#: PtitUrlPlugin.php:68
+#: PtitUrlModule.php:68
 #, php-format
 msgid "Uses <a href=\"http://%1$s/\">%1$s</a> URL-shortener service."
 msgstr "Gumagamit ng palingkurang pampaigsi ng URL na <a href=\"http://%1$s/\">%1$s</a>."

@@ -17,8 +17,8 @@ msgstr ""
 "Language: mk\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
-#. TRANS: Plugin description.
-#: ModHelperPlugin.php:40
+#. TRANS: Module description.
+#: ModHelperModule.php:40
 msgid ""
 "Lets users who have been manually marked as \"modhelper\"s silence accounts."
 msgstr "Им овозможува да замолчуваат сметки на корисниците што се рачно означени како „modhelper“."

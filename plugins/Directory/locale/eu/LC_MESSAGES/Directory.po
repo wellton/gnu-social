@@ -143,18 +143,18 @@ msgid "No groups starting with %s."
 msgstr "Ez dago %s(r)ekin hasten den talderik."
 
 #. TRANS: Menu item text for user directory.
-#: DirectoryPlugin.php:241
+#: DirectoryModule.php:241
 msgctxt "MENU"
 msgid "Directory"
 msgstr "Direktorioa"
 
 #. TRANS: Menu item title for user directory.
-#: DirectoryPlugin.php:243
+#: DirectoryModule.php:243
 msgid "User Directory."
 msgstr "Erabiltzaile Direktorioa."
 
-#. TRANS: Plugin description.
-#: DirectoryPlugin.php:262
+#. TRANS: Module description.
+#: DirectoryModule.php:262
 msgid "Add a user directory."
 msgstr "Gehitu erabiltzaile direktorio bat."
 

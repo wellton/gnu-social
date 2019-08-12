@@ -17,13 +17,13 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. TRANS: Plugin description.
-#: AutoSandboxPlugin.php:67
+#. TRANS: Module description.
+#: AutoSandboxModule.php:67
 msgid "Automatically sandboxes newly registered members."
 msgstr "自动将新注册用户添加至沙盒中。"
 
 #. TRANS: User instructions after registration.
-#: AutoSandboxPlugin.php:74
+#: AutoSandboxModule.php:74
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "
 "the public timeline."
@@ -31,7 +31,7 @@ msgstr "注意：最初你将被添加至“沙盒”中，你的消息将不会
 
 #. TRANS: User instructions after registration.
 #. TRANS: %s is a clickable OStatus profile URL.
-#: AutoSandboxPlugin.php:84
+#: AutoSandboxModule.php:84
 #, php-format
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "

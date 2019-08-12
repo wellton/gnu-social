@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 14:44+0100\n"
+"POT-Creation-Date: 2019-08-14 14:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,12 +20,12 @@ msgstr ""
 
 #. TRANS: Message added to a profile if it has been flagged for review.
 #. TRANS: Body text for AJAX form when a profile has been flagged for review.
-#: UserFlagPlugin.php:136 actions/flagprofile.php:127
+#: UserFlagModule.php:136 actions/flagprofile.php:127
 msgid "Flagged"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: UserFlagPlugin.php:242
+#. TRANS: Module description.
+#: UserFlagModule.php:242
 msgid ""
 "This plugin allows flagging of profiles for review and reviewing flagged "
 "profiles."

@@ -14,8 +14,8 @@ for help setting up a comet server:
 After you have a cometd server installed, just add this code to your
 config.php:
 
-    require_once(INSTALLDIR.'/plugins/Comet/CometPlugin.php');
-    $cp = new CometPlugin('http://example.com:8080/cometd/');
+    require_once(INSTALLDIR.'/plugins/Comet/CometModule.php');
+    $cp = new CometModule('http://example.com:8080/cometd/');
 
 Change 'example.com:8080' to the name and port of the server you
 installed cometd on.

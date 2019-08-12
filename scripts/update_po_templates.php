@@ -90,7 +90,7 @@ function get_plugins($dir)
     foreach ($dirs as $item) {
         if ($item->isDir() && !$item->isDot()) {
             $name = $item->getBasename();
-            if (file_exists("$dir/plugins/$name/{$name}Plugin.php")) {
+            if (file_exists("$dir/plugins/$name/{$name}Module.php")) {
                 $plugins[] = $name;
             }
         }

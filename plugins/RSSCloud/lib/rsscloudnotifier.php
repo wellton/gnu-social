@@ -19,7 +19,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @category  Plugin
+ * @category  Module
  * @package   StatusNet
  * @author    Zach Copley <zach@status.net>
  * @copyright 2009 StatusNet, Inc.
@@ -35,7 +35,7 @@ if (!defined('STATUSNET')) {
  * Class for notifying cloud-enabled RSS aggregators that StatusNet
  * feeds have been updated.
  *
- * @category Plugin
+ * @category Module
  * @package  StatusNet
  * @author   Zach Copley <zach@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl-3.0.html GNU Affero General Public License version 3.0

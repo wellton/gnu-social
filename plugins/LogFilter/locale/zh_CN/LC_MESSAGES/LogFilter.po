@@ -17,7 +17,7 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. TRANS: Plugin description.
-#: LogFilterPlugin.php:50
+#. TRANS: Module description.
+#: LogFilterModule.php:50
 msgid "Provides server-side setting to filter log output by type or keyword."
 msgstr "提供了服务器端设置筛选日志输出的类型或关键字。"

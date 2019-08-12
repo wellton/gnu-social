@@ -100,13 +100,13 @@ msgstr "Non se puido gardar o perfil."
 msgid "Could not save tags."
 msgstr "Non se puideron gardar as etiquetas."
 
-#. TRANS: Plugin description.
-#: ExtendedProfilePlugin.php:40
+#. TRANS: Module description.
+#: ExtendedProfileModule.php:40
 msgid "UI extensions for additional profile fields."
 msgstr "Extensións da interface de usuario para os campos de perfil adicionais."
 
 #. TRANS: Link text on user profile page leading to extended profile page.
-#: ExtendedProfilePlugin.php:87
+#: ExtendedProfileModule.php:87
 msgid "More details..."
 msgstr "Máis detalles..."
 

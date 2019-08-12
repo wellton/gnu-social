@@ -106,11 +106,11 @@ require_once INSTALLDIR . '/lib/language.php';
 // can use it
 
 require_once INSTALLDIR . '/lib/event.php';
-require_once INSTALLDIR . '/lib/modules/Plugin.php';
+require_once INSTALLDIR . '/lib/modules/Module.php';
 
 function addPlugin($name, array $attrs = [])
 {
-    return GNUsocial::addPlugin($name, $attrs);
+    return GNUsocial::addModule($name, $attrs);
 }
 
 function _have_config()

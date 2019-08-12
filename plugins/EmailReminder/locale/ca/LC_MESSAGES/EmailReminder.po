@@ -51,7 +51,7 @@ msgstr "Segon recordatori - confirmeu el registre!"
 msgid "Final reminder - please confirm your registration!"
 msgstr "Recordatori final - confirmeu el registre!"
 
-#. TRANS: Plugin description.
-#: EmailReminderPlugin.php:190
+#. TRANS: Module description.
+#: EmailReminderModule.php:190
 msgid "Send email reminders for various things."
 msgstr ""

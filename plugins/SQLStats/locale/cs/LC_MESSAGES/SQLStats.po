@@ -17,7 +17,7 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#. TRANS: Plugin decription.
-#: SQLStatsPlugin.php:45
+#. TRANS: Module decription.
+#: SQLStatsModule.php:45
 msgid "Debug tool to watch for poorly indexed DB queries."
 msgstr ""

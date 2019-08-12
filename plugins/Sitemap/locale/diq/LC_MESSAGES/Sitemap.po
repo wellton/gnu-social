@@ -59,6 +59,6 @@ msgctxt "MENU"
 msgid "Sitemap"
 msgstr "Pusulay sita"
 
-#. TRANS: Plugin description.
+#. TRANS: Module description.
 msgid "This plugin allows creation of sitemaps for Bing and Yahoo!."
 msgstr ""

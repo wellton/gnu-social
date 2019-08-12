@@ -126,7 +126,7 @@ class apActorFollowingAction extends ManagedAction
         /* Get followed' URLs */
         $subs = [];
         foreach ($sub as $s) {
-            $subs[] = ActivityPubPlugin::actor_uri($s);
+            $subs[] = ActivityPubModule::actor_uri($s);
         }
 
         return $subs;

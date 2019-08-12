@@ -1,4 +1,4 @@
-Plugin to support importing and exporting notices through Atom and RSS feeds.
+Module to support importing and exporting notices through Atom and RSS feeds.
 The OStatus plugin concentrates on user-to-user cases for federating StatusNet
 and similar social networking / microblogging / blogging sites, but includes
 low-level feed subscription systems which are used by some other plugins.

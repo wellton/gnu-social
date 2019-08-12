@@ -31,29 +31,29 @@ msgid ""
 msgstr "ImapManager sollte durch seinen Konstruktor erstellt werden, nicht durch die statische „get()“-Methode."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
-#: ImapPlugin.php:55
+#: ImapModule.php:55
 msgid "A mailbox must be specified."
 msgstr "Ein Postfach muss angegeben werden."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
-#: ImapPlugin.php:59
+#: ImapModule.php:59
 msgid "A user must be specified."
 msgstr "Ein Benutzer muss angegeben werden."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
-#: ImapPlugin.php:63
+#: ImapModule.php:63
 msgid "A password must be specified."
 msgstr "Ein Passwort muss angegeben werden."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
 #. TRANS: poll_frequency is a setting that should not be translated.
-#: ImapPlugin.php:68
+#: ImapModule.php:68
 msgid "A poll_frequency must be specified."
 msgstr "Eine Abfragefrequenz muss angegeben werden."
 
-#. TRANS: Plugin description.
-#: ImapPlugin.php:87
+#. TRANS: Module description.
+#: ImapModule.php:87
 msgid ""
 "The IMAP plugin allows for StatusNet to check a POP or IMAP mailbox for "
 "incoming mail containing user posts."
-msgstr "Das IMAP-Plugin ermöglicht es StatusNet, ein POP- oder IMAP-Postfach auf empfangene E-Mails mit Benutzer-Posts zu überprüfen."
+msgstr "Das IMAP-Module ermöglicht es StatusNet, ein POP- oder IMAP-Postfach auf empfangene E-Mails mit Benutzer-Posts zu überprüfen."

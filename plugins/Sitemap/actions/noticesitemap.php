@@ -108,8 +108,8 @@ class NoticesitemapAction extends SitemapAction
 
             $notice->orderBy('created');
 
-            $offset = ($i-1) * SitemapPlugin::NOTICES_PER_MAP;
-            $limit  = SitemapPlugin::NOTICES_PER_MAP;
+            $offset = ($i-1) * SitemapModule::NOTICES_PER_MAP;
+            $limit  = SitemapModule::NOTICES_PER_MAP;
 
             $notice->limit($offset, $limit);
 

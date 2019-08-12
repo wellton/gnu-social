@@ -37,12 +37,12 @@ msgid "Error setting user. You are probably not authorized."
 msgstr "Erro na configuração do usuário. Você provavelmente não tem autorização."
 
 #. TRANS: Menu item. CAS is Central Authentication Service.
-#: CasAuthenticationPlugin.php:83
+#: CasAuthenticationModule.php:83
 msgid "CAS"
 msgstr "CAS"
 
 #. TRANS: Tooltip for menu item. CAS is Central Authentication Service.
-#: CasAuthenticationPlugin.php:85
+#: CasAuthenticationModule.php:85
 msgid "Login or register with CAS."
 msgstr "Login ou registro com CAS"
 
@@ -50,31 +50,31 @@ msgstr "Login ou registro com CAS"
 #. TRANS: "[CAS login]" is a link description. (%%action.caslogin%%) is the
 #. URL.
 #. TRANS: These two elements may not be separated.
-#: CasAuthenticationPlugin.php:101
+#: CasAuthenticationModule.php:101
 #, php-format
 msgid "(Have an account with CAS? Try our [CAS login](%%action.caslogin%%)!)"
 msgstr "(Tem uma conta com CAS? Tente nosso [CAS login](%%action.caslogin%%)!)"
 
 #. TRANS: Exception thrown when the CAS Authentication plugin has been
 #. configured incorrectly.
-#: CasAuthenticationPlugin.php:129
+#: CasAuthenticationModule.php:129
 msgid "Specifying a server is required."
 msgstr "É necessário especificar um servidor."
 
 #. TRANS: Exception thrown when the CAS Authentication plugin has been
 #. configured incorrectly.
-#: CasAuthenticationPlugin.php:133
+#: CasAuthenticationModule.php:133
 msgid "Specifying a port is required."
 msgstr "É necessário especificar uma porta."
 
 #. TRANS: Exception thrown when the CAS Authentication plugin has been
 #. configured incorrectly.
-#: CasAuthenticationPlugin.php:137
+#: CasAuthenticationModule.php:137
 msgid "Specifying a path is required."
 msgstr "A especificação do diretório é obrigatória."
 
-#. TRANS: Plugin description. CAS is Central Authentication Service.
-#: CasAuthenticationPlugin.php:157
+#. TRANS: Module description. CAS is Central Authentication Service.
+#: CasAuthenticationModule.php:157
 msgid ""
 "The CAS Authentication plugin allows for StatusNet to handle authentication "
 "through CAS (Central Authentication Service)."

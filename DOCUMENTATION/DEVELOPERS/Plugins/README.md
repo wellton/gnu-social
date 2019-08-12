@@ -223,7 +223,7 @@ function onEndPrimaryNav($action)
     return true;
 }
 
-function onPluginVersion(&$versions)
+function onModuleVersion(&$versions)
 {
     $versions[] = array('name' => 'Sample',
                         'version' => STATUSNET_VERSION,

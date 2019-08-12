@@ -68,7 +68,7 @@ class Activitypub_postman
         }
         unset($discovery);
 
-        $this->actor_uri = ActivityPubPlugin::actor_uri($this->actor);
+        $this->actor_uri = ActivityPubModule::actor_uri($this->actor);
 
         $this->client = new HTTPClient();
     }
@@ -344,7 +344,7 @@ class Activitypub_postman
     public function delete($notice)
     {
         $data = Activitypub_delete::delete_to_array(
-            ActivityPubPlugin::actor_uri($notice->getProfile()),
+            ActivityPubModule::actor_uri($notice->getProfile()),
             Activitypub_notice::getUrl($notice)
                 );
         $errors = [];

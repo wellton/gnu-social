@@ -4,7 +4,7 @@
  *
  * PHP version 5
  *
- * @category TagSubPlugin
+ * @category TagSubModule
  * @package  StatusNet
  * @author   Brion Vibber <brion@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3
@@ -34,7 +34,7 @@ if (!defined('STATUSNET')) {
 /**
  * For storing the tag subscriptions
  *
- * @category PollPlugin
+ * @category PollModule
  * @package  StatusNet
  * @author   Brion Vibber <brion@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3
@@ -55,7 +55,7 @@ class TagSub extends Managed_DataObject
     public static function schemaDef()
     {
         return array(
-            'description' => 'TagSubPlugin tag subscription records',
+            'description' => 'TagSubModule tag subscription records',
             'fields' => array(
                 'tag' => array('type' => 'varchar', 'length' => 64, 'not null' => true, 'description' => 'hash tag associated with this subscription'),
                 'profile_id' => array('type' => 'int', 'not null' => true, 'description' => 'profile ID of subscribing user'),

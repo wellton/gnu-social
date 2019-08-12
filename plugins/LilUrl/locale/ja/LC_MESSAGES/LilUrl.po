@@ -19,13 +19,13 @@ msgstr ""
 
 #. TRANS: Exception thrown when URL shortening plugin was configured
 #. incorrectly.
-#: LilUrlPlugin.php:42
+#: LilUrlModule.php:42
 msgid "A serviceUrl must be specified."
 msgstr ""
 
-#. TRANS: Plugin description.
+#. TRANS: Module description.
 #. TRANS: %1$s is the service URL.
-#: LilUrlPlugin.php:69
+#: LilUrlModule.php:69
 #, php-format
 msgid "Uses <a href=\"http://%1$s/\">%1$s</a> URL-shortener service."
 msgstr "<a href=\"http://%1$s/\">%1$s</a>をURL短縮サービスとして利用する。"

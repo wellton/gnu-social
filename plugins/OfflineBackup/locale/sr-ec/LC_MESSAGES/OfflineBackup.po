@@ -17,8 +17,8 @@ msgstr ""
 "Language: sr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. TRANS: Plugin description.
-#: OfflineBackupPlugin.php:82
+#. TRANS: Module description.
+#: OfflineBackupModule.php:82
 msgid "Backup user data in offline queue and email when ready."
 msgstr ""
 

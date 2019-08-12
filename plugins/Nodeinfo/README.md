@@ -1,6 +1,6 @@
 # Nodeinfo support for GNU social
 
-Plugin that presents basic instance information using the [NodeInfo standard](http://nodeinfo.diaspora.software/).
+Module that presents basic instance information using the [NodeInfo standard](http://nodeinfo.diaspora.software/).
 
 The information is presented at the "/nodeinfo/2.0.json" endpoint.
 

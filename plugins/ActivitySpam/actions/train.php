@@ -75,7 +75,7 @@ class TrainAction extends Action
 
         // User must have the right to review spam
 
-        if (!$user->hasRight(ActivitySpamPlugin::TRAINSPAM)) {
+        if (!$user->hasRight(ActivitySpamModule::TRAINSPAM)) {
             throw new ClientException(_('You cannot review spam on this site.'), 403);
         }
 

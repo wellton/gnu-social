@@ -18,7 +18,7 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. TRANS: Plugin description.
-#: NodeinfoPlugin.php:34
-msgid "Plugin that presents basic instance information using the NodeInfo standard."
+#. TRANS: Module description.
+#: NodeinfoModule.php:34
+msgid "Module that presents basic instance information using the NodeInfo standard."
 msgstr "Wtyczka która prezentuje podstawowe informacje o instancji używając standardu NodeInfo."

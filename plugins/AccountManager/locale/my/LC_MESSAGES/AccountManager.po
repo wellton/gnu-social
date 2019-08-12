@@ -17,8 +17,8 @@ msgstr ""
 "Language: my\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. TRANS: Plugin description.
-#: AccountManagerPlugin.php:98
+#. TRANS: Module description.
+#: AccountManagerModule.php:98
 msgid ""
 "The Account Manager plugin implements the Account Manager specification."
 msgstr ""

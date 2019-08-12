@@ -59,17 +59,17 @@ msgid "Save sitemap settings."
 msgstr "Gardar a configuración do mapa do sitio."
 
 #. TRANS: Menu item title/tooltip
-#: SitemapPlugin.php:160
+#: SitemapModule.php:160
 msgid "Sitemap configuration"
 msgstr "Configuración do mapa do sitio"
 
 #. TRANS: Menu item for site administration
-#: SitemapPlugin.php:162
+#: SitemapModule.php:162
 msgctxt "MENU"
 msgid "Sitemap"
 msgstr "Mapa do sitio"
 
-#. TRANS: Plugin description.
-#: SitemapPlugin.php:187
+#. TRANS: Module description.
+#: SitemapModule.php:187
 msgid "This plugin allows creation of sitemaps for Bing and Yahoo!."
 msgstr "Este complemento permite a creación de mapas do sitio para Bing e Yahoo!."

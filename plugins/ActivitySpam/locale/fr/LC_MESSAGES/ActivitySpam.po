@@ -17,11 +17,11 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ActivitySpamPlugin.php:208
+#: ActivitySpamModule.php:208
 msgctxt "MENU"
 msgid "Spam"
 msgstr "Courrier polluant"
 
-#: ActivitySpamPlugin.php:225
+#: ActivitySpamModule.php:225
 msgid "Test notices against the Activity Spam service."
 msgstr "Avis de test à l'encontre du service d'activité du courrier polluant."

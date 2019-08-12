@@ -42,12 +42,12 @@ msgid ""
 "messages to any users on this site."
 msgstr "Moderatoren van de site hebben dit profiel het zwijgen opgelegd, waardoor het niet mogelijk is nieuwe berichten aan gebruikers van deze site te verzenden."
 
-#. TRANS: Plugin description.
-#: ModPlusPlugin.php:40
+#. TRANS: Module description.
+#: ModPlusModule.php:40
 msgid "UI extension for profile moderation actions."
 msgstr "Uitbreiding van de gebruikersinterface voor profielmoderatie."
 
 #. TRANS: Label for access to remote profile options.
-#: ModPlusPlugin.php:115
+#: ModPlusModule.php:115
 msgid "Remote profile options..."
 msgstr "Instellingen voor extern profiel..."

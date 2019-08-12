@@ -42,12 +42,12 @@ msgid ""
 "messages to any users on this site."
 msgstr "Le moderatores del sito ha silentiate iste profilo, impediente le livration de nove messages al usatores de iste sito."
 
-#. TRANS: Plugin description.
-#: ModPlusPlugin.php:40
+#. TRANS: Module description.
+#: ModPlusModule.php:40
 msgid "UI extension for profile moderation actions."
 msgstr "Extension del interfacie de usator pro actiones de moderation de profilos."
 
 #. TRANS: Label for access to remote profile options.
-#: ModPlusPlugin.php:115
+#: ModPlusModule.php:115
 msgid "Remote profile options..."
 msgstr "Optiones de profilo remote..."

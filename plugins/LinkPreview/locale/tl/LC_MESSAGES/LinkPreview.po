@@ -34,7 +34,7 @@ msgstr "Hindi katanggap-tanggap na anyo; tanging JSON lamang ang tinatangkilik."
 msgid "Invalid URL."
 msgstr "Hindi katanggap-tanggap na URL."
 
-#. TRANS: Plugin description.
-#: LinkPreviewPlugin.php:40
+#. TRANS: Module description.
+#: LinkPreviewModule.php:40
 msgid "UI extension for previewing thumbnails from links."
 msgstr "Mga dugtong ng UI para sa pag-unang tingin ng mga kagyat mula sa mga kawing."

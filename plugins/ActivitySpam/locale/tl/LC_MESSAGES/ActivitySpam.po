@@ -17,11 +17,11 @@ msgstr ""
 "Language: tl\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ActivitySpamPlugin.php:208
+#: ActivitySpamModule.php:208
 msgctxt "MENU"
 msgid "Spam"
 msgstr "Manlulusob"
 
-#: ActivitySpamPlugin.php:225
+#: ActivitySpamModule.php:225
 msgid "Test notices against the Activity Spam service."
 msgstr "Mga pabatid na pangsubok laban sa palingkuran ng Gawain ng Manlulusob."

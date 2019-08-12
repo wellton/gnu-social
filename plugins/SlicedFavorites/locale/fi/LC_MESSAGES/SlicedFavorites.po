@@ -17,8 +17,8 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: SlicedFavoritesPlugin.php:108
+#. TRANS: Module description.
+#: SlicedFavoritesModule.php:108
 msgid "Shows timelines of popular notices for defined subsets of users."
 msgstr ""
 

@@ -105,7 +105,7 @@ class Activitypub_rsa extends Managed_DataObject
             } else {
                 // This should never happen, but try to recover!
                 if ($fetch) {
-                    $res = Activitypub_explorer::get_remote_user_activity(ActivityPubPlugin::actor_uri($profile));
+                    $res = Activitypub_explorer::get_remote_user_activity(ActivityPubModule::actor_uri($profile));
                     Activitypub_rsa::update_public_key($profile, $res['publicKey']['publicKeyPem']);
                     return self::ensure_public_key($profile, false);
                 } else {

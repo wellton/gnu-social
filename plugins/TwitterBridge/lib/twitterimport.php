@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @category  Plugin
+ * @category  Module
  * @package   StatusNet
  * @author    Zach Copley <zach@status.net>
  * @author    Julien C <chaumond@gmail.com>
@@ -38,7 +38,7 @@ require_once dirname(__DIR__) . '/twitter.php';
  * Is used by both the polling twitterstatusfetcher.php daemon, and the
  * in-progress streaming import.
  *
- * @category Plugin
+ * @category Module
  * @package  StatusNet
  * @author   Zach Copley <zach@status.net>
  * @author   Julien C <chaumond@gmail.com>

@@ -69,24 +69,24 @@ msgctxt "BUTTON"
 msgid "Add feed"
 msgstr "Add feed"
 
-#. TRANS: Plugin description.
-#: SubMirrorPlugin.php:68
+#. TRANS: Module description.
+#: SubMirrorModule.php:68
 msgid "Pull feeds into your timeline!"
 msgstr "Pull feeds into your timeline!"
 
 #. TRANS: SubMirror plugin menu item on user settings page.
-#: SubMirrorPlugin.php:88
+#: SubMirrorModule.php:88
 msgctxt "MENU"
 msgid "Mirroring"
 msgstr "Mirroring"
 
 #. TRANS: SubMirror plugin tooltip for user settings menu item.
-#: SubMirrorPlugin.php:90
+#: SubMirrorModule.php:90
 msgid "Configure mirroring of posts from other feeds"
 msgstr "Configure mirroring of posts from other feeds"
 
 #. TRANS: Label in profile statistics section, followed by a count.
-#: SubMirrorPlugin.php:167
+#: SubMirrorModule.php:167
 msgid "Mirrored feeds"
 msgstr "Mirrored feeds"
 

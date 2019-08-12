@@ -49,17 +49,17 @@ msgid "User has no profile."
 msgstr "ليس للمستخدم ملف شخصي."
 
 #. TRANS: Header for Map widget that displays a map with geodata for notices.
-#: MapstractionPlugin.php:155
+#: MapstractionModule.php:155
 msgid "Map"
 msgstr ""
 
 #. TRANS: Clickable item to allow opening the map in full size.
-#: MapstractionPlugin.php:167
+#: MapstractionModule.php:167
 msgid "Full size"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: MapstractionPlugin.php:180
+#. TRANS: Module description.
+#: MapstractionModule.php:180
 msgid ""
 "Show maps of users' and friends' notices with <a "
 "href=\"http://www.mapstraction.com/\">Mapstraction</a>."

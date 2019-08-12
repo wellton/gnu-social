@@ -84,7 +84,7 @@ class DomainStatusNetworkInstaller extends Installer
     {
         $config = $this->getConfig();
 
-        $this->nickname = DomainStatusNetworkPlugin::nicknameForDomain($this->domain);
+        $this->nickname = DomainStatusNetworkModule::nicknameForDomain($this->domain);
 
         // XXX make this configurable
 

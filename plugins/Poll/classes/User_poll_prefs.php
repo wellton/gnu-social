@@ -4,7 +4,7 @@
  *
  * PHP version 5
  *
- * @category PollPlugin
+ * @category PollModule
  * @package  StatusNet
  * @author   Evan Prodromou <evan@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3
@@ -34,7 +34,7 @@ if (!defined('STATUSNET')) {
 /**
  * For storing the poll prefs
  *
- * @category PollPlugin
+ * @category PollModule
  * @package  StatusNet
  * @author   Brion Vibber <brion@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3

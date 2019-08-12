@@ -4,7 +4,7 @@
  *
  * PHP version 5
  *
- * @category PollPlugin
+ * @category PollModule
  * @package  StatusNet
  * @author   Brion Vibber <brion@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3
@@ -34,7 +34,7 @@ if (!defined('STATUSNET')) {
 /**
  * For storing the poll options and such
  *
- * @category PollPlugin
+ * @category PollModule
  * @package  StatusNet
  * @author   Brion Vibber <brion@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3
@@ -179,7 +179,7 @@ class Poll_response extends Managed_DataObject
                 'rendered' => $rendered,
                 'tags' => $tags,
                 'reply_to' => $poll->getNotice()->id,
-                'object_type' => PollPlugin::POLL_RESPONSE_OBJECT),
+                'object_type' => PollModule::POLL_RESPONSE_OBJECT),
             $options
         );
 

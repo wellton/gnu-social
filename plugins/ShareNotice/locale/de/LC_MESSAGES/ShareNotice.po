@@ -19,37 +19,37 @@ msgstr ""
 
 #. TRANS: %s is notice content that is shared on Twitter, Facebook or another
 #. platform.
-#: ShareNoticePlugin.php:106 ShareNoticePlugin.php:197
+#: ShareNoticeModule.php:106 ShareNoticeModule.php:197
 #, php-format
 msgid "\"%s\""
 msgstr "„%s“"
 
 #. TRANS: Truncation symbol.
-#: ShareNoticePlugin.php:113
+#: ShareNoticeModule.php:113
 msgid "…"
 msgstr "…"
 
 #. TRANS: Tooltip for image to share a notice on Twitter.
-#: ShareNoticePlugin.php:133
+#: ShareNoticeModule.php:133
 msgid "Share on Twitter"
 msgstr "Auf Twitter teilen"
 
 #. TRANS: Tooltip for image to share a notice on another platform (other than
 #. Twitter or Facebook).
 #. TRANS: %s is a host name.
-#: ShareNoticePlugin.php:166
+#: ShareNoticeModule.php:166
 #, php-format
 msgid "Share on %s"
 msgstr "Auf %s teilen"
 
 #. TRANS: Tooltip for image to share a notice on Facebook.
-#: ShareNoticePlugin.php:189
+#: ShareNoticeModule.php:189
 msgid "Share on Facebook"
 msgstr "Auf Facebook teilen"
 
-#. TRANS: Plugin description.
-#: ShareNoticePlugin.php:222
+#. TRANS: Module description.
+#: ShareNoticeModule.php:222
 msgid ""
 "This plugin allows sharing of notices to Twitter, Facebook and other "
 "platforms."
-msgstr "Dieses Plugin erlaubt das Teilen von Nachrichten auf Twitter, Facebook und anderen Plattformen."
+msgstr "Dieses Module erlaubt das Teilen von Nachrichten auf Twitter, Facebook und anderen Plattformen."

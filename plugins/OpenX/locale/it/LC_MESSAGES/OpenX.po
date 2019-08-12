@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. TRANS: Menu item title.
-#: OpenXPlugin.php:187
+#: OpenXModule.php:187
 msgid "OpenX configuration."
 msgstr "Configurazione OpenX."
 
 #. TRANS: Menu item for site administration
-#: OpenXPlugin.php:189
+#: OpenXModule.php:189
 msgid "OpenX"
 msgstr "OpenX"
 
-#. TRANS: Plugin description.
-#: OpenXPlugin.php:210
-msgid "Plugin for <a href=\"http://www.openx.org/\">OpenX Ad Server</a>."
-msgstr "Plugin per il <a href=\"http://www.openx.org/\"> server pubblicitario OpenX</a>."
+#. TRANS: Module description.
+#: OpenXModule.php:210
+msgid "Module for <a href=\"http://www.openx.org/\">OpenX Ad Server</a>."
+msgstr "Module per il <a href=\"http://www.openx.org/\"> server pubblicitario OpenX</a>."
 
 #. TRANS: Page title for OpenX admin panel.
 #: actions/openxadminpanel.php:53

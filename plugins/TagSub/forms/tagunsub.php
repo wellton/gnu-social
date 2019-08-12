@@ -19,7 +19,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @category  TagSubPlugin
+ * @category  TagSubModule
  * @package   StatusNet
  * @author    Brion Vibber <brion@status.net>
  * @author    Evan Prodromou <evan@status.net>
@@ -36,7 +36,7 @@ if (!defined('STATUSNET') && !defined('LACONICA')) {
 /**
  * Form for subscribing to a user
  *
- * @category TagSubPlugin
+ * @category TagSubModule
  * @package  StatusNet
  * @author   Brion Vibber <brion@status.net>
  * @author   Evan Prodromou <evan@status.net>

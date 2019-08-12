@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 14:44+0100\n"
+"POT-Creation-Date: 2019-08-14 14:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. TRANS: Plugin description.
-#: AutoSandboxPlugin.php:68
+#. TRANS: Module description.
+#: AutoSandboxModule.php:68
 msgid "Automatically sandboxes newly registered members."
 msgstr ""
 
 #. TRANS: User instructions after registration.
-#: AutoSandboxPlugin.php:75
+#: AutoSandboxModule.php:75
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "
 "the public timeline."
@@ -31,7 +31,7 @@ msgstr ""
 
 #. TRANS: User instructions after registration.
 #. TRANS: %s is a clickable OStatus profile URL.
-#: AutoSandboxPlugin.php:85
+#: AutoSandboxModule.php:85
 #, php-format
 msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "

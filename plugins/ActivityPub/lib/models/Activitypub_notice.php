@@ -76,7 +76,7 @@ class Activitypub_notice
             'type'         => 'Note',
             'published'    => str_replace(' ', 'T', $notice->getCreated()).'Z',
             'url'          => self::getUrl($notice),
-            'attributedTo' => ActivityPubPlugin::actor_uri($profile),
+            'attributedTo' => ActivityPubModule::actor_uri($profile),
             'to'           => $to,
             'cc'           => $cc,
             'conversation' => $notice->getConversationUrl(),
@@ -146,7 +146,7 @@ class Activitypub_notice
         // Is this a reply?
         if (isset($settings['inReplyTo'])) {
             try {
-                $inReplyTo = ActivityPubPlugin::grab_notice_from_url($settings['inReplyTo']);
+                $inReplyTo = ActivityPubModule::grab_notice_from_url($settings['inReplyTo']);
                 $act->context->replyToID  = $inReplyTo->getUri();
                 $act->context->replyToUrl = $inReplyTo->getUrl();
             } catch (Exception $e) {
@@ -181,7 +181,7 @@ class Activitypub_notice
         unset($discovery);
 
         foreach ($mentions_profiles as $mp) {
-            $act->context->attention[ActivityPubPlugin::actor_uri($mp)] = 'http://activitystrea.ms/schema/1.0/person';
+            $act->context->attention[ActivityPubModule::actor_uri($mp)] = 'http://activitystrea.ms/schema/1.0/person';
         }
 
         // Add location if that is set

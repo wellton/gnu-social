@@ -17,7 +17,7 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#. TRANS: Plugin description.
-#: CacheLogPlugin.php:107
+#. TRANS: Module description.
+#: CacheLogModule.php:107
 msgid "Log reads and writes to the cache."
 msgstr ""

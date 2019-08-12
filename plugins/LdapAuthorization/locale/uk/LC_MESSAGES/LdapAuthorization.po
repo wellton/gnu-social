@@ -19,7 +19,7 @@ msgstr ""
 
 #. TRANS: Exception thrown when initialising the LDAP Auth plugin fails
 #. because of an incorrect configuration.
-#: LdapAuthorizationPlugin.php:42
+#: LdapAuthorizationModule.php:42
 msgid ""
 "provider_name must be set. Use the provider_name from the LDAP "
 "Authentication plugin."
@@ -27,12 +27,12 @@ msgstr "provider_name має бути встановлено. Використо
 
 #. TRANS: Exception thrown when initialising the LDAP Auth plugin fails
 #. because of an incorrect configuration.
-#: LdapAuthorizationPlugin.php:46
+#: LdapAuthorizationModule.php:46
 msgid "uniqueMember_attribute must be set."
 msgstr "uniqueMember_attribute має бути встановлений."
 
-#. TRANS: Plugin description.
-#: LdapAuthorizationPlugin.php:129
+#. TRANS: Module description.
+#: LdapAuthorizationModule.php:129
 msgid ""
 "The LDAP Authorization plugin allows for StatusNet to handle authorization "
 "through LDAP."

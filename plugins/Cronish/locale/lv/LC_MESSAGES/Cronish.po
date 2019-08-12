@@ -17,8 +17,8 @@ msgstr ""
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#. TRANS: Plugin description.
-#: CronishPlugin.php:56
+#. TRANS: Module description.
+#: CronishModule.php:56
 msgid ""
 "Cronish plugin that executes events on a near-minutely/hour/day/week basis."
 msgstr ""

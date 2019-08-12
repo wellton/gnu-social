@@ -56,7 +56,7 @@ class Nodeinfo_2_0Action extends Action
         $plugin_version = [];
         $plugins = [];
 
-        Event::handle('PluginVersion', [&$plugin_version]);
+        Event::handle('ModuleVersion', [&$plugin_version]);
 
         foreach ($plugin_version as $plugin) {
             $plugins[str_replace(' ', '', strtolower($plugin['name']))] = true;

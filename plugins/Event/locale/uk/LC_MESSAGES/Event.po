@@ -423,73 +423,73 @@ msgstr "%1$s не братиме участі у %2$s."
 msgid "%1$s might attend %2$s."
 msgstr "%1$s можливо візьме участь %2$s."
 
-#. TRANS: Plugin description.
-#: EventPlugin.php:101
+#. TRANS: Module description.
+#: EventModule.php:101
 msgid "Event invitations and RSVPs."
 msgstr "Запрошення на заходи та RSVP (підтвердження прийняття запрошення)."
 
 #. TRANS: Title for event application.
-#: EventPlugin.php:107
+#: EventModule.php:107
 msgctxt "TITLE"
 msgid "Event"
 msgstr "Подія"
 
 #. TRANS: Exception thrown when there are too many activity objects.
-#: EventPlugin.php:135
+#: EventModule.php:135
 msgid "Too many activity objects."
 msgstr "Занадто багато об’єктів діяльності."
 
 #. TRANS: Exception thrown when event plugin comes across a non-event type
 #. object.
-#: EventPlugin.php:142
+#: EventModule.php:142
 msgid "Wrong type for object."
 msgstr "Неправильний тип для об’єкта."
 
 #. TRANS: Exception thrown when trying to RSVP for an unknown event.
-#: EventPlugin.php:166
+#: EventModule.php:166
 msgid "RSVP for unknown event."
 msgstr "Запрошення на невідому подію."
 
 #. TRANS: Exception thrown when event plugin comes across a undefined verb.
-#: EventPlugin.php:172
+#: EventModule.php:172
 msgid "Unknown verb for events."
 msgstr "Невідоме дієслово для подій."
 
 #. TRANS: Exception thrown when event plugin comes across a unknown object
 #. type.
-#: EventPlugin.php:203
+#: EventModule.php:203
 msgid "Unknown object type."
 msgstr "Невідомий тип об’єкта."
 
 #. TRANS: Exception thrown when referring to a notice that is not an event an
 #. in event context.
-#: EventPlugin.php:210
+#: EventModule.php:210
 msgid "Unknown event notice."
 msgstr "Невідоме повідомлення події."
 
 #. TRANS: Content for a deleted RSVP list item (RSVP stands for "please
 #. respond").
-#: EventPlugin.php:342 EventPlugin.php:474
+#: EventModule.php:342 EventModule.php:474
 msgid "Deleted."
 msgstr "Видалено."
 
 #. TRANS: Field label for event description.
-#: EventPlugin.php:389
+#: EventModule.php:389
 msgid "Time:"
 msgstr "Час:"
 
 #. TRANS: Field label for event description.
-#: EventPlugin.php:406
+#: EventModule.php:406
 msgid "Location:"
 msgstr "Розташування:"
 
 #. TRANS: Field label for event description.
-#: EventPlugin.php:414
+#: EventModule.php:414
 msgid "Description:"
 msgstr "Опис:"
 
 #. TRANS: Field label for event description.
-#: EventPlugin.php:424
+#: EventModule.php:424
 msgid "Attending:"
 msgstr ""
 

@@ -17,7 +17,7 @@ msgstr ""
 "Language: hy_AM\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: OpportunisticQMPlugin.php:43
+#. TRANS: Module description.
+#: OpportunisticQMModule.php:43
 msgid "Opportunistic queue manager plugin for background processing."
 msgstr ""

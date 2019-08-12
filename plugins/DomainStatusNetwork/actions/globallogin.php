@@ -80,7 +80,7 @@ class GloballoginAction extends GlobalApiAction
     {
         try {
             // FIXME: $email and $password aren't defined
-            $url = DomainStatusNetworkPlugin::login($email, $password);
+            $url = DomainStatusNetworkModule::login($email, $password);
             $this->showSuccess(array('url' => $url));
         } catch (ClientException $ce) {
             $this->showError($ce->getMessage());

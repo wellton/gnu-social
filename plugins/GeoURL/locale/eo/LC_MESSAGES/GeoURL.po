@@ -17,8 +17,8 @@ msgstr ""
 "Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: GeoURLPlugin.php:125
+#. TRANS: Module description.
+#: GeoURLModule.php:125
 msgid ""
 "Ping <a href=\"http://geourl.org/\">GeoURL</a> when new geolocation-enhanced"
 " notices are posted."

@@ -121,7 +121,7 @@ msgstr "Bookmark posted"
 
 #. TRANS: Title for page to import del.icio.us bookmark backups on.
 #. TRANS: Link text in proile leading to import form.
-#: actions/importdelicious.php:60 BookmarkPlugin.php:235
+#: actions/importdelicious.php:60 BookmarkModule.php:235
 msgid "Import del.icio.us bookmarks"
 msgstr "Import del.icio.us bookmarks"
 
@@ -287,33 +287,33 @@ msgid ""
 "class=\"meta\">%4$s</span></span>"
 msgstr "<span class=\"xfolkentry\"><a class=\"taggedlink\" href=\"%1$s\">%2$s</a> <span class=\"description\">%3$s</span> <span class=\"meta\">%4$s</span></span>"
 
-#. TRANS: Plugin description.
-#: BookmarkPlugin.php:192
+#. TRANS: Module description.
+#: BookmarkModule.php:192
 msgid "Simple extension for supporting bookmarks. "
 msgstr "Simple extension for supporting bookmarks. "
 
 #. TRANS: Menu item in sample plugin.
-#: BookmarkPlugin.php:263
+#: BookmarkModule.php:263
 msgid "Bookmarks"
 msgstr "Bookmarks"
 
 #. TRANS: Menu item title in sample plugin.
-#: BookmarkPlugin.php:265
+#: BookmarkModule.php:265
 msgid "A list of your bookmarks"
 msgstr "A list of your bookmarks"
 
 #. TRANS: Client exception thrown when a bookmark is formatted incorrectly.
-#: BookmarkPlugin.php:312
+#: BookmarkModule.php:312
 msgid "Expected exactly 1 link rel=related in a Bookmark."
 msgstr "Expected exactly 1 link rel=related in a Bookmark."
 
 #. TRANS: Server exception thrown when a bookmark has multiple attachments.
-#: BookmarkPlugin.php:405
+#: BookmarkModule.php:405
 msgid "Bookmark notice with the wrong number of attachments."
 msgstr "Bookmark notice with the wrong number of attachments."
 
 #. TRANS: Application title.
-#: BookmarkPlugin.php:456
+#: BookmarkModule.php:456
 msgctxt "TITLE"
 msgid "Bookmark"
 msgstr "Bookmark"

@@ -17,7 +17,7 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: DiskCachePlugin.php:172
-msgid "Plugin to implement cache interface with disk files."
-msgstr "Plugin för att implementera cache gränssnitt med diskfiler."
+#. TRANS: Module description.
+#: DiskCacheModule.php:172
+msgid "Module to implement cache interface with disk files."
+msgstr "Module för att implementera cache gränssnitt med diskfiler."

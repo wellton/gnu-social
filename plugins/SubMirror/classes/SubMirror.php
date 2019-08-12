@@ -18,7 +18,7 @@
  */
 
 /**
- * @package SubMirrorPlugin
+ * @package SubMirrorModule
  * @maintainer Brion Vibber <brion@status.net>
  */
 

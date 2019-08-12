@@ -17,7 +17,7 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. TRANS: Plugin description.
-#: AutocompletePlugin.php:63
+#. TRANS: Module description.
+#: AutocompleteModule.php:63
 msgid "The autocomplete plugin adds autocompletion for @ replies."
 msgstr "Le greffon de saisie semi-automatique ajoute l’auto-complétion pour les réponses @."

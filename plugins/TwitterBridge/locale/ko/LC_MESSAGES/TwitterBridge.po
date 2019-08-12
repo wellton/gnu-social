@@ -422,35 +422,35 @@ msgstr "트위터 기본 설정을 저장했습니다."
 
 #. TRANS: Menu item in login navigation.
 #. TRANS: Menu item in connection settings navigation.
-#: TwitterBridgePlugin.php:154 TwitterBridgePlugin.php:179
+#: TwitterBridgeModule.php:154 TwitterBridgeModule.php:179
 msgctxt "MENU"
 msgid "Twitter"
 msgstr "트위터"
 
 #. TRANS: Title for menu item in login navigation.
-#: TwitterBridgePlugin.php:156
+#: TwitterBridgeModule.php:156
 msgid "Login or register using Twitter."
 msgstr ""
 
 #. TRANS: Title for menu item in connection settings navigation.
-#: TwitterBridgePlugin.php:181
+#: TwitterBridgeModule.php:181
 msgid "Twitter integration options"
 msgstr "트위터 통합 옵션"
 
 #. TRANS: Menu item in administrative panel that leads to the Twitter bridge
 #. configuration.
-#: TwitterBridgePlugin.php:282
+#: TwitterBridgeModule.php:282
 msgid "Twitter"
 msgstr "트위터"
 
 #. TRANS: Menu item title in administrative panel that leads to the Twitter
 #. bridge configuration.
-#: TwitterBridgePlugin.php:284
+#: TwitterBridgeModule.php:284
 msgid "Twitter bridge configuration page."
 msgstr ""
 
-#. TRANS: Plugin description.
-#: TwitterBridgePlugin.php:308
+#. TRANS: Module description.
+#: TwitterBridgeModule.php:308
 msgid ""
 "The Twitter \"bridge\" plugin allows integration of a StatusNet instance "
 "with <a href=\"http://twitter.com/\">Twitter</a>."

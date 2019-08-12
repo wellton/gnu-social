@@ -43,12 +43,12 @@ msgid ""
 "messages to any users on this site."
 msgstr "Sidans moderatorer har tystat den här profilen vilket förhindrar leverans av nya meddelanden till någon användare på den här sidan."
 
-#. TRANS: Plugin description.
-#: ModPlusPlugin.php:40
+#. TRANS: Module description.
+#: ModPlusModule.php:40
 msgid "UI extension for profile moderation actions."
 msgstr ""
 
 #. TRANS: Label for access to remote profile options.
-#: ModPlusPlugin.php:115
+#: ModPlusModule.php:115
 msgid "Remote profile options..."
 msgstr ""

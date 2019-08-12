@@ -81,7 +81,7 @@ class ImportdeliciousAction extends Action
                 403);
         }
 
-        if (!$cur->hasRight(BookmarkPlugin::IMPORTDELICIOUS)) {
+        if (!$cur->hasRight(BookmarkModule::IMPORTDELICIOUS)) {
             // TRANS: Client exception thrown when trying to import bookmarks without having the rights to do so.
             throw new ClientException(_m('You may not restore your account.'), 403);
         }

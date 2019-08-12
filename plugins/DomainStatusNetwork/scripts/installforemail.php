@@ -47,10 +47,10 @@ if ($sendWelcome && have_option('t', 'template')) {
 
 try {
 
-    $confirm = DomainStatusNetworkPlugin::registerEmail($email);
+    $confirm = DomainStatusNetworkModule::registerEmail($email);
 
     if ($sendWelcome) {
-        EmailRegistrationPlugin::sendConfirmEmail($confirm, $template);
+        EmailRegistrationModule::sendConfirmEmail($confirm, $template);
     }
 
     $confirmUrl = common_local_url('register', array('code' => $confirm->code));

@@ -68,24 +68,24 @@ msgctxt "BUTTON"
 msgid "Add feed"
 msgstr "Engadir unha fonte de novas"
 
-#. TRANS: Plugin description.
-#: SubMirrorPlugin.php:68
+#. TRANS: Module description.
+#: SubMirrorModule.php:68
 msgid "Pull feeds into your timeline!"
 msgstr "Importar as fontes de novas na súa liña do tempo!"
 
 #. TRANS: SubMirror plugin menu item on user settings page.
-#: SubMirrorPlugin.php:88
+#: SubMirrorModule.php:88
 msgctxt "MENU"
 msgid "Mirroring"
 msgstr "Republicación"
 
 #. TRANS: SubMirror plugin tooltip for user settings menu item.
-#: SubMirrorPlugin.php:90
+#: SubMirrorModule.php:90
 msgid "Configure mirroring of posts from other feeds"
 msgstr "Configurar a republicación de mensaxes doutras fontes de novas"
 
 #. TRANS: Label in profile statistics section, followed by a count.
-#: SubMirrorPlugin.php:167
+#: SubMirrorModule.php:167
 msgid "Mirrored feeds"
 msgstr "Fontes de novas republicadas"
 

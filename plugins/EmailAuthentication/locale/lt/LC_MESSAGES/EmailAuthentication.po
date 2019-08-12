@@ -17,8 +17,8 @@ msgstr ""
 "Language: lt\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. TRANS: Plugin description.
-#: EmailAuthenticationPlugin.php:60
+#. TRANS: Module description.
+#: EmailAuthenticationModule.php:60
 msgid ""
 "The Email Authentication plugin allows users to login using their email "
 "address."

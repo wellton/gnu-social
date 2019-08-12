@@ -75,8 +75,8 @@ class SitemapindexAction extends Action
                 continue;
             }
 
-            $n = (int)$cnt / (int)SitemapPlugin::USERS_PER_MAP;
-            if (($cnt % SitemapPlugin::USERS_PER_MAP) != 0) {
+            $n = (int)$cnt / (int)SitemapModule::USERS_PER_MAP;
+            if (($cnt % SitemapModule::USERS_PER_MAP) != 0) {
                 $n++;
             }
             for ($i = 1; $i <= $n; $i++) {
@@ -93,8 +93,8 @@ class SitemapindexAction extends Action
             if ($cnt == 0) {
                 continue;
             }
-            $n = $cnt / SitemapPlugin::NOTICES_PER_MAP;
-            if ($cnt % SitemapPlugin::NOTICES_PER_MAP) {
+            $n = $cnt / SitemapModule::NOTICES_PER_MAP;
+            if ($cnt % SitemapModule::NOTICES_PER_MAP) {
                 $n++;
             }
             for ($i = 1; $i <= $n; $i++) {

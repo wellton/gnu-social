@@ -18,23 +18,23 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
 #. TRANS: Client exception thrown when requesting a not supported media type.
-#: MobileProfilePlugin.php:200
+#: MobileProfileModule.php:200
 msgid "This page is not available in a media type you accept."
 msgstr ""
 
 #. TRANS: Link to switch site layout from mobile to desktop mode. Appears at
 #. very bottom of page.
-#: MobileProfilePlugin.php:375
+#: MobileProfileModule.php:375
 msgid "Switch to desktop site layout."
 msgstr ""
 
 #. TRANS: Link to switch site layout from desktop to mobile mode. Appears at
 #. very bottom of page.
-#: MobileProfilePlugin.php:379
+#: MobileProfileModule.php:379
 msgid "Switch to mobile site layout."
 msgstr ""
 
-#. TRANS: Plugin description.
-#: MobileProfilePlugin.php:417
+#. TRANS: Module description.
+#: MobileProfileModule.php:417
 msgid "XHTML MobileProfile output for supporting user agents."
 msgstr ""

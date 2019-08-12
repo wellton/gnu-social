@@ -17,7 +17,7 @@ msgstr ""
 "Language: mk\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
-#. TRANS: Plugin description.
-#: LRDDPlugin.php:61
+#. TRANS: Module description.
+#: LRDDModule.php:61
 msgid "Implements LRDD support for GNU Social."
 msgstr ""

@@ -3,7 +3,7 @@
 if (!defined('GNUSOCIAL')) { exit(1); }
 
 /**
- * @package OStatusPlugin
+ * @package OStatusModule
  * @maintainer Mikael Nordfeldth <mmn@hethane.se>
  */
 

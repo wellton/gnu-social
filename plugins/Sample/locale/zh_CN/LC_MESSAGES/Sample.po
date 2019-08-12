@@ -19,7 +19,7 @@ msgstr ""
 
 #. TRANS: Page title for sample plugin.
 #. TRANS: Menu item in sample plugin.
-#: actions/hello.php:112 SamplePlugin.php:219
+#: actions/hello.php:112 SampleModule.php:219
 msgid "Hello"
 msgstr "你好"
 
@@ -65,11 +65,11 @@ msgid "Could not increment greeting count for %d."
 msgstr "无法增加%d的问候计数。"
 
 #. TRANS: Menu item title in sample plugin.
-#: SamplePlugin.php:221
+#: SampleModule.php:221
 msgid "A warm greeting"
 msgstr "一个热情的问候"
 
-#. TRANS: Plugin description.
-#: SamplePlugin.php:233
+#. TRANS: Module description.
+#: SampleModule.php:233
 msgid "A sample plugin to show basics of development for new hackers."
 msgstr "一个为新的 hackers 显示基础开发的示例插件。"

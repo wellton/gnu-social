@@ -17,8 +17,8 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description for a sample plugin.
-#: AwesomenessPlugin.php:55
+#. TRANS: Module description for a sample plugin.
+#: AwesomenessModule.php:55
 msgid ""
 "The Awesomeness plugin adds additional awesomeness to a StatusNet "
 "installation."

@@ -61,6 +61,6 @@ msgstr "Ocurrió un error cuando se intentaba crear el álbum. "
 msgid "Problem Saving Photo."
 msgstr "Hubo un problema guardando la foto. "
 
-#: GNUsocialPhotosPlugin.php:65
+#: GNUsocialPhotosModule.php:65
 msgid "Problem saving photo."
 msgstr "Hubo un problema guardando la foto. "

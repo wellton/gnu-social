@@ -5,7 +5,7 @@
  *
  * PHP version 5
  *
- * @category Plugin
+ * @category Module
  * @package  StatusNet
  * @author   Zach Copley <zach@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3
@@ -35,7 +35,7 @@ if (!defined('STATUSNET')) {
 /**
  * Action class to handle RSSCloud notification (subscription) requests
  *
- * @category Plugin
+ * @category Module
  * @package  StatusNet
  * @author   Zach Copley <zach@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl-3.0.html GNU Affero General Public License version 3.0

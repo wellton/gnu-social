@@ -18,6 +18,6 @@ msgstr ""
 "Language: io\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ModLogPlugin.php:193
+#: ModLogModule.php:193
 msgid "Show the moderation history for a profile in the sidebar"
 msgstr "Montras la modero-historio por profilo en la bendo laterala"

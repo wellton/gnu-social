@@ -52,7 +52,7 @@ msgstr "Duesma memorigilo: Voluntez konfirmar vua registrago!"
 msgid "Final reminder - please confirm your registration!"
 msgstr "Finala memorigilo: Voluntez kongirmar vua registrago!"
 
-#. TRANS: Plugin description.
-#: EmailReminderPlugin.php:190
+#. TRANS: Module description.
+#: EmailReminderModule.php:190
 msgid "Send email reminders for various things."
 msgstr "Sendez memorigili per e-posto por diversa kozi."

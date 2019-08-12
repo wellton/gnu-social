@@ -30,9 +30,9 @@ END_OF_SITEFORDOMAIN_HELP;
 
 require_once INSTALLDIR.'/scripts/commandline.inc';
 
-$domain   = DomainStatusNetworkPlugin::toDomain($args[0]);
+$domain   = DomainStatusNetworkModule::toDomain($args[0]);
 
-$nickname = DomainStatusNetworkPlugin::nicknameForDomain($domain);
+$nickname = DomainStatusNetworkModule::nicknameForDomain($domain);
 
 if (empty($nickname)) {
     throw new ClientException('No candidate found.');

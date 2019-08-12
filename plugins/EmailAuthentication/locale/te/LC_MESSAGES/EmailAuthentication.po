@@ -17,8 +17,8 @@ msgstr ""
 "Language: te\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: EmailAuthenticationPlugin.php:60
+#. TRANS: Module description.
+#: EmailAuthenticationModule.php:60
 msgid ""
 "The Email Authentication plugin allows users to login using their email "
 "address."

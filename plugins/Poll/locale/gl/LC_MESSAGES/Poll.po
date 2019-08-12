@@ -151,47 +151,47 @@ msgstr "Enquisa: %s"
 msgid "voted for \"%s\""
 msgstr "votou \"%s\""
 
-#. TRANS: Plugin description.
-#: PollPlugin.php:131
+#. TRANS: Module description.
+#: PollModule.php:131
 msgid "Simple extension for supporting basic polls."
 msgstr "Extensión simple para soportar enquisas básicas."
 
 #. TRANS: Exception thrown trying to respond to a poll without a poll
 #. reference.
-#: PollPlugin.php:204
+#: PollModule.php:204
 msgid "Invalid poll response: No poll reference."
 msgstr "Resposta á enquisa inválida: Sen referencia á enquisa."
 
 #. TRANS: Exception thrown trying to respond to a non-existing poll.
-#: PollPlugin.php:209
+#: PollModule.php:209
 msgid "Invalid poll response: Poll is unknown."
 msgstr "Resposta á enquisa inválida: Descoñécese a enquisa."
 
 #. TRANS: Exception thrown when performing an unexpected action on a poll.
 #. TRANS: %s is the unexpected object type.
-#: PollPlugin.php:236
+#: PollModule.php:236
 #, php-format
 msgid "Unexpected type for poll plugin: %s."
 msgstr "Tipo inesperado para o complemento da enquisa: %s."
 
 #. TRANS: Application title.
-#: PollPlugin.php:392
+#: PollModule.php:392
 msgctxt "APPTITLE"
 msgid "Poll"
 msgstr "Enquisa"
 
 #. TRANS: Poll plugin menu item on user settings page.
-#: PollPlugin.php:436
+#: PollModule.php:436
 msgctxt "MENU"
 msgid "Polls"
 msgstr ""
 
 #. TRANS: Poll plugin tooltip for user settings menu item.
-#: PollPlugin.php:438
+#: PollModule.php:438
 msgid "Configure poll behavior"
 msgstr ""
 
 #. TRANS: Error text displayed if no poll data could be found.
-#: PollPlugin.php:463
+#: PollModule.php:463
 msgid "Poll data is missing"
 msgstr "Faltan os datos da enquisa"

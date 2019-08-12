@@ -229,7 +229,7 @@ class Activitypub_inbox_handler
         }
 
         if (!$deleted) {
-            $notice = ActivityPubPlugin::grab_notice_from_url($object);
+            $notice = ActivityPubModule::grab_notice_from_url($object);
             $notice->deleteAs($actor);
         }
     }
@@ -262,7 +262,7 @@ class Activitypub_inbox_handler
      */
     private function handle_like($actor, $object)
     {
-        $notice = ActivityPubPlugin::grab_notice_from_url($object);
+        $notice = ActivityPubModule::grab_notice_from_url($object);
         Fave::addNew($actor, $notice);
     }
 
@@ -300,7 +300,7 @@ class Activitypub_inbox_handler
      */
     private function handle_undo_like($actor, $object)
     {
-        $notice = ActivityPubPlugin::grab_notice_from_url($object);
+        $notice = ActivityPubModule::grab_notice_from_url($object);
         Fave::removeEntry($actor, $notice);
     }
 
@@ -340,7 +340,7 @@ class Activitypub_inbox_handler
      */
     private function handle_announce($actor, $object)
     {
-        $object_notice = ActivityPubPlugin::grab_notice_from_url($object);
+        $object_notice = ActivityPubModule::grab_notice_from_url($object);
         $object_notice->repeat($actor, 'ActivityPub');
     }
 }

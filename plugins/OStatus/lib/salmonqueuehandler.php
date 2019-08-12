@@ -23,7 +23,7 @@ if (!defined('STATUSNET')) {
 
 /**
  * Send a Salmon notification in the background.
- * @package OStatusPlugin
+ * @package OStatusModule
  * @author Brion Vibber <brion@status.net>
  */
 class SalmonQueueHandler extends QueueHandler

@@ -4,7 +4,7 @@
  *
  * PHP version 5
  *
- * @category SearchSubPlugin
+ * @category SearchSubModule
  * @package  StatusNet
  * @author   Brion Vibber <brion@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3
@@ -34,7 +34,7 @@ if (!defined('STATUSNET')) {
 /**
  * For storing the search subscriptions
  *
- * @category PollPlugin
+ * @category PollModule
  * @package  StatusNet
  * @author   Brion Vibber <brion@status.net>
  * @license  http://www.fsf.org/licensing/licenses/agpl.html AGPLv3
@@ -56,7 +56,7 @@ class SearchSub extends Managed_DataObject
     public static function schemaDef()
     {
         return array(
-            'description' => 'SearchSubPlugin search subscription records',
+            'description' => 'SearchSubModule search subscription records',
             'fields' => array(
                 'search' => array('type' => 'varchar', 'length' => 64, 'not null' => true, 'description' => 'hash search associated with this subscription'),
                 'profile_id' => array('type' => 'int', 'not null' => true, 'description' => 'profile ID of subscribing user'),

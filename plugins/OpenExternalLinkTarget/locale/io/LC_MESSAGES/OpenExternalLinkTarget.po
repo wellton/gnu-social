@@ -18,7 +18,7 @@ msgstr ""
 "Language: io\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANS: Plugin description.
-#: OpenExternalLinkTargetPlugin.php:60
+#. TRANS: Module description.
+#: OpenExternalLinkTargetModule.php:60
 msgid "Opens external links (i.e. with rel=external) on a new window or tab."
 msgstr "Lu apertas extera ligili (c.e. per rel=external) en nova fenestro o langeto."

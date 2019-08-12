@@ -49,14 +49,14 @@ msgstr "Velg tema"
 msgid "Save"
 msgstr "Lagre"
 
-#: ChooseThemePlugin.php:39
+#: ChooseThemeModule.php:39
 msgid "Allowing user to select the preferred theme."
 msgstr "Lar brukeren velge sitt foretrukne tema."
 
-#: ChooseThemePlugin.php:55
+#: ChooseThemeModule.php:55
 msgid "MENU"
 msgstr "Tema"
 
-#: ChooseThemePlugin.php:57
+#: ChooseThemeModule.php:57
 msgid "Choose Theme"
 msgstr "Velg tema"

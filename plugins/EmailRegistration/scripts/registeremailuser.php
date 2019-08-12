@@ -42,15 +42,15 @@ if (count($args) == 0) {
 
 $email = $args[0];
 
-$confirm = EmailRegistrationPlugin::registerEmail($email);
+$confirm = EmailRegistrationModule::registerEmail($email);
 
 if (have_option('w', 'welcome')) {
     if (have_option('t', 'template')) {
         // use the provided template
-        EmailRegistrationPlugin::sendConfirmEmail($confirm, get_option_value('t', 'template'));
+        EmailRegistrationModule::sendConfirmEmail($confirm, get_option_value('t', 'template'));
     } else {
         // use the default template
-        EmailRegistrationPlugin::sendConfirmEmail($confirm);
+        EmailRegistrationModule::sendConfirmEmail($confirm);
     }
 }
 

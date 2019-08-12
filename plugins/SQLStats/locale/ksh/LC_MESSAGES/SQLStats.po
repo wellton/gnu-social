@@ -17,7 +17,7 @@ msgstr ""
 "Language: ksh\n"
 "Plural-Forms: nplurals=3; plural=(n==0) ? 0 : (n==1) ? 1 : 2;\n"
 
-#. TRANS: Plugin decription.
-#: SQLStatsPlugin.php:45
+#. TRANS: Module decription.
+#: SQLStatsModule.php:45
 msgid "Debug tool to watch for poorly indexed DB queries."
 msgstr "E Wärkzüsch, öm düüre Aanfroore aan de Daatebangk met schlääsch opjesaz Schlößelle ze fenge."

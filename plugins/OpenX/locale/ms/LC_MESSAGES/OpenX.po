@@ -18,18 +18,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. TRANS: Menu item title.
-#: OpenXPlugin.php:187
+#: OpenXModule.php:187
 msgid "OpenX configuration."
 msgstr ""
 
 #. TRANS: Menu item for site administration
-#: OpenXPlugin.php:189
+#: OpenXModule.php:189
 msgid "OpenX"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: OpenXPlugin.php:210
-msgid "Plugin for <a href=\"http://www.openx.org/\">OpenX Ad Server</a>."
+#. TRANS: Module description.
+#: OpenXModule.php:210
+msgid "Module for <a href=\"http://www.openx.org/\">OpenX Ad Server</a>."
 msgstr ""
 
 #. TRANS: Page title for OpenX admin panel.

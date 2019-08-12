@@ -17,7 +17,7 @@ msgstr ""
 "Language: ksh\n"
 "Plural-Forms: nplurals=3; plural=(n==0) ? 0 : (n==1) ? 1 : 2;\n"
 
-#. TRANS: Plugin description.
-#: ApiLoggerPlugin.php:86
+#. TRANS: Module description.
+#: ApiLoggerModule.php:86
 msgid "Allows random sampling of API requests."
 msgstr "Määt et müjjelesch, vun zohfälleje Oprohfe un dä <i lang=\"en\">API</i> Schteschproobe ze maache."

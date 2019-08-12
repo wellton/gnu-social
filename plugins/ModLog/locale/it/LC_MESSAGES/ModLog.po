@@ -17,6 +17,6 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ModLogPlugin.php:193
+#: ModLogModule.php:193
 msgid "Show the moderation history for a profile in the sidebar"
 msgstr ""

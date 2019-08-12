@@ -1,6 +1,6 @@
-Plugin for testing ad layout
+Module for testing ad layout
 
-This plugin uses the UAPPlugin framework to output ad content. However,
+This plugin uses the UAPModule framework to output ad content. However,
 its ad content is just images with one red pixel stretched to the
 right size. It's mostly useful for debugging theme layout.
 

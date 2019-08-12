@@ -17,7 +17,7 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. TRANS: Plugin description.
-#: PostDebugPlugin.php:59
+#. TRANS: Module description.
+#: PostDebugModule.php:59
 msgid "Debugging tool to record request details on POST."
 msgstr "Ferramenta de depuração para registrar detalhes de solicitação em POST."

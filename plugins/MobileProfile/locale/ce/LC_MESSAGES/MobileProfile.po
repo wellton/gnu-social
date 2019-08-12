@@ -32,6 +32,6 @@ msgstr ""
 msgid "Switch to mobile site layout."
 msgstr ""
 
-#. TRANS: Plugin description.
+#. TRANS: Module description.
 msgid "XHTML MobileProfile output for supporting user agents."
 msgstr "XHTML MobileProfile арайокху иза лелочу декъашхошна аттон."

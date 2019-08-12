@@ -18,7 +18,7 @@
  */
 
 /**
- * @package WebFingerPlugin
+ * @package WebFingerModule
  * @author James Walker <james@status.net>
  * @author Mikael Nordfeldth <mmn@hethane.se>
  */

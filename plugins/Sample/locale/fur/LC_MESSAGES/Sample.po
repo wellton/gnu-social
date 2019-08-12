@@ -20,7 +20,7 @@ msgstr ""
 
 #. TRANS: Page title for sample plugin.
 #. TRANS: Menu item in sample plugin.
-#: actions/hello.php:112 SamplePlugin.php:219
+#: actions/hello.php:112 SampleModule.php:219
 msgid "Hello"
 msgstr "Mandi"
 
@@ -67,11 +67,11 @@ msgid "Could not increment greeting count for %d."
 msgstr ""
 
 #. TRANS: Menu item title in sample plugin.
-#: SamplePlugin.php:221
+#: SampleModule.php:221
 msgid "A warm greeting"
 msgstr ""
 
-#. TRANS: Plugin description.
-#: SamplePlugin.php:233
+#. TRANS: Module description.
+#: SampleModule.php:233
 msgid "A sample plugin to show basics of development for new hackers."
 msgstr ""

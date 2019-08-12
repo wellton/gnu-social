@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @category  Plugin
+ * @category  Module
  * @package   StatusNet
  * @author    Brion Vibber <brion@status.net>
  * @copyright 2010 StatusNet, Inc.
@@ -129,7 +129,7 @@ abstract class JsonStreamReader
         $lines = array(
             "GET $path HTTP/1.1",
             "Host: $host",
-            'User-Agent: ' . HTTPClient::userAgent() . ' (TwitterBridgePlugin)',
+            'User-Agent: ' . HTTPClient::userAgent() . ' (TwitterBridgeModule)',
             "Connection: close",
             "",
             ""

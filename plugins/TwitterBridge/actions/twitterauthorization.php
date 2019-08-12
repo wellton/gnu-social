@@ -19,7 +19,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @category  Plugin
+ * @category  Module
  * @package   StatusNet
  * @author    Zach Copley <zach@status.net>
  * @author    Julien C <chaumond@gmail.com>
@@ -41,7 +41,7 @@ require_once INSTALLDIR . '/lib/oauthclient.php';
  * (Foreign_link) between the StatusNet user and Twitter user and stores the
  * access token and secret in the link.
  *
- * @category Plugin
+ * @category Module
  * @package  StatusNet
  * @author   Zach Copley <zach@status.net>
  * @author   Julien C <chaumond@gmail.com>
@@ -484,7 +484,7 @@ class TwitterauthorizationAction extends FormAction
         common_set_user($user);
         common_real_login(true);
 
-        common_debug('TwitterBridge Plugin - ' .
+        common_debug('TwitterBridge Module - ' .
                      "Registered new user $user->id from Twitter user $this->twuid");
 
         Event::handle('EndRegistrationTry', array($this));
@@ -506,7 +506,7 @@ class TwitterauthorizationAction extends FormAction
         $user = User::getKV('nickname', $nickname);
 
         if ($user instanceof User) {
-            common_debug('TwitterBridge Plugin - ' .
+            common_debug('TwitterBridge Module - ' .
                          "Legit user to connect to Twitter: $nickname");
         }
 
@@ -517,7 +517,7 @@ class TwitterauthorizationAction extends FormAction
 
         save_twitter_user($this->twuid, $this->tw_fields['screen_name']);
 
-        common_debug('TwitterBridge Plugin - ' .
+        common_debug('TwitterBridge Module - ' .
                      "Connected Twitter user $this->twuid to local user $user->id");
 
         common_set_user($user);
@@ -537,7 +537,7 @@ class TwitterauthorizationAction extends FormAction
             $this->serverError(_m('Error connecting user to Twitter.'));
         }
 
-        common_debug('TwitterBridge Plugin - ' .
+        common_debug('TwitterBridge Module - ' .
                      "Connected Twitter user $this->twuid to local user $user->id");
 
         // Return to Twitter connection settings tab
@@ -546,14 +546,14 @@ class TwitterauthorizationAction extends FormAction
 
     protected function tryLogin()
     {
-        common_debug('TwitterBridge Plugin - ' .
+        common_debug('TwitterBridge Module - ' .
                      "Trying login for Twitter user $this->twuid.");
 
         try {
             $flink = Foreign_link::getByForeignID($this->twuid, TWITTER_SERVICE);
             $user = $flink->getUser();
 
-            common_debug('TwitterBridge Plugin - ' .
+            common_debug('TwitterBridge Module - ' .
                          "Logged in Twitter user $flink->foreign_id as user $user->id ($user->nickname)");
 
             common_set_user($user);
@@ -563,7 +563,7 @@ class TwitterauthorizationAction extends FormAction
             // Either no Foreign_link was found or not the user connected to it.
             // Let's just continue to allow creating or logging in as a new user.
         }
-        common_debug("TwitterBridge Plugin - No flink found for twuid: {$this->twuid} - new user");
+        common_debug("TwitterBridge Module - No flink found for twuid: {$this->twuid} - new user");
 
         // FIXME: what do we want to do here? I forgot
         return;

@@ -19,7 +19,7 @@ msgstr ""
 
 #. TRANS: Exception thrown when initialising the LDAP Auth plugin fails
 #. because of an incorrect configuration.
-#: LdapAuthorizationPlugin.php:42
+#: LdapAuthorizationModule.php:42
 msgid ""
 "provider_name must be set. Use the provider_name from the LDAP "
 "Authentication plugin."
@@ -27,13 +27,13 @@ msgstr "Der „provider_name“ muss eingestellt werden. Verwende den „provide
 
 #. TRANS: Exception thrown when initialising the LDAP Auth plugin fails
 #. because of an incorrect configuration.
-#: LdapAuthorizationPlugin.php:46
+#: LdapAuthorizationModule.php:46
 msgid "uniqueMember_attribute must be set."
 msgstr "Der Parameter „uniqueMember_attribute“ muss eingestellt werden."
 
-#. TRANS: Plugin description.
-#: LdapAuthorizationPlugin.php:129
+#. TRANS: Module description.
+#: LdapAuthorizationModule.php:129
 msgid ""
 "The LDAP Authorization plugin allows for StatusNet to handle authorization "
 "through LDAP."
-msgstr "Das LDAP-Berechtigungs-Plugin erlaubt es StatusNet, Berechtigungen durch LDAP abzuwickeln."
+msgstr "Das LDAP-Berechtigungs-Module erlaubt es StatusNet, Berechtigungen durch LDAP abzuwickeln."

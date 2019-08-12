@@ -17,7 +17,7 @@ msgstr ""
 "Language: mk\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
-#. TRANS: Plugin description.
-#: PostDebugPlugin.php:59
+#. TRANS: Module description.
+#: PostDebugModule.php:59
 msgid "Debugging tool to record request details on POST."
 msgstr "Алатка за отстранување на грешки за евидентирање на податоци за POST."
