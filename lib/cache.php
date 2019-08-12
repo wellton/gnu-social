@@ -124,9 +124,9 @@ class Cache
 
         if (empty($prefix)) {
 
-            $names   = array();
+            $names = [];
 
-            foreach (GNUsocial::getActivePlugins() as $plugin=>$attrs) {
+            foreach (GNUsocial::getActivePlugins() as $plugin => $attrs) {
                 $names[] = $plugin;
             }
 
