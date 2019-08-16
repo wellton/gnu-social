@@ -73,13 +73,7 @@ class VersionAction extends Action
     {
         parent::prepare($args);
 
-        Event::handle('ModuleVersion', [&$this->pluginVersions]);
-
-        // Filter out core modules
-        $plugins = array_filter($this->pluginVersions, function ($plugin) {
-            return !in_array($plugin['name'], array_keys(common_config('plugins', 'core')));
-        });
-        $this->pluginVersions = $plugins;
+        $this->pluginVersions = PluginList::getActivePluginVersions();
 
         return true;
     }

@@ -46,7 +46,7 @@ class Module
 
         foreach (get_class_methods($this) as $method) {
             if (mb_substr($method, 0, 2) == 'on') {
-                Event::addHandler(mb_substr($method, 2), array($this, $method));
+                Event::addHandler(mb_substr($method, 2), [$this, $method]);
             }
         }
 
@@ -177,9 +177,11 @@ class Module
     {
         $name = $this->name();
 
-        $versions[] = array('name' => $name,
+        $versions[] = [
+            'name' => $name,
             // TRANS: Displayed as version information for a plugin if no version information was found.
-            'version' => _('Unknown'));
+            'version' => _m('Unknown')
+        ];
 
         return true;
     }
