@@ -115,7 +115,6 @@ class URLMapper
             // $variables is used for path matching, so we can't store invalid routes
             if ($should) {
                 $regex = self::makeRegex($path, $paramPatterns);
-
                 if (isset($this->variables[$regex]) || !$acceptHeaders) {
                     $this->variables[$regex] = [$args, $paramNames];
                 } else {
@@ -129,7 +128,8 @@ class URLMapper
             $format = $this->makeFormat($path);
 
             if (array_key_exists($action, $this->reverse)) {
-                $this->reverse[$action][] = [$args, $format, $paramNames];
+                // dynamics first so generate() test them first
+                array_unshift($this->reverse[$action], [$args, $format, $paramNames]);
             } else {
                 $this->reverse[$action] = [[$args, $format, $paramNames]];
             }
