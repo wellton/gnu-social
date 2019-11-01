@@ -283,6 +283,8 @@ abstract class Managed_DataObject extends Memcached_DataObject
      * Memcached_DataObject doesn't have enough info to handle properly.
      *
      * @return array of strings
+     * @throws MethodNotImplementedException
+     * @throws ServerException
      */
     public function _allCacheKeys()
     {
@@ -494,14 +496,18 @@ abstract class Managed_DataObject extends Memcached_DataObject
         return $aliases;
     }
 
-    // 'update' won't write key columns, so we have to do it ourselves.
-    // This also automatically calls "update" _before_ it sets the keys.
-    // FIXME: This only works with single-column primary keys so far! Beware!
     /**
-     * @param DB_DataObject &$orig  Must be "instanceof" $this
-     * @param string         $pid   Primary ID column (no escaping is done on column name!)
+     * "update" won't write key columns, so we have to do it ourselves.
+     *  This also automatically calls "update" _before_ it sets the keys.
+     *  FIXME: This only works with single-column primary keys so far! Beware!
+     *
+     * @param Managed_DataObject $orig Must be "instanceof" $this
+     * @param string|null $pid (optional) Primary ID column (no escaping is done on column name!)
+     * @return bool|void|number of changed rows, no guarantees are made about the return really...
+     * @throws MethodNotImplementedException
+     * @throws ServerException
      */
-    public function updateWithKeys(Managed_DataObject $orig, $pid=null)
+    public function updateWithKeys(Managed_DataObject $orig, ?string $pid = null)
     {
         if (!$orig instanceof $this) {
             throw new ServerException('Tried updating a DataObject with a different class than itself.');
@@ -516,10 +522,20 @@ abstract class Managed_DataObject extends Memcached_DataObject
         // do it in a transaction
         $this->query('BEGIN');
 
-        $parts = array();
+        $parts = [];
         foreach ($this->keys() as $k) {
-            if (strcmp($this->$k, $orig->$k) != 0) {
-                $parts[] = $k . ' = ' . $this->_quote($this->$k);
+            $v = $this->table()[$k];
+            if ($this->$k !== $orig->$k) {
+                if (is_object($this->$k) && $this->$k instanceof DB_DataObject_Cast) {
+                    $value = $this->$k->toString($v, $this->getDatabaseConnection());
+                } elseif (DB_DataObject::_is_null($this, $k)) {
+                    $value = 'NULL';
+                } elseif ($v & DB_DATAOBJECT_STR) { // if a string
+                    $value = $this->_quote((string) $this->$k);
+                } else {
+                    $value = (int) $this->$k;
+                }
+                $parts[] = "{$k} = {$value}";
             }
         }
         if (count($parts) == 0) {

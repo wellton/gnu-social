@@ -417,9 +417,9 @@ class SmssettingsAction extends SettingsAction
 
         $original = clone($user);
 
-        $user->sms      = DB_DataObject_Cast::sql('NULL');
-        $user->carrier  = DB_DataObject_Cast::sql('NULL');
-        $user->smsemail = DB_DataObject_Cast::sql('NULL');
+        $user->sms      = 'NULL';
+        $user->carrier  = 'NULL';
+        $user->smsemail = 'NULL';
 
         // Throws exception on failure. Also performs it within a transaction.
         $user->updateWithKeys($original);
@@ -531,7 +531,7 @@ class SmssettingsAction extends SettingsAction
 
         $orig = clone($user);
 
-        $user->incomingemail = DB_DataObject_Cast::sql('NULL');
+        $user->incomingemail = 'NULL';
 
         // Throws exception on failure. Also performs it within a transaction.
         $user->updateWithKeys($orig);

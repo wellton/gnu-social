@@ -75,7 +75,7 @@ class FavoriteModule extends ActivityVerbHandlerModule
             while ($user->fetch()) {
                 $user->setPref('email', 'notify_fave', $user->emailnotifyfav);
                 $orig = clone($user);
-                $user->emailnotifyfav = 'null';   // flag this preference as migrated
+                $user->emailnotifyfav = 'NULL'; // flag this preference as migrated
                 $user->update($orig);
             }
             printfnq("DONE.\n");

@@ -435,7 +435,7 @@ class EmailsettingsAction extends SettingsAction
         }
 
         $original = clone($user);
-        $user->email = DB_DataObject_Cast::sql('NULL');
+        $user->email = 'NULL';
         // Throws exception on failure. Also performs it within a transaction.
         $user->updateWithKeys($original);
 
@@ -458,7 +458,7 @@ class EmailsettingsAction extends SettingsAction
         }
 
         $orig = clone($user);
-        $user->incomingemail = DB_DataObject_Cast::sql('NULL');
+        $user->incomingemail = 'NULL';
         $user->emailpost = false;
         // Throws exception on failure. Also performs it within a transaction.
         $user->updateWithKeys($orig);
