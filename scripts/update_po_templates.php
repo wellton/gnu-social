@@ -25,7 +25,7 @@ if (isset($_SERVER) && array_key_exists('REQUEST_METHOD', $_SERVER)) {
 }
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 function update_core($dir, $domain)
 {

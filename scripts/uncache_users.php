@@ -18,7 +18,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $helptext = <<<ENDOFHELP
 uncache_users.php <idfile>

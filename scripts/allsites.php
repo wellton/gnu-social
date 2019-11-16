@@ -25,7 +25,7 @@
 // Abort if called from a web server
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $shortoptions = 't:w:';
 $longoptions = array('tagged=', 'not-tagged=');

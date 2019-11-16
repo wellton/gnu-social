@@ -26,7 +26,7 @@
  */
 
 define('INSTALLDIR', dirname(__DIR__, 3));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $shortoptions = 'l::a::i';
 $longoptions = ['limit=', 'all', 'image'];

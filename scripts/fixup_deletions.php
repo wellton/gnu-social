@@ -19,7 +19,7 @@
  */
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $longoptions = array('dry-run', 'start=', 'end=');
 

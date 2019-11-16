@@ -21,7 +21,7 @@
  */
 
 define('INSTALLDIR', realpath(dirname(__FILE__) . '/../../..'));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 // Tune number of processes and how often to poll Twitter
 // XXX: Should these things be in config.php?

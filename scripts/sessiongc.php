@@ -16,7 +16,7 @@
 // along with GNU social.  If not, see <http://www.gnu.org/licenses/>.
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $helptext = <<<END_OF_GC_HELP
 sessiongc.php

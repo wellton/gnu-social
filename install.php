@@ -36,8 +36,8 @@
  * @license   https://www.gnu.org/licenses/agpl.html GNU AGPL v3 or later
  */
 
-define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('INSTALLDIR', __DIR__);
+define('PUBLICDIR', INSTALLDIR);
 
 require INSTALLDIR . '/lib/util/installer.php';
 

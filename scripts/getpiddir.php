@@ -19,7 +19,7 @@
  */
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $helptext = <<<ENDOFHELP
 getpiddir.php - print out the currently configured PID directory

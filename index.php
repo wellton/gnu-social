@@ -56,8 +56,8 @@ $_perfCounters = array();
 // libraries are maintained through repositories)
 set_include_path('.');  // mainly fixes an issue where /usr/share/{pear,php*}/DB/DataObject.php is _old_ on various systems...
 
-define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('INSTALLDIR', __DIR__);
+define('PUBLICDIR', INSTALLDIR);
 define('GNUSOCIAL', true);
 define('STATUSNET', true);  // compatibility
 

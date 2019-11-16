@@ -18,7 +18,7 @@
  */
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $shortoptions = 'i:n:f:a:j';
 $longoptions = array('id=', 'nickname=', 'file=', 'after=', 'json');

@@ -21,7 +21,7 @@
 // Abort if called from a web server
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 require_once INSTALLDIR.'/scripts/commandline.inc';
 

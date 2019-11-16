@@ -21,7 +21,7 @@
 // Abort if called from a web server
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $helptext = <<<ENDOFHELP
 console.php - provide an interactive PHP interpreter for testing

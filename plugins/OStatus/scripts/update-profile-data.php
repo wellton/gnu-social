@@ -21,7 +21,7 @@
  */
 
 define('INSTALLDIR', dirname(__DIR__, 3));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $longoptions = array('all', 'suspicious', 'quiet');
 

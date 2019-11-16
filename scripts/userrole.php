@@ -19,7 +19,7 @@
  */
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $shortoptions = 'i:n:r:d';
 $longoptions = array('id=', 'nickname=', 'role=', 'delete');

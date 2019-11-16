@@ -31,7 +31,7 @@ if (php_sapi_name() !== 'cli') {
 }
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 set_include_path(get_include_path() . PATH_SEPARATOR . INSTALLDIR . '/extlib');
 
 require_once INSTALLDIR . '/lib/util/installer.php';

@@ -26,7 +26,7 @@
  */
 
 define('INSTALLDIR', dirname(__DIR__));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $helptext = <<<ENDOFHELP
 getvaliddaemons.php - print out a list of valid daemons that should be started

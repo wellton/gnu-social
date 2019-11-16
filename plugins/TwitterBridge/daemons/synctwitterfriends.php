@@ -21,7 +21,7 @@
  */
 
 define('INSTALLDIR', realpath(dirname(__FILE__) . '/../../..'));
-define('PUBLICDIR', INSTALLDIR . DIRECTORY_SEPARATOR . 'public');
+define('PUBLICDIR', INSTALLDIR);
 
 $shortoptions = 'di::';
 $longoptions = array('id::', 'debug');
