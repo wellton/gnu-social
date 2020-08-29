@@ -197,6 +197,12 @@ class ActivityPubPlugin extends Plugin
         );
 
         $m->connect(
+            'object/note/:id',
+            ['action' => 'apNotice'],
+            ['id'     => '[0-9]+'],
+        );
+
+        $m->connect(
             'user/:id/liked.json',
             ['action' => 'apActorLiked'],
             ['id' => '[0-9]+']

@@ -100,7 +100,7 @@ class Activitypub_notice
         } else { // Note
             $item = [
                 '@context' => 'https://www.w3.org/ns/activitystreams',
-                'id' => self::getUri($notice),
+                'id' => common_root_url() . 'object/note/'.$notice->getID(),
                 'type' => 'Note',
                 'published' => str_replace(' ', 'T', $notice->getCreated()) . 'Z',
                 'url' => $notice->getUrl(),
